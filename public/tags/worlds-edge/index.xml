@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World&#39;s Edge on Hugo Tailwind</title>
+    <link>https://example.org/tags/worlds-edge/</link>
+    <description>Recent content in World&#39;s Edge on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 09:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/worlds-edge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends: New World&#39;s Edge Map Update</title>
+      <link>https://example.org/posts/apex-legends-new-map/</link>
+      <pubDate>Fri, 12 Dec 2025 09:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-legends-new-map/</guid>
+      <description>Respawn Entertainment reveals massive World&amp;rsquo;s Edge map overhaul with new points of interest and gameplay mechanics.</description>
+    </item>
+  </channel>
+</rss>

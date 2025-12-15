@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agent on Hugo Tailwind</title>
+    <link>https://example.org/tags/agent/</link>
+    <description>Recent content in Agent on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 14:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valorant Episode 8 Act 2: New Agent Revealed</title>
+      <link>https://example.org/posts/valorant-update/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-update/</guid>
+      <description>Riot Games unveils a new controller agent with unique smoke abilities that can block vision and deal damage.</description>
+    </item>
+  </channel>
+</rss>

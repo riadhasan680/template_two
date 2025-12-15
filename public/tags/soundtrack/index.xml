@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soundtrack on Hugo Tailwind</title>
+    <link>https://example.org/tags/soundtrack/</link>
+    <description>Recent content in Soundtrack on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 18:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/soundtrack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6: Soundtrack and Music System</title>
+      <link>https://example.org/posts/gta-6-soundtrack/</link>
+      <pubDate>Sat, 13 Dec 2025 18:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-6-soundtrack/</guid>
+      <description>Rockstar announces revolutionary music system for GTA 6 with dynamic radio and licensed tracks.</description>
+    </item>
+  </channel>
+</rss>

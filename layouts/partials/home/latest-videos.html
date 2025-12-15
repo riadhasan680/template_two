@@ -1,0 +1,75 @@
+<section class="bg-slate-900 py-12 mt-8">
+  <div class="container">
+    <!-- Section Header -->
+    <div class="flex items-center justify-between mb-8">
+      <h2
+        class="text-2xl font-sans font-bold text-white uppercase tracking-wide border-l-4 border-accent pl-4"
+      >
+        Latest Videos
+      </h2>
+      <a
+        href="#"
+        class="text-xs font-bold text-slate-400 hover:text-accent uppercase transition-colors tracking-wider"
+      >
+        View All →
+      </a>
+    </div>
+
+    <!-- Videos Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {{ range first 8 (where .Site.RegularPages "Type" "posts") }}
+      <article class="group">
+        <a href="{{ .RelPermalink }}" class="block">
+          <!-- Video Thumbnail -->
+          <div class="aspect-video bg-slate-800 mb-3 relative overflow-hidden">
+            <img
+              src="https://picsum.photos/seed/{{ .Title | urlize }}/640/360"
+              alt="{{ .Title }}"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 opacity-90"
+            />
+
+            <!-- Play Button -->
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div
+                class="w-14 h-14 bg-accent rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform"
+              >
+                <svg
+                  class="w-6 h-6 text-white ml-1"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Duration Badge -->
+            <span
+              class="absolute bottom-2 right-2 bg-black/80 text-white px-2 py-0.5 text-[10px] font-bold"
+            >
+              {{ mul .ReadingTime 2 }}:{{ mod (mul .ReadingTime 13) 60 | printf
+              "%02d" }}
+            </span>
+          </div>
+
+          <!-- Video Info -->
+          <h3
+            class="text-white font-sans font-bold text-sm uppercase leading-snug group-hover:text-accent transition-colors line-clamp-2 mb-2"
+          >
+            {{ .Title }}
+          </h3>
+
+          <!-- Meta Info -->
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase"
+          >
+            <span>{{ .Date.Format "Jan 02" }}</span>
+            <span class="w-1 h-1 bg-slate-600 rounded-full"></span>
+            <span>{{ mul .ReadingTime 1000 | printf "%.0f" }} Views</span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

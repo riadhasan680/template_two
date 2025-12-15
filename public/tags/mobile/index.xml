@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Hugo Tailwind</title>
+    <link>https://example.org/tags/mobile/</link>
+    <description>Recent content in Mobile on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PUBG: New Sanhok Map Update</title>
+      <link>https://example.org/posts/pubg-sanhok-update/</link>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-sanhok-update/</guid>
+      <description>PUBG Mobile receives major Sanhok map update with new locations and improved performance.</description>
+    </item>
+    <item>
+      <title>PUBG Mobile 3.0 Update Brings Revolutionary Graphics</title>
+      <link>https://example.org/posts/pubg-mobile/</link>
+      <pubDate>Fri, 12 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-mobile/</guid>
+      <description>Krafton unveils PUBG Mobile 3.0 with Unreal Engine 5 integration, bringing console-quality graphics to mobile devices.</description>
+    </item>
+    <item>
+      <title>Apex Legends Mobile: New Legend Revealed</title>
+      <link>https://example.org/posts/apex-mobile-new/</link>
+      <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-mobile-new/</guid>
+      <description>Apex Legends Mobile introduces a brand new exclusive legend with unique abilities designed for mobile gameplay.</description>
+    </item>
+  </channel>
+</rss>

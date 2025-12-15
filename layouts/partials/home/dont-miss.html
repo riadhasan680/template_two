@@ -1,0 +1,30 @@
+<section class="py-8 border-t border-b border-gray-200 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-6">Don't Miss</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {{ range first 4 (shuffle (where .Site.RegularPages "Type" "posts")) }}
+      <article class="group">
+        <a href="{{ .RelPermalink }}" class="block">
+          <div class="aspect-video overflow-hidden mb-3 bg-gray-100">
+            <img
+              src="https://picsum.photos/seed/{{ .Title | urlize }}/800/450"
+              alt="{{ .Title }}"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <h3
+            class="font-sans font-bold text-sm uppercase leading-tight group-hover:text-accent transition-colors text-slate-900 line-clamp-2 mb-2"
+          >
+            {{ .Title }}
+          </h3>
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-400 font-bold uppercase"
+          >
+            <span>{{ .Date.Format "Jan 02, 2006" }}</span>
+          </div>
+        </a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>

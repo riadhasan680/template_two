@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessibility on Hugo Tailwind</title>
+    <link>https://example.org/categories/accessibility/</link>
+    <description>Recent content in Accessibility on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 22:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming Accessibility: How the Industry Is Becoming More Inclusive</title>
+      <link>https://example.org/latest-articles/gaming-accessibility/</link>
+      <pubDate>Sat, 13 Dec 2025 22:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-accessibility/</guid>
+      <description>The importance of accessibility features in gaming and how they&amp;rsquo;re making games playable for everyone.</description>
+    </item>
+    <item>
+      <title>The Future of Gaming Accessibility: Making Games Inclusive for Everyone</title>
+      <link>https://example.org/latest-articles/gaming-accessibility-future/</link>
+      <pubDate>Fri, 12 Dec 2025 17:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-accessibility-future/</guid>
+      <description>How gaming is becoming more accessible and inclusive for players with disabilities.</description>
+    </item>
+    <item>
+      <title>The Future of Gaming Accessibility: Making Games Inclusive for Everyone</title>
+      <link>https://example.org/latest-articles/gaming-accessibility-inclusive/</link>
+      <pubDate>Thu, 11 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-accessibility-inclusive/</guid>
+      <description>How gaming is becoming more accessible and inclusive for players with disabilities.</description>
+    </item>
+  </channel>
+</rss>

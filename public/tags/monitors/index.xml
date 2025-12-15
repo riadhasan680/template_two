@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitors on Hugo Tailwind</title>
+    <link>https://example.org/tags/monitors/</link>
+    <description>Recent content in Monitors on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 09:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/monitors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Gaming Monitors for 2025</title>
+      <link>https://example.org/latest-articles/best-gaming-monitors-2025/</link>
+      <pubDate>Mon, 15 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/best-gaming-monitors-2025/</guid>
+      <description>Complete guide to choosing the perfect gaming monitor for your setup in 2025.</description>
+    </item>
+  </channel>
+</rss>

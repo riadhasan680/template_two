@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indie Games on Hugo Tailwind</title>
+    <link>https://example.org/tags/indie-games/</link>
+    <description>Recent content in Indie Games on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 18:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/indie-games/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rise of Indie Games in 2025</title>
+      <link>https://example.org/latest-articles/rise-indie-games/</link>
+      <pubDate>Sun, 14 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/rise-indie-games/</guid>
+      <description>How independent developers are reshaping the gaming landscape with innovative titles.</description>
+    </item>
+    <item>
+      <title>The Rise of Indie Games: How Small Studios Are Changing the Industry</title>
+      <link>https://example.org/latest-articles/indie-games-rise/</link>
+      <pubDate>Sun, 14 Dec 2025 02:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/indie-games-rise/</guid>
+      <description>How independent game developers are challenging industry giants with innovative ideas.</description>
+    </item>
+  </channel>
+</rss>

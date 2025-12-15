@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tournament on Hugo Tailwind</title>
+    <link>https://example.org/tags/tournament/</link>
+    <description>Recent content in Tournament on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 16:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/tournament/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overwatch 2: World Cup 2025 Details</title>
+      <link>https://example.org/posts/overwatch-world-cup/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-world-cup/</guid>
+      <description>Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.</description>
+    </item>
+    <item>
+      <title>Apex Legends World Championship 2025: Tournament Preview</title>
+      <link>https://example.org/posts/apex-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-championship-2025/</guid>
+      <description>Complete preview of the Apex Legends Global Series Championship 2025 with teams, format, and predictions.</description>
+    </item>
+    <item>
+      <title>PUBG: Global Championship 2025 Announced</title>
+      <link>https://example.org/posts/pubg-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-championship-2025/</guid>
+      <description>Krafton reveals details for PUBG Global Championship 2025 with record prize pool.</description>
+    </item>
+    <item>
+      <title>VCT 2025 Champions: New Era of Competition</title>
+      <link>https://example.org/posts/valorant-championship/</link>
+      <pubDate>Thu, 11 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-championship/</guid>
+      <description>Valorant Champions Tour 2025 introduces new format with $25 million prize pool and revolutionary broadcast features.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: Biggest Prize Pool Ever</title>
+      <link>https://example.org/posts/fortnite-world-cup/</link>
+      <pubDate>Thu, 11 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-world-cup/</guid>
+      <description>Epic Games announces record-breaking $30 million prize pool for Fortnite World Cup 2025 with new format and locations.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: $10 Million Prize Pool</title>
+      <link>https://example.org/posts/fortnite-tournament/</link>
+      <pubDate>Tue, 09 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-tournament/</guid>
+      <description>Epic Games announces the biggest Fortnite tournament with record-breaking prize pool and new competitive format.</description>
+    </item>
+  </channel>
+</rss>

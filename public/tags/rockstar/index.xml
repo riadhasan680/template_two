@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rockstar on Hugo Tailwind</title>
+    <link>https://example.org/tags/rockstar/</link>
+    <description>Recent content in Rockstar on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2025 12:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/rockstar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6 Trailer 2 Breaks YouTube Records with 100M Views</title>
+      <link>https://example.org/posts/gta-6-trailer/</link>
+      <pubDate>Tue, 09 Dec 2025 12:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-6-trailer/</guid>
+      <description>Rockstar Games releases the second trailer for Grand Theft Auto VI, showcasing Vice City and breaking all viewership records within 24 hours.</description>
+    </item>
+  </channel>
+</rss>

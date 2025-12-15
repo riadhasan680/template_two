@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming History on Hugo Tailwind</title>
+    <link>https://example.org/tags/gaming-history/</link>
+    <description>Recent content in Gaming History on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 15:45:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/gaming-history/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Retro Gaming Revival: Why Classic Games Are Making a Comeback</title>
+      <link>https://example.org/latest-articles/retro-gaming-revival/</link>
+      <pubDate>Sun, 14 Dec 2025 15:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/retro-gaming-revival/</guid>
+      <description>The resurgence of retro gaming and why classic titles continue to captivate modern audiences.</description>
+    </item>
+    <item>
+      <title>The Evolution of Gaming Graphics: From Pixels to Ray Tracing</title>
+      <link>https://example.org/latest-articles/evolution-gaming-graphics/</link>
+      <pubDate>Sun, 14 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/evolution-gaming-graphics/</guid>
+      <description>Tracing the remarkable journey of video game graphics from simple pixels to photorealistic visuals.</description>
+    </item>
+  </channel>
+</rss>

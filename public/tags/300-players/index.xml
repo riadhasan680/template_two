@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>300 Players on Hugo Tailwind</title>
+    <link>https://example.org/tags/300-players/</link>
+    <description>Recent content in 300 Players on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 15:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/300-players/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call of Duty: Warzone 3 - Pacific Reimagined</title>
+      <link>https://example.org/posts/cod-warzone-3/</link>
+      <pubDate>Fri, 12 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-warzone-3/</guid>
+      <description>Raven Software reveals Warzone 3, complete Pacific map overhaul with new mechanics and 300-player support.</description>
+    </item>
+  </channel>
+</rss>

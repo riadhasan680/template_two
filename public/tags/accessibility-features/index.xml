@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accessibility Features on Hugo Tailwind</title>
+    <link>https://example.org/tags/accessibility-features/</link>
+    <description>Recent content in Accessibility Features on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 22:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/accessibility-features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming Accessibility: How the Industry Is Becoming More Inclusive</title>
+      <link>https://example.org/latest-articles/gaming-accessibility/</link>
+      <pubDate>Sat, 13 Dec 2025 22:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-accessibility/</guid>
+      <description>The importance of accessibility features in gaming and how they&amp;rsquo;re making games playable for everyone.</description>
+    </item>
+  </channel>
+</rss>

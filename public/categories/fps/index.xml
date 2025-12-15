@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FPS on Hugo Tailwind</title>
+    <link>https://example.org/categories/fps/</link>
+    <description>Recent content in FPS on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 14:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/fps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valorant Episode 8 Act 2: New Agent Revealed</title>
+      <link>https://example.org/posts/valorant-update/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-update/</guid>
+      <description>Riot Games unveils a new controller agent with unique smoke abilities that can block vision and deal damage.</description>
+    </item>
+    <item>
+      <title>Overwatch 3: Next Generation Hero Shooter</title>
+      <link>https://example.org/posts/overwatch-3/</link>
+      <pubDate>Thu, 11 Dec 2025 21:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-3/</guid>
+      <description>Blizzard announces Overwatch 3 with revolutionary gameplay mechanics, new heroes, and cross-platform progression.</description>
+    </item>
+    <item>
+      <title>Overwatch 2 Season 8: New Support Hero Announced</title>
+      <link>https://example.org/posts/overwatch-2/</link>
+      <pubDate>Thu, 11 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-2/</guid>
+      <description>Blizzard reveals a new support hero with unique healing mechanics that reward aggressive positioning and team coordination.</description>
+    </item>
+    <item>
+      <title>Valorant Agent 25: Chronomancer Revealed</title>
+      <link>https://example.org/posts/valorant-agent-25/</link>
+      <pubDate>Mon, 08 Dec 2025 18:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-agent-25/</guid>
+      <description>Riot Games introduces the 25th agent with time manipulation abilities that change the meta completely.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Zombies Mode Returns with New Story</title>
+      <link>https://example.org/posts/cod-zombies-return/</link>
+      <pubDate>Sun, 07 Dec 2025 12:15:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-zombies-return/</guid>
+      <description>Treyarch announces the return of classic Zombies mode with an all-new storyline and revolutionary gameplay mechanics.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,162 @@
+<!-- Latest Articles Section -->
+<section class="latest-articles-section mb-12">
+  <!-- Section Header -->
+  <div class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+      <h2
+        class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block">
+          LATEST ARTICLES
+      </h2>
+    </div>
+
+  <!-- Articles Grid -->
+  <div id="latest-articles-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Articles will be loaded here dynamically -->
+  </div>
+
+  <!-- Loading Spinner -->
+  <div id="latest-articles-loading" class="hidden flex justify-center items-center py-8">
+    <div class="flex space-x-2">
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0s;"></div>
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0.1s;"></div>
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0.2s;"></div>
+    </div>
+  </div>
+
+  <!-- No More Articles Message -->
+  <div id="latest-articles-end" class="hidden text-center py-8 text-gray-400">
+    <p>No more articles to load</p>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let currentPage = 1;
+  let isLoading = false;
+  let hasMoreArticles = true;
+
+  const articlesContainer = document.getElementById('latest-articles-container');
+  const loadingSpinner = document.getElementById('latest-articles-loading');
+  const endMessage = document.getElementById('latest-articles-end');
+
+  // Load initial articles
+  loadLatestArticles();
+
+  // Infinite scroll
+  window.addEventListener('scroll', function() {
+    if (isLoading || !hasMoreArticles) return;
+
+    const scrollPosition = window.innerHeight + window.scrollY;
+    const documentHeight = document.documentElement.offsetHeight;
+
+    if (scrollPosition >= documentHeight - 1000) {
+      loadLatestArticles();
+    }
+  });
+
+  function loadLatestArticles() {
+    if (isLoading || !hasMoreArticles) return;
+
+    isLoading = true;
+    loadingSpinner.classList.remove('hidden');
+
+    // Simulate API call delay
+    setTimeout(() => {
+      fetchLatestArticles(currentPage)
+        .then(articles => {
+          if (articles.length === 0) {
+            hasMoreArticles = false;
+            endMessage.classList.remove('hidden');
+          } else {
+            appendArticles(articles);
+            currentPage++;
+          }
+        })
+        .catch(error => {
+          console.error('Error loading articles:', error);
+        })
+        .finally(() => {
+          isLoading = false;
+          loadingSpinner.classList.add('hidden');
+        });
+    }, 800);
+  }
+
+  function appendArticles(articles) {
+    articles.forEach(article => {
+      const articleCard = createArticleCard(article);
+      articlesContainer.appendChild(articleCard);
+    });
+  }
+
+  function createArticleCard(article) {
+    const card = document.createElement('article');
+    card.className = 'latest-article-card group cursor-pointer';
+    
+    card.innerHTML = `
+      <div class="relative overflow-hidden">
+        <img 
+          src="${article.image}" 
+          alt="${article.title}" 
+          class="w-full h-64 object-cover"
+          loading="lazy"
+        />
+        <div class="absolute bottom-0 left-0 bg-black bg-opacity-75 text-white tracking-wider px-3 py-1 text-sm font-light">
+          ${article.category}
+        </div>
+      </div>
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold hover:text-accent-hover text-black mb-2 line-clamp-2">
+          <a href="${article.url}" class="block">${article.title}</a>
+        </h3>
+        <div class="text-sm text-gray-500">
+          <time datetime="${article.date}">${formatDate(article.date)}</time>
+        </div>
+      </div>
+    `;
+
+    return card;
+  }
+
+  function formatDate(dateString) {
+    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    return new Date(dateString).toLocaleDateString('en-US', options);
+  }
+
+  // Fetch actual Hugo data from latest-articles folder
+  async function fetchLatestArticles(page) {
+    const articlesPerPage = 8;
+    const startIndex = (page - 1) * articlesPerPage;
+    
+    // Get all latest-articles data
+    const response = await fetch('/latest-articles/index.xml');
+    const text = await response.text();
+    
+    // Parse XML and extract article data
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(text, 'text/xml');
+    const items = xmlDoc.querySelectorAll('item');
+    
+    const allArticles = Array.from(items).map(item => ({
+      title: item.querySelector('title')?.textContent || '',
+      date: item.querySelector('pubDate')?.textContent ? new Date(item.querySelector('pubDate').textContent).toISOString().split('T')[0] : '',
+      categories: Array.from(item.querySelectorAll('category')).map(cat => cat.textContent),
+      url: item.querySelector('link')?.textContent || '',
+      summary: item.querySelector('description')?.textContent || ''
+    })).filter(article => article.title && article.url);
+    
+    // Sort by date (newest first)
+    allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    // Get paginated results
+    const paginatedArticles = allArticles.slice(startIndex, startIndex + articlesPerPage);
+    
+    return paginatedArticles.map(article => ({
+      title: article.title,
+      image: article.image || `https://picsum.photos/seed/${article.title.replace(/\s+/g, '-').toLowerCase()}/400/300.jpg`,
+      category: article.categories && article.categories.length > 0 ? article.categories[0] : "Gaming",
+      date: article.date,
+      url: article.url
+    }));
+  }
+});
+</script>

@@ -1,0 +1,122 @@
+{{ define "main" }}
+<div class="container py-12 pt-28">
+  {{/* Added top padding for fixed header */}} {{/* Page Header */}}
+  <div class="mb-8 border-b border-gray-200 pb-4">
+    <h1
+      class="text-3xl md:text-5xl font-bold uppercase tracking-tight text-slate-900 font-[Oswald]"
+    >
+      {{ .Title }}
+    </h1>
+    <div
+      class="flex items-center gap-2 text-sm text-gray-500 mt-2 font-bold uppercase"
+    >
+      <span>{{ .Title }}</span>
+      <span class="text-gray-300">/</span>
+      <span>Archives</span>
+    </div>
+    
+    {{/* Sub-navigation & Sort */}}
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mt-6">
+      <div class="flex flex-wrap gap-2 text-[11px] font-bold uppercase">
+        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+        <a href="{{ absURL (printf "categories/%s" ($name | urlize)) }}" 
+           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors {{ if eq $.Title ($name | title) }}bg-accent text-white border-accent{{ else }}bg-white{{ end }}">
+           {{ $name }}
+        </a>
+        {{ end }}
+      </div>
+
+      {{/* Latest Dropdown (Visual Only) */}}
+      <div class="relative group shrink-0">
+        <button class="bg-gray-900 text-white text-[11px] font-bold uppercase px-4 py-1.5 flex items-center gap-2 hover:bg-accent transition-colors">
+          Latest
+          <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    {{/* Main Content Area (News List) */}}
+    <div class="lg:col-span-2 space-y-8">
+      {{ $paginator := .Paginate .Pages }} {{ range $paginator.Pages }}
+      <article class="flex flex-col md:flex-row gap-6 group">
+        {{/* Thumbnail */}}
+        <a
+          href="{{ .RelPermalink }}"
+          class="shrink-0 w-full md:w-[260px] aspect-video md:aspect-4/3 overflow-hidden rounded-sm relative"
+        >
+          {{ if .Params.image }}
+          <img
+            src="{{ .Params.image }}"
+            alt="{{ .Title }}"
+            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+          />
+          {{ else }}
+          <img
+            src="https://picsum.photos/seed/{{ .Title | urlize }}/900/600"
+            alt="{{ .Title }}"
+            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+          />
+          {{ end }}
+          <div
+            class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"
+          ></div>
+        </a>
+
+        {{/* Content */}}
+        <div class="flex flex-col py-1">
+          <div class="flex items-center gap-2 mb-2">
+            <span
+              class="bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5"
+            >
+              {{ if .Params.categories }} {{ index .Params.categories 0 }} {{
+              else }} {{ .Type }} {{ end }}
+            </span>
+            <span class="text-xs text-gray-500 font-bold uppercase"
+              >{{ .Date.Format "January 2, 2006" }}</span
+            >
+          </div>
+
+          <h2
+            class="text-xl md:text-2xl font-bold uppercase leading-tight text-slate-900 mb-3 group-hover:text-accent transition-colors font-[Oswald]"
+          >
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h2>
+
+          <p
+            class="text-gray-600 text-sm leading-relaxed line-clamp-2 md:line-clamp-3 mb-auto"
+          >
+            {{ .Summary | truncate 150 }}
+          </p>
+        </div>
+      </article>
+      <hr class="border-gray-100 last:hidden" />
+      {{ end }} {{/* Custom Pagination */}}
+      {{ if gt $paginator.TotalPages 1 }}
+      <div class="mt-12 flex gap-1">
+        {{ if $paginator.HasPrev }}
+        <a href="{{ $paginator.Prev.URL }}" class="w-8 h-8 flex items-center justify-center bg-white border border-gray-200 text-gray-600 font-bold text-xs hover:bg-accent hover:text-white hover:border-accent transition-colors">
+          <
+        </a>
+        {{ end }}
+
+        {{ range $paginator.Pagers }}
+        <a href="{{ .URL }}" class="w-8 h-8 flex items-center justify-center border {{ if eq . $paginator }} bg-accent border-accent text-white {{ else }} bg-white border-gray-200 text-gray-600 hover:bg-accent hover:text-white hover:border-accent {{ end }} font-bold text-xs transition-colors">
+          {{ .PageNumber }}
+        </a>
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+        <a href="{{ $paginator.Next.URL }}" class="w-8 h-8 flex items-center justify-center bg-white border border-gray-200 text-gray-600 font-bold text-xs hover:bg-accent hover:text-white hover:border-accent transition-colors">
+          >
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+
+    {{/* Sidebar */}} {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

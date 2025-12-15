@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming Merchandise on Hugo Tailwind</title>
+    <link>https://example.org/tags/gaming-merchandise/</link>
+    <description>Recent content in Gaming Merchandise on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 21:45:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/gaming-merchandise/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Business of Gaming Merchandise: From Digital to Physical Products</title>
+      <link>https://example.org/latest-articles/gaming-merchandise-business/</link>
+      <pubDate>Fri, 12 Dec 2025 21:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-merchandise-business/</guid>
+      <description>How gaming companies expand their brands through merchandise and physical products.</description>
+    </item>
+    <item>
+      <title>The Business of Gaming Merchandise: From Digital to Physical Products</title>
+      <link>https://example.org/latest-articles/gaming-merchandise-brand-expansion/</link>
+      <pubDate>Fri, 12 Dec 2025 00:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-merchandise-brand-expansion/</guid>
+      <description>How gaming companies expand their brands through merchandise and physical products.</description>
+    </item>
+  </channel>
+</rss>

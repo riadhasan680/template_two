@@ -1,0 +1,69 @@
+<header id="main-header" class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[1280px] z-50 transition-transform duration-300 ease-in-out">
+    
+    {{/*  Main Navigation Bar  */}}
+    {{/*  Added shadow-md and rounded-b-lg for the floating look since it is not full width  */}}
+    <div class="bg-[#0e6fff] px-8">
+        <div class="container h-[68px] flex items-center justify-between">
+            
+            {{/*  Logo Area  */}}
+            <a href="{{ absURL "/" }}" class="flex items-center gap-2.5 group">
+                <div class="h-10 w-10 bg-white flex items-center justify-center -skew-x-12 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <span class="font-sans font-bold text-accent text-2xl skew-x-12">B</span>
+                </div>
+                <div class="flex flex-col leading-none select-none">
+                    <span class="font-sans font-bold text-2xl text-white italic tracking-tighter">
+                        BATTLE<span class="text-yellow-400">ROYALE</span>
+                    </span>
+                    <span class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white/70 ml-0.5">Fanatics</span>
+                </div>
+            </a>
+
+            {{/*  Desktop Menu  */}}
+            <nav class="hidden lg:flex items-stretch h-full gap-0">
+                {{ range slice "GAMES" "APEX LEGENDS" "CALL OF DUTY" "LEAGUE OF LEGENDS" "FORTNITE" "ARTIFICIAL INTELLIGENCE" }}
+                {{ $isActive := eq (upper $.Title) . }}
+                <a href="{{ absURL (printf "categories/%s" (urlize .)) }}" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap {{ if $isActive }}bg-[#1953aa] text-white{{ else }}text-white hover:bg-white/10{{ end }}">
+                    {{ . }}
+                </a>
+                {{ end }}
+                <a href="#" class="relative h-full flex items-center  text-white hover:text-white/80 transition-colors  border-white/20 ml-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                </a>
+            </nav>
+
+            {{/*  Mobile Actions  */}}
+            <div class="flex lg:hidden items-center gap-4 text-white">
+                 <button class="hover:text-white/80 p-1">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                </button>
+                <button class="hover:text-white/80 p-1">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let lastScrollTop = 0;
+        const header = document.getElementById('main-header');
+        const scrollThreshold = 100; // Only hide after scrolling down this much
+
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+                // Scroll Down
+                header.classList.add('-translate-y-full');
+            } else {
+                // Scroll Up
+                header.classList.remove('-translate-y-full');
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        });
+    });
+</script>
+  

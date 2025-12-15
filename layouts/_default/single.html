@@ -1,0 +1,90 @@
+{{ define "main" }}
+<div class="container py-12 pt-28">
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    {{/* Main Content */}} {{/* Article Column */}}
+    <article class="lg:col-span-2">
+      {{/* Header */}}
+      <header class="mb-8">
+        <div
+          class="flex items-center gap-2 text-sm text-accent font-bold uppercase mb-3"
+        >
+          {{ if .Params.categories }} {{ range first 1 .Params.categories }}
+          <span>{{ . }}</span>
+          {{ end }} {{ else }}
+          <span>News</span>
+          {{ end }}
+        </div>
+
+        <h1
+          class="text-3xl md:text-5xl font-bold uppercase leading-tight text-slate-900 font-[Oswald] mb-4"
+        >
+          {{ .Title }}
+        </h1>
+
+        <div
+          class="flex items-center gap-4 text-xs font-bold uppercase text-gray-500"
+        >
+          <span class="flex items-center gap-1">
+            <svg
+              class="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              ></path>
+            </svg>
+            {{ .Date.Format "January 2, 2006" }}
+          </span>
+          <span>{{ .ReadingTime }} MIN READ</span>
+        </div>
+      </header>
+
+      {{/* Featured Image */}}
+      <figure
+        class="mb-10 w-full aspect-video md:aspect-21/9 overflow-hidden rounded-sm bg-gray-100"
+      >
+        {{ if .Params.image }}
+        <img
+          src="{{ .Params.image }}"
+          alt="{{ .Title }}"
+          class="w-full h-full object-cover"
+        />
+        {{ else }}
+        <img
+          src="https://picsum.photos/seed/{{ .Title | urlize }}/2070/900"
+          alt="Hero"
+          class="w-full h-full object-cover"
+        />
+        {{ end }}
+      </figure>
+
+      {{/* Content */}}
+      <div
+        class="prose prose-lg prose-slate max-w-none prose-headings:font-[Oswald] prose-headings:uppercase prose-a:text-accent font-medium"
+      >
+        {{ .Content }}
+      </div>
+
+      {{/* Tags */}} {{ if .Params.tags }}
+      <div class="mt-12 pt-8 border-t border-gray-100 flex flex-wrap gap-2">
+        {{ range .Params.tags }}
+        <a
+          href="#"
+          class="px-3 py-1 bg-gray-100 text-gray-600 text-xs font-bold uppercase hover:bg-accent hover:text-white transition-colors"
+        >
+          #{{ . }}
+        </a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </article>
+
+    {{/*  */}} {{ partial "sidebar.html" . }}
+  </div>
+</div>
+{{ end }}

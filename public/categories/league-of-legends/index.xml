@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>League of Legends on Hugo Tailwind</title>
+    <link>https://example.org/categories/league-of-legends/</link>
+    <description>Recent content in League of Legends on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 12:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/league-of-legends/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>League of Legends 2026 Season Changes</title>
+      <link>https://example.org/posts/lol-update/</link>
+      <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/lol-update/</guid>
+      <description>Riot Games announces massive jungle changes and a new void champion for the upcoming season.</description>
+    </item>
+    <item>
+      <title>League of Legends Worlds 2025: T1 Wins Fourth Championship</title>
+      <link>https://example.org/posts/league-legends/</link>
+      <pubDate>Thu, 11 Dec 2025 20:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/league-legends/</guid>
+      <description>Faker and T1 dominate the finals 3-0 against JDG, securing their fourth World Championship title in an incredible display of skill.</description>
+    </item>
+  </channel>
+</rss>

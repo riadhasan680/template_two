@@ -1,0 +1,3728 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+	<meta name="generator" content="Hugo 0.152.2">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>
+    Hugo Tailwind
+  </title>
+  <meta
+    name="description"
+    content="A beautiful, premium Hugo template built with Tailwind CSS."
+  />
+
+  
+  <link
+    rel="stylesheet"
+    href="/css/main.3a286aca38003d8fb2695aa4cfe40ed7e7ca3996abe40a30a44ff89dcec9f11f.css"
+    integrity="sha256-OihqyjgAPY&#43;yaVqkz&#43;QO1&#43;fKOZar5AowpE/4nc7J8R8="
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+  <body
+    class="flex flex-col min-h-screen font-sans antialiased text-slate-900 bg-page-bg"
+  >
+    <header id="main-header" class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[1280px] z-50 transition-transform duration-300 ease-in-out">
+    
+    
+    
+    <div class="bg-[#0e6fff] px-8">
+        <div class="container h-[68px] flex items-center justify-between">
+            
+            
+            <a href="https://example.org/" class="flex items-center gap-2.5 group">
+                <div class="h-10 w-10 bg-white flex items-center justify-center -skew-x-12 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <span class="font-sans font-bold text-accent text-2xl skew-x-12">B</span>
+                </div>
+                <div class="flex flex-col leading-none select-none">
+                    <span class="font-sans font-bold text-2xl text-white italic tracking-tighter">
+                        BATTLE<span class="text-yellow-400">ROYALE</span>
+                    </span>
+                    <span class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white/70 ml-0.5">Fanatics</span>
+                </div>
+            </a>
+
+            
+            <nav class="hidden lg:flex items-stretch h-full gap-0">
+                
+                
+                <a href="https://example.org/categories/games" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    GAMES
+                </a>
+                
+                
+                <a href="https://example.org/categories/apex-legends" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    APEX LEGENDS
+                </a>
+                
+                
+                <a href="https://example.org/categories/call-of-duty" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    CALL OF DUTY
+                </a>
+                
+                
+                <a href="https://example.org/categories/league-of-legends" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    LEAGUE OF LEGENDS
+                </a>
+                
+                
+                <a href="https://example.org/categories/fortnite" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    FORTNITE
+                </a>
+                
+                
+                <a href="https://example.org/categories/artificial-intelligence" 
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap text-white hover:bg-white/10">
+                    ARTIFICIAL INTELLIGENCE
+                </a>
+                
+                <a href="#" class="relative h-full flex items-center  text-white hover:text-white/80 transition-colors  border-white/20 ml-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                </a>
+            </nav>
+
+            
+            <div class="flex lg:hidden items-center gap-4 text-white">
+                 <button class="hover:text-white/80 p-1">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                </button>
+                <button class="hover:text-white/80 p-1">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</header>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        let lastScrollTop = 0;
+        const header = document.getElementById('main-header');
+        const scrollThreshold = 100; 
+
+        window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
+                
+                header.classList.add('-translate-y-full');
+            } else {
+                
+                header.classList.remove('-translate-y-full');
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; 
+        });
+    });
+</script>
+  
+    <main class="grow w-full px-8 max-w-[1280px] mx-auto bg-white shadow-2xl">
+      
+<div class="font-body pt-24 pb-20">
+   <div class="bg-white group">
+  <div class="container flex items-center justify-between gap-6">
+    <div class="flex items-center gap-4 flex-1 overflow-hidden h-10">
+      <span
+        class="bg-black text-white text-[14px] font-black uppercase px-2.5 py-1.5 shrink-0 tracking-wider z-10 group-hover:bg-accent-hover transition-colors duration-300"
+        >Trending Now</span
+      >
+
+      
+      <div
+        id="trending-container"
+        class="relative flex-1 text-lg h-full overflow-hidden"
+      >
+        <div
+          id="trending-track"
+          class="flex transition-transform duration-700 ease-in-out h-full items-center"
+        >
+          
+          <a
+            href="/posts/overwatch-anniversary-2025/"
+            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+          >
+            Overwatch 2: Anniversary Event 2025
+          </a>
+          
+          <a
+            href="/posts/apex-esports-analysis/"
+            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+          >
+            Apex Legends Esports Scene: Team Analysis 2025
+          </a>
+          
+          <a
+            href="/posts/overwatch-storm-rising/"
+            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+          >
+            Overwatch 2: PvE Mission &#39;Storm Rising&#39;
+          </a>
+          
+          <a
+            href="/posts/gta-6-soundtrack/"
+            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+          >
+            GTA 6: Soundtrack and Music System
+          </a>
+          
+          <a
+            href="/posts/apex-map-control/"
+            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+          >
+            Apex Legends Battle Royale Map Control Guide
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center gap-1 shrink-0 z-20">
+      <button
+        id="trending-prev"
+        class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
+      >
+        <svg
+          class="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+        >
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+      <button
+        id="trending-next"
+        class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
+      >
+        <svg
+          class="w-4 h-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          stroke-width="2.5"
+        >
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const track = document.getElementById("trending-track");
+    const items = track.querySelectorAll(".trending-item");
+    const prevBtn = document.getElementById("trending-prev");
+    const nextBtn = document.getElementById("trending-next");
+
+    let currentIndex = 0;
+    const totalItems = items.length;
+    let intervalId;
+
+    
+    function updateSlide() {
+      const translateX = -(currentIndex * 100);
+      track.style.transform = `translateX(${translateX}%)`;
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalItems;
+      updateSlide();
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+      updateSlide();
+    }
+
+    
+    function startAutoPlay() {
+      intervalId = setInterval(nextSlide, 4000); 
+    }
+
+    function stopAutoPlay() {
+      clearInterval(intervalId);
+    }
+
+    
+    nextBtn.addEventListener("click", () => {
+      stopAutoPlay();
+      nextSlide();
+      startAutoPlay();
+    });
+
+    prevBtn.addEventListener("click", () => {
+      stopAutoPlay();
+      prevSlide();
+      startAutoPlay();
+    });
+
+    
+    if (totalItems > 0) {
+      startAutoPlay();
+    }
+  });
+</script>
+  <section class="py-8">
+  <div class="container">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-1.5 h-auto lg:h-[500px]">
+       
+      <div class="lg:col-span-7 relative group cursor-pointer h-full overflow-hidden">
+        <img src="https://picsum.photos/seed/overwatch-2-anniversary-event-2025/2000/5000"
+          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 z-10 w-full">
+          <span
+            class="bg-accent-default tracking-widest text-white text-[12px] font-semibold uppercase px-2 py-1 inline-block">Apex
+            Legends</span>
+          <div class="inline-block bg-black/60 px-2 py-1">
+            <h2
+              class="font-[Oswald] font-bold text-3xl md:text-3xl lg:text-4xl uppercase text-white leading-tight drop-shadow-md">
+              Overwatch 2: Anniversary Event 2025
+            </h2>
+          </div>
+          <div class="block">
+            <span class="text-[11px] text-white font-bold uppercase bg-black/60 px-2 inline-block">December 13, 2025</span>
+          </div>
+        </div>
+      </div>
+       
+      <div class="lg:col-span-5 grid grid-cols-2 gap-1 h-full">
+        
+        <div class="relative group cursor-pointer overflow-hidden h-full min-h-[200px]">
+          <img src="https://picsum.photos/seed/overwatch-2-anniversary-event-2025/600/400"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-0 left-0 z-10 w-full">
+            <span
+              class="bg-accent-default text-white tracking-widest text-[9px] font-semibold uppercase px-1.5 py-0.5 inline-block">Apex
+              Legends</span>
+            <h3
+              class="font-sans font-semibold bg-black/60 text-sm uppercase text-white leading-tight line-clamp-3 p-2 group-hover:text-blue-200 transition-colors drop-shadow-sm">
+              Overwatch 2: Anniversary Event 2025
+            </h3>
+          </div>
+        </div>
+        
+        <div class="relative group cursor-pointer overflow-hidden h-full min-h-[200px]">
+          <img src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/600/400"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-0 left-0 z-10 w-full">
+            <span
+              class="bg-accent-default text-white tracking-widest text-[9px] font-semibold uppercase px-1.5 py-0.5 inline-block">Apex
+              Legends</span>
+            <h3
+              class="font-sans font-semibold bg-black/60 text-sm uppercase text-white leading-tight line-clamp-3 p-2 group-hover:text-blue-200 transition-colors drop-shadow-sm">
+              Apex Legends Esports Scene: Team Analysis 2025
+            </h3>
+          </div>
+        </div>
+        
+        <div class="relative group cursor-pointer overflow-hidden h-full min-h-[200px]">
+          <img src="https://picsum.photos/seed/overwatch-2-pve-mission-storm-rising/600/400"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-0 left-0 z-10 w-full">
+            <span
+              class="bg-accent-default text-white tracking-widest text-[9px] font-semibold uppercase px-1.5 py-0.5 inline-block">Apex
+              Legends</span>
+            <h3
+              class="font-sans font-semibold bg-black/60 text-sm uppercase text-white leading-tight line-clamp-3 p-2 group-hover:text-blue-200 transition-colors drop-shadow-sm">
+              Overwatch 2: PvE Mission &#39;Storm Rising&#39;
+            </h3>
+          </div>
+        </div>
+        
+        <div class="relative group cursor-pointer overflow-hidden h-full min-h-[200px]">
+          <img src="https://picsum.photos/seed/gta-6-soundtrack-and-music-system/600/400"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-0 left-0 z-10 w-full">
+            <span
+              class="bg-accent-default text-white tracking-widest text-[9px] font-semibold uppercase px-1.5 py-0.5 inline-block">Apex
+              Legends</span>
+            <h3
+              class="font-sans font-semibold bg-black/60 text-sm uppercase text-white leading-tight line-clamp-3 p-2 group-hover:text-blue-200 transition-colors drop-shadow-sm">
+              GTA 6: Soundtrack and Music System
+            </h3>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section> 
+  <section class="py-8 border-t border-b border-gray-200 bg-white">
+  <div class="container">
+    <h2 class="section-title mb-6">Don't Miss</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      
+      <article class="group">
+        <a href="/posts/fortnite-tournament/" class="block">
+          <div class="aspect-video overflow-hidden mb-3 bg-gray-100">
+            <img
+              src="https://picsum.photos/seed/fortnite-world-cup-2025-10-million-prize-pool/800/450"
+              alt="Fortnite World Cup 2025: $10 Million Prize Pool"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <h3
+            class="font-sans font-bold text-sm uppercase leading-tight group-hover:text-accent transition-colors text-slate-900 line-clamp-2 mb-2"
+          >
+            Fortnite World Cup 2025: $10 Million Prize Pool
+          </h3>
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-400 font-bold uppercase"
+          >
+            <span>Dec 09, 2025</span>
+          </div>
+        </a>
+      </article>
+      
+      <article class="group">
+        <a href="/posts/valorant-new-agent/" class="block">
+          <div class="aspect-video overflow-hidden mb-3 bg-gray-100">
+            <img
+              src="https://picsum.photos/seed/valorant-agent-26-vex-revealed/800/450"
+              alt="Valorant Agent 26: &#39;Vex&#39; Revealed"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <h3
+            class="font-sans font-bold text-sm uppercase leading-tight group-hover:text-accent transition-colors text-slate-900 line-clamp-2 mb-2"
+          >
+            Valorant Agent 26: &#39;Vex&#39; Revealed
+          </h3>
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-400 font-bold uppercase"
+          >
+            <span>Dec 12, 2025</span>
+          </div>
+        </a>
+      </article>
+      
+      <article class="group">
+        <a href="/posts/gta-6-online/" class="block">
+          <div class="aspect-video overflow-hidden mb-3 bg-gray-100">
+            <img
+              src="https://picsum.photos/seed/gta-6-online-revolutionary-multiplayer-features/800/450"
+              alt="GTA 6 Online: Revolutionary Multiplayer Features"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <h3
+            class="font-sans font-bold text-sm uppercase leading-tight group-hover:text-accent transition-colors text-slate-900 line-clamp-2 mb-2"
+          >
+            GTA 6 Online: Revolutionary Multiplayer Features
+          </h3>
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-400 font-bold uppercase"
+          >
+            <span>Dec 05, 2025</span>
+          </div>
+        </a>
+      </article>
+      
+      <article class="group">
+        <a href="/posts/apex-esports-analysis/" class="block">
+          <div class="aspect-video overflow-hidden mb-3 bg-gray-100">
+            <img
+              src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/800/450"
+              alt="Apex Legends Esports Scene: Team Analysis 2025"
+              class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <h3
+            class="font-sans font-bold text-sm uppercase leading-tight group-hover:text-accent transition-colors text-slate-900 line-clamp-2 mb-2"
+          >
+            Apex Legends Esports Scene: Team Analysis 2025
+          </h3>
+          <div
+            class="flex items-center gap-2 text-[10px] text-slate-400 font-bold uppercase"
+          >
+            <span>Dec 13, 2025</span>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+  </div>
+</section>
+ 
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+    
+    <div class="md:col-span-8 space-y-8">
+      <div class="pt-8">
+  
+    
+    <div class="mb-6">
+      <div
+        class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4"
+      >
+        <h2
+          class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block"
+        >
+          LATEST NEWS
+        </h2>
+
+        
+                                                                                                                                   
+
+        <div class="flex flex-wrap items-center gap-2 text-sm relative">
+          
+          <button
+            data-category="all"
+            class="category-tab active text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            All
+          </button>
+
+          
+          
+          <button
+            data-category="gaming"
+            class="category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            Gaming
+          </button>
+          
+          <button
+            data-category="psychology"
+            class="category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            Psychology
+          </button>
+          
+          <button
+            data-category="technology"
+            class="category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            Technology
+          </button>
+          
+          <button
+            data-category="business"
+            class="category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            Business
+          </button>
+          
+
+          
+          <div class="relative more-dropdown">
+            <button
+              class="more-toggle text-[#2013db] hover:bg-accent/90 hover:text-white font-medium transition-colors px-3 py-1.5 flex items-center rounded gap-1 uppercase text-xs tracking-wide"
+            >
+              More
+              <svg
+                class="w-4 h-4 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+
+            
+            <div
+              class="more-menu hidden absolute right-0 top-full mt-1 bg-white border border-gray-200 shadow-lg min-w-[200px] z-50 max-h-[300px] overflow-y-auto"
+            >
+              
+              <button
+                data-category="gaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Gaming
+                <span class="float-right text-xs opacity-60"
+                  >(96)</span
+                >
+              </button>
+              
+              <button
+                data-category="psychology"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Psychology
+                <span class="float-right text-xs opacity-60"
+                  >(19)</span
+                >
+              </button>
+              
+              <button
+                data-category="technology"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Technology
+                <span class="float-right text-xs opacity-60"
+                  >(15)</span
+                >
+              </button>
+              
+              <button
+                data-category="business"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Business
+                <span class="float-right text-xs opacity-60"
+                  >(13)</span
+                >
+              </button>
+              
+              <button
+                data-category="health"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Health
+                <span class="float-right text-xs opacity-60"
+                  >(13)</span
+                >
+              </button>
+              
+              <button
+                data-category="apex legends"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Apex Legends
+                <span class="float-right text-xs opacity-60"
+                  >(12)</span
+                >
+              </button>
+              
+              <button
+                data-category="esports"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Esports
+                <span class="float-right text-xs opacity-60"
+                  >(12)</span
+                >
+              </button>
+              
+              <button
+                data-category="battle royale"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Battle Royale
+                <span class="float-right text-xs opacity-60"
+                  >(9)</span
+                >
+              </button>
+              
+              <button
+                data-category="education"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Education
+                <span class="float-right text-xs opacity-60"
+                  >(8)</span
+                >
+              </button>
+              
+              <button
+                data-category="hardware"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Hardware
+                <span class="float-right text-xs opacity-60"
+                  >(8)</span
+                >
+              </button>
+              
+              <button
+                data-category="overwatch"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Overwatch
+                <span class="float-right text-xs opacity-60"
+                  >(8)</span
+                >
+              </button>
+              
+              <button
+                data-category="valorant"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Valorant
+                <span class="float-right text-xs opacity-60"
+                  >(8)</span
+                >
+              </button>
+              
+              <button
+                data-category="call of duty"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Call of Duty
+                <span class="float-right text-xs opacity-60"
+                  >(7)</span
+                >
+              </button>
+              
+              <button
+                data-category="culture"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Culture
+                <span class="float-right text-xs opacity-60"
+                  >(7)</span
+                >
+              </button>
+              
+              <button
+                data-category="fortnite"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Fortnite
+                <span class="float-right text-xs opacity-60"
+                  >(7)</span
+                >
+              </button>
+              
+              <button
+                data-category="gta"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Gta
+                <span class="float-right text-xs opacity-60"
+                  >(7)</span
+                >
+              </button>
+              
+              <button
+                data-category="mobile gaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Mobile Gaming
+                <span class="float-right text-xs opacity-60"
+                  >(6)</span
+                >
+              </button>
+              
+              <button
+                data-category="pubg"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Pubg
+                <span class="float-right text-xs opacity-60"
+                  >(6)</span
+                >
+              </button>
+              
+              <button
+                data-category="fps"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Fps
+                <span class="float-right text-xs opacity-60"
+                  >(5)</span
+                >
+              </button>
+              
+              <button
+                data-category="pc gaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Pc Gaming
+                <span class="float-right text-xs opacity-60"
+                  >(5)</span
+                >
+              </button>
+              
+              <button
+                data-category="accessibility"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Accessibility
+                <span class="float-right text-xs opacity-60"
+                  >(3)</span
+                >
+              </button>
+              
+              <button
+                data-category="games"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Games
+                <span class="float-right text-xs opacity-60"
+                  >(3)</span
+                >
+              </button>
+              
+              <button
+                data-category="gaming news"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Gaming News
+                <span class="float-right text-xs opacity-60"
+                  >(3)</span
+                >
+              </button>
+              
+              <button
+                data-category="guides"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Guides
+                <span class="float-right text-xs opacity-60"
+                  >(3)</span
+                >
+              </button>
+              
+              <button
+                data-category="career"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Career
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="creativity"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Creativity
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="environment"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Environment
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="industry"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Industry
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="league of legends"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                League of Legends
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="new map"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                New Map
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="news"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                News
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="open world"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Open World
+                <span class="float-right text-xs opacity-60"
+                  >(2)</span
+                >
+              </button>
+              
+              <button
+                data-category="artificial intelligence"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Artificial Intelligence
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="balance"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Balance
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="black ops"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Black Ops
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="character customization"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Character Customization
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="community"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Community
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="competitive"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Competitive
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="creative"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Creative
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="design"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Design
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="development"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Development
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="economics"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Economics
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="ethics"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Ethics
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="event"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Event
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="family"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Family
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="indie games"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Indie Games
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="lifestyle"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Lifestyle
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="live events"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Live Events
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="mobile"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Mobile
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="music"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Music
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="new agent"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                New Agent
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="new hero"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                New Hero
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="nintendo"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Nintendo
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="online gaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Online Gaming
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="pve"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Pve
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="relationships"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Relationships
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="retro gaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Retro Gaming
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="streaming"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Streaming
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="updates"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Updates
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+              <button
+                data-category="warzone"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                Warzone
+                <span class="float-right text-xs opacity-60"
+                  >(1)</span
+                >
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="loading-skeleton" class="skeleton-container flex flex-col" style="display: none">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        
+        <div class="skeleton-card">
+          <div class="skeleton-image h-64 mb-3"></div>
+          <div class="skeleton-text h-6 w-3/4 mb-2"></div>
+          <div class="skeleton-text h-4 w-full mb-1"></div>
+          <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+          <div class="skeleton-text h-3 w-32"></div>
+        </div>
+
+        
+        <div class="skeleton-card">
+          <div class="skeleton-image h-64 mb-3"></div>
+          <div class="skeleton-text h-6 w-2/3 mb-2"></div>
+          <div class="skeleton-text h-4 w-full mb-1"></div>
+          <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+          <div class="skeleton-text h-3 w-32"></div>
+        </div>
+      </div>
+
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="articles-container">
+      
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4"
+        id="featured-articles"
+      >
+        
+        <article
+          class="article-item group cursor-pointer"
+          data-categories='Overwatch,Event'
+        >
+          <a href="/posts/overwatch-anniversary-2025/" class="block">
+            
+            <div class="relative overflow-hidden mb-3">
+              <img
+                src="https://picsum.photos/seed/overwatch-2-anniversary-event-2025/800/500"
+                alt="Overwatch 2: Anniversary Event 2025"
+                class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              
+              
+              <span
+                class="absolute bottom-0 left-0 bg-black text-white text-xs font-normal tracking-wider uppercase px-3 py-1 tracking-wide"
+              >
+                Overwatch
+              </span>
+              
+            </div>
+
+            
+            <div>
+              <h3
+                class="font-bold text-lg uppercase leading-tight mb-2 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+              >
+                Overwatch 2: Anniversary Event 2025
+              </h3>
+              <span class="text-xs text-slate-500 font-medium mb-2">
+                December 1212, 13130
+              </span>
+              <p
+                class="text-slate-600 text-sm  line-clamp-2 leading-relaxed"
+              >
+                Overwatch 2 celebrates 9th anniversary with legendary skins, game modes, and special events.
+              </p>
+              
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer"
+          data-categories='Apex Legends,Esports,News'
+        >
+          <a href="/posts/apex-esports-analysis/" class="block">
+            
+            <div class="relative overflow-hidden mb-3">
+              <img
+                src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/800/500"
+                alt="Apex Legends Esports Scene: Team Analysis 2025"
+                class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              
+              
+              <span
+                class="absolute bottom-0 left-0 bg-black text-white text-xs font-normal tracking-wider uppercase px-3 py-1 tracking-wide"
+              >
+                Apex Legends
+              </span>
+              
+            </div>
+
+            
+            <div>
+              <h3
+                class="font-bold text-lg uppercase leading-tight mb-2 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+              >
+                Apex Legends Esports Scene: Team Analysis 2025
+              </h3>
+              <span class="text-xs text-slate-500 font-medium mb-2">
+                December 1212, 13130
+              </span>
+              <p
+                class="text-slate-600 text-sm  line-clamp-2 leading-relaxed"
+              >
+                In-depth analysis of top Apex Legends esports teams and their performance in the 2025 competitive season.
+              </p>
+              
+            </div>
+          </a>
+        </article>
+        
+      </div>
+
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4" id="small-articles">
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='Overwatch,PvE'
+        >
+          <a href="/posts/overwatch-storm-rising/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/overwatch-2-pve-mission-storm-rising/320/240"
+                alt="Overwatch 2: PvE Mission &#39;Storm Rising&#39;"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  Overwatch 2: PvE Mission &#39;Storm Rising&#39;
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='GTA,Music'
+        >
+          <a href="/posts/gta-6-soundtrack/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/gta-6-soundtrack-and-music-system/320/240"
+                alt="GTA 6: Soundtrack and Music System"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  GTA 6: Soundtrack and Music System
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='Apex Legends,Battle Royale,Guides'
+        >
+          <a href="/posts/apex-map-control/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/apex-legends-battle-royale-map-control-guide/320/240"
+                alt="Apex Legends Battle Royale Map Control Guide"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  Apex Legends Battle Royale Map Control Guide
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='Apex Legends,Guides'
+        >
+          <a href="/posts/apex-movement-guide/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/advanced-apex-legends-movement-guide-pro-techniques/320/240"
+                alt="Advanced Apex Legends Movement Guide: Pro Techniques"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  Advanced Apex Legends Movement Guide: Pro Techniques
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='GTA,Character Customization'
+        >
+          <a href="/posts/gta-6-customization/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/gta-6-character-customization-deep-dive/320/240"
+                alt="GTA 6: Character Customization Deep Dive"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  GTA 6: Character Customization Deep Dive
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='Overwatch,Esports'
+        >
+          <a href="/posts/overwatch-world-cup/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/overwatch-2-world-cup-2025-details/320/240"
+                alt="Overwatch 2: World Cup 2025 Details"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  Overwatch 2: World Cup 2025 Details
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='Apex Legends,Esports,News'
+        >
+          <a href="/posts/apex-championship-2025/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/apex-legends-world-championship-2025-tournament-preview/320/240"
+                alt="Apex Legends World Championship 2025: Tournament Preview"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  Apex Legends World Championship 2025: Tournament Preview
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='PUBG,Esports'
+        >
+          <a href="/posts/pubg-championship-2025/" class="flex gap-3 w-full">
+            
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/pubg-global-championship-2025-announced/320/240"
+                alt="PUBG: Global Championship 2025 Announced"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  PUBG: Global Championship 2025 Announced
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  December 120, 13130
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        
+      </div>
+
+      
+      <div id="no-results" class="hidden text-center py-20">
+        <svg
+          class="w-20 h-20 mx-auto text-gray-300 mb-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+        <h3 class="text-xl font-bold text-slate-700 mb-2">No articles found</h3>
+        <p class="text-slate-500">Try selecting a different category</p>
+      </div>
+    </div>
+
+    
+    <style>
+      .skeleton-container {
+        animation: fadeIn 0.3s ease-in-out;
+      }
+      
+      .skeleton-card {
+        background: white;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        padding: 1rem;
+      }
+      
+      .skeleton-image {
+        background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.375rem;
+      }
+      
+      .skeleton-text {
+        background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.25rem;
+        height: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+      }
+      
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const categoryTabs = document.querySelectorAll(".category-tab");
+        const categoryTabsDropdown = document.querySelectorAll(
+          ".category-tab-dropdown"
+        );
+        const articlesContainer = document.getElementById("articles-container");
+        const loadingSpinner = document.getElementById("loading-skeleton");
+        const noResults = document.getElementById("no-results");
+        const moreToggle = document.querySelector(".more-toggle");
+        const moreMenu = document.querySelector(".more-menu");
+
+        
+        moreToggle.addEventListener("click", function (e) {
+          e.stopPropagation();
+          moreMenu.classList.toggle("hidden");
+          const svg = this.querySelector("svg");
+          if (moreMenu.classList.contains("hidden")) {
+            svg.style.transform = "rotate(0deg)";
+          } else {
+            svg.style.transform = "rotate(180deg)";
+          }
+        });
+
+        
+        document.addEventListener("click", function (e) {
+          if (!e.target.closest(".more-dropdown")) {
+            moreMenu.classList.add("hidden");
+            const svg = moreToggle.querySelector("svg");
+            svg.style.transform = "rotate(0deg)";
+          }
+        });
+
+        
+        function filterArticles(category) {
+          
+          loadingSpinner.style.display = "flex";
+          articlesContainer.classList.add("opacity-50");
+
+          
+          setTimeout(() => {
+            const articles = document.querySelectorAll(".article-item");
+            let visibleCount = 0;
+
+            console.log(`Filtering for category: ${category}`);
+            console.log(`Total articles found: ${articles.length}`);
+
+            articles.forEach((article) => {
+              const categoriesStr = article.dataset.categories || "";
+              const categories = categoriesStr ? categoriesStr.split(",") : [];
+              console.log(`Article categories: ${JSON.stringify(categories)}`);
+
+              if (
+                category === "all" ||
+                categories.some(
+                  (cat) => cat.toLowerCase() === category.toLowerCase()
+                )
+              ) {
+                article.classList.remove("hidden");
+                visibleCount++;
+                console.log(`Showing article: ${article.querySelector('h3, h4').textContent}`);
+              } else {
+                article.classList.add("hidden");
+              }
+            });
+
+            console.log(`Visible count: ${visibleCount}`);
+
+            
+            loadingSpinner.style.display = "none";
+            articlesContainer.classList.remove("opacity-50");
+
+            
+            if (visibleCount === 0) {
+              noResults.classList.remove("hidden");
+            } else {
+              noResults.classList.add("hidden");
+            }
+
+            
+            categoryTabs.forEach((tab) => {
+              if (tab.dataset.category === category) {
+                tab.classList.add("active", "border-accent", "text-accent");
+              } else {
+                tab.classList.remove("active", "border-accent", "text-accent");
+              }
+            });
+          }, 300);
+        }
+
+        
+        categoryTabs.forEach((tab) => {
+          tab.addEventListener("click", function (e) {
+            e.preventDefault();
+            const category = this.dataset.category;
+            filterArticles(category);
+          });
+        });
+
+        
+        categoryTabsDropdown.forEach((tab) => {
+          tab.addEventListener("click", function (e) {
+            e.preventDefault();
+            const category = this.dataset.category;
+            filterArticles(category);
+            moreMenu.classList.add("hidden");
+            const svg = moreToggle.querySelector("svg");
+            svg.style.transform = "rotate(0deg)";
+          });
+        });
+      });
+    </script>
+
+    <style>
+      .category-tab.active {
+        color: var(--accent-color, #6366f1);
+        border-bottom-color: var(--accent-color, #6366f1);
+      }
+
+      .more-menu {
+        scrollbar-width: thin;
+        scrollbar-color: #cbd5e1 #f1f5f9;
+      }
+
+      .more-menu::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .more-menu::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+
+      .more-menu::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 3px;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .animate-spin {
+        animation: spin 1s linear infinite;
+      }
+    </style>
+  </div>
+
+      
+<div class="pt-8 ">
+  
+  
+  <div class="mb-6">
+    <div class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+      <h2
+        class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block">
+        APEX LEGENDS
+      </h2>
+
+      
+      <div class="flex flex-wrap items-center gap-2 text-sm relative">
+        
+        <button data-category="all"
+          class="apex-category-tab active text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent">
+          All
+        </button>
+
+        
+        
+        
+        <button data-category="Apex Legends"
+          class="apex-category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent">
+          Apex Legends
+        </button>
+        
+        <button data-category="Battle Royale"
+          class="apex-category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent">
+          Battle Royale
+        </button>
+        
+        <button data-category="Esports"
+          class="apex-category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent">
+          Esports
+        </button>
+        
+
+        
+        <div class="relative apex-more-dropdown">
+          <button
+            class="apex-more-toggle text-[#2013db] hover:bg-accent/90 hover:text-white font-medium transition-colors px-3 py-1.5 flex items-center rounded gap-1 uppercase text-xs tracking-wide">
+            More
+            <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+
+          
+          <div
+            class="apex-more-menu hidden absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50 max-h-64 overflow-y-auto">
+            <div class="py-1">
+              
+              
+              <a href="#" data-category="Guides"
+                class="apex-category-tab-dropdown block px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors">
+                Guides
+              </a>
+              
+              <a href="#" data-category="Updates"
+                class="apex-category-tab-dropdown block px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors">
+                Updates
+              </a>
+              
+              <a href="#" data-category="News"
+                class="apex-category-tab-dropdown block px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors">
+                News
+              </a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="apex-articles-container" class="space-y-4">
+    
+    <div id="apex-loading-skeleton" class="hidden">
+      
+      <div class="space-y-4">
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-3/4 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/4 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-5/6"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-2/3 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-4/5"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-4/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/3 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-3/4"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-3/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/4 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-5/6"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-2/3 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-4/5"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-3/4 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/3 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-5/6"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-4/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/4 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-3/4"></div>
+          </div>
+        </div>
+        
+        <div class="apex-skeleton-card flex gap-4 bg-white border border-gray-200 rounded-lg overflow-hidden">
+          <div class="apex-skeleton-image w-48 h-32 shrink-0"></div>
+          <div class="flex-1 p-4">
+            <div class="apex-skeleton-text h-6 w-2/3 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-1/5 mb-2"></div>
+            <div class="apex-skeleton-text h-4 w-full mb-1"></div>
+            <div class="apex-skeleton-text h-4 w-4/5"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div id="apex-no-results" class="hidden text-center py-12">
+      <p class="text-slate-500 text-lg">No articles found for this category.</p>
+    </div>
+
+    
+    <div id="apex-articles-list" class="space-y-8">
+      
+      
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Esports,News'>
+        <a href="/posts/apex-esports-analysis/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/400/250" alt="Apex Legends Esports Scene: Team Analysis 2025"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Esports Scene: Team Analysis 2025
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              In-depth analysis of top Apex Legends esports teams and their performance in the 2025 competitive season.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Battle Royale,Guides'>
+        <a href="/posts/apex-map-control/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-battle-royale-map-control-guide/400/250" alt="Apex Legends Battle Royale Map Control Guide"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Battle Royale Map Control Guide
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Complete guide to controlling zones and positioning on all Apex Legends Battle Royale maps for competitive advantage.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Guides'>
+        <a href="/posts/apex-movement-guide/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/advanced-apex-legends-movement-guide-pro-techniques/400/250" alt="Advanced Apex Legends Movement Guide: Pro Techniques"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Advanced Apex Legends Movement Guide: Pro Techniques
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Master advanced movement techniques in Apex Legends with this comprehensive guide covering tap-strafing, super-gliding, and more.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Overwatch,Esports'>
+        <a href="/posts/overwatch-world-cup/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/overwatch-2-world-cup-2025-details/400/250" alt="Overwatch 2: World Cup 2025 Details"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Overwatch 2: World Cup 2025 Details
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Esports,News'>
+        <a href="/posts/apex-championship-2025/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-world-championship-2025-tournament-preview/400/250" alt="Apex Legends World Championship 2025: Tournament Preview"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends World Championship 2025: Tournament Preview
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Complete preview of the Apex Legends Global Series Championship 2025 with teams, format, and predictions.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='PUBG,Esports'>
+        <a href="/posts/pubg-championship-2025/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/pubg-global-championship-2025-announced/400/250" alt="PUBG: Global Championship 2025 Announced"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              PUBG: Global Championship 2025 Announced
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Krafton reveals details for PUBG Global Championship 2025 with record prize pool.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Updates'>
+        <a href="/posts/apex-season-21/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-season-21-complete-update-guide/400/250" alt="Apex Legends Season 21: Complete Update Guide"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Season 21: Complete Update Guide
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Everything new in Apex Legends Season 21 including new legend, battle pass, and major gameplay changes.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Guides'>
+        <a href="/posts/apex-mobile-guide/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-mobile-ultimate-guide-to-ranked-play/400/250" alt="Apex Legends Mobile: Ultimate Guide to Ranked Play"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Mobile: Ultimate Guide to Ranked Play
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Complete guide to climbing the ranks in Apex Legends Mobile with tips, strategies, and meta analysis.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Call of Duty,Battle Royale'>
+        <a href="/posts/cod-warzone/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/call-of-duty-warzone-new-map-urzikstan-drops-today/400/250" alt="Call of Duty Warzone: New Map Urzikstan Drops Today"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Call of Duty Warzone: New Map Urzikstan Drops Today
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Battle Royale
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              The largest Warzone map ever created is now live, featuring diverse terrain and over 300 points of interest.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Fortnite,Battle Royale'>
+        <a href="/posts/fortnite-mythic-weapon/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/fortnite-new-mythic-weapon-arrives/400/250" alt="Fortnite: New Mythic Weapon Arrives"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Fortnite: New Mythic Weapon Arrives
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Battle Royale
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 13130
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Epic Games introduces a powerful new mythic weapon that&rsquo;s changing the meta.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Valorant,Esports'>
+        <a href="/posts/valorant-esports-2025/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/valorant-esports-2025-vct-format-revolution/400/250" alt="Valorant Esports 2025: VCT Format Revolution"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Valorant Esports 2025: VCT Format Revolution
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 12120
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Riot Games announces major VCT 2025 format changes with new regions, increased prize pools, and fan engagement features.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Esports'>
+        <a href="/posts/apex-legends-pro-scene/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-pro-scene-2025-offseason-moves/400/250" alt="Apex Legends Pro Scene: 2025 Offseason Moves"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Pro Scene: 2025 Offseason Moves
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 12120
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Major roster changes and team acquisitions shake up the Apex Legends competitive landscape for 2025.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Battle Royale'>
+        <a href="/posts/apex-legends-new-map/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-new-worlds-edge-map-update/400/250" alt="Apex Legends: New World&#39;s Edge Map Update"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends: New World&#39;s Edge Map Update
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 12120
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Respawn Entertainment reveals massive World&rsquo;s Edge map overhaul with new points of interest and gameplay mechanics.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='League of Legends,Esports'>
+        <a href="/posts/league-legends/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/league-of-legends-worlds-2025-t1-wins-fourth-championship/400/250" alt="League of Legends Worlds 2025: T1 Wins Fourth Championship"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              League of Legends Worlds 2025: T1 Wins Fourth Championship
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Faker and T1 dominate the finals 3-0 against JDG, securing their fourth World Championship title in an incredible display of skill.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Call of Duty,Battle Royale'>
+        <a href="/posts/cod-warzone-2/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/call-of-duty-warzone-2.5-major-update/400/250" alt="Call of Duty: Warzone 2.5 Major Update"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Call of Duty: Warzone 2.5 Major Update
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Battle Royale
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Warzone 2.5 brings massive gameplay overhaul with new map, weapons, and progression system.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Valorant,Esports'>
+        <a href="/posts/valorant-championship/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/vct-2025-champions-new-era-of-competition/400/250" alt="VCT 2025 Champions: New Era of Competition"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              VCT 2025 Champions: New Era of Competition
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Valorant Champions Tour 2025 introduces new format with $25 million prize pool and revolutionary broadcast features.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Fortnite,Esports'>
+        <a href="/posts/fortnite-world-cup/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/fortnite-world-cup-2025-biggest-prize-pool-ever/400/250" alt="Fortnite World Cup 2025: Biggest Prize Pool Ever"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Fortnite World Cup 2025: Biggest Prize Pool Ever
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Epic Games announces record-breaking $30 million prize pool for Fortnite World Cup 2025 with new format and locations.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Mobile Gaming'>
+        <a href="/posts/apex-mobile-new/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-mobile-new-legend-revealed/400/250" alt="Apex Legends Mobile: New Legend Revealed"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Mobile: New Legend Revealed
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Apex Legends Mobile introduces a brand new exclusive legend with unique abilities designed for mobile gameplay.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends'>
+        <a href="/posts/ranked-meta/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/ranked-season-12-meta-analysis-and-top-picks/400/250" alt="Ranked Season 12: Meta Analysis and Top Picks"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Ranked Season 12: Meta Analysis and Top Picks
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 11110
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              The new patch has shaken up the leaderboard. Here are the legends and loadouts you need to be running to hit Predator this season.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Battle Royale'>
+        <a href="/posts/apex-season-20/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-season-20-breakout-brings-major-changes/400/250" alt="Apex Legends Season 20: Breakout Brings Major Changes"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Season 20: Breakout Brings Major Changes
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 10100
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Respawn Entertainment shakes up the meta with legend reworks, a new weapon, and significant map changes to Kings Canyon.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Apex Legends,Battle Royale'>
+        <a href="/posts/apex-legends-meta/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/apex-legends-meta-shift-new-tier-list-revealed/400/250" alt="Apex Legends Meta Shift: New Tier List Revealed"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Apex Legends Meta Shift: New Tier List Revealed
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Apex Legends
+              </span>
+              
+              
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 10100
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Professional players reveal the current meta tier list with surprising changes in S-tier rankings.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Fortnite,Esports'>
+        <a href="/posts/fortnite-tournament/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/fortnite-world-cup-2025-10-million-prize-pool/400/250" alt="Fortnite World Cup 2025: $10 Million Prize Pool"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Fortnite World Cup 2025: $10 Million Prize Pool
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Esports
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 9090
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Epic Games announces the biggest Fortnite tournament with record-breaking prize pool and new competitive format.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='Fortnite,Battle Royale'>
+        <a href="/posts/fortnite-chapter-5/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/fortnite-chapter-5-new-map-and-gameplay-mechanics/400/250" alt="Fortnite Chapter 5: New Map and Gameplay Mechanics"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              Fortnite Chapter 5: New Map and Gameplay Mechanics
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Battle Royale
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 9090
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Epic Games launches Chapter 5 with a completely new island and revolutionary building mechanics.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+      <article class="apex-article-item group bg-white overflow-hidden   transition-shadow duration-300"
+        data-categories='PUBG,Battle Royale'>
+        <a href="/posts/pubg-new-map/" class="flex gap-8 ">
+          
+          <div class="w-62 h-36 shrink-0 overflow-hidden ">
+            <img src="https://picsum.photos/seed/pubg-new-desert-map-miramar-2.0-released/400/250" alt="PUBG: New Desert Map &#39;Miramar 2.0&#39; Released"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+          </div>
+
+          
+          <div class="flex-1 flex flex-col justify-between">
+            
+            <h3
+              class="font-medium text-xl uppercase leading-tight  group-hover:text-accent transition-colors text-slate-900 line-clamp-2">
+              PUBG: New Desert Map &#39;Miramar 2.0&#39; Released
+            </h3>
+
+            
+            <div class="flex items-center gap-2 mb-3">
+              
+              
+              
+              
+              
+              
+              <span class="bg-black text-white text-xs font-normal tracking-wider uppercase px-2 py-1">
+                Battle Royale
+              </span>
+              
+              
+              
+              
+
+              
+              <span class="text-sm text-slate-500 font-medium">
+                December 1212, 6060
+              </span>
+            </div>
+
+            
+            <p class="text-slate-600 text-sm leading-relaxed line-clamp-3">
+              Krafton releases completely redesigned Miramar desert map with new locations and gameplay mechanics.
+            </p>
+          </div>
+        </a>
+      </article>
+      
+    </div>
+
+    
+    <div class="text-center mt-8">
+      <button id="apex-load-more"
+        class="hover:bg-accent-hover  hover:text-white border border-gray-300 text-gray-600 font-light   text-sm py-2 px-4 transition-colors duration-300 tracking-wider flex items-center gap-2 mx-auto">
+        Load more
+        <div class="text-gray-400  hover:text-white font-light mt-[5px] text-xs"><i class="fa-solid fa-angle-right"></i>
+        </div>
+      </button>
+    </div>
+  </div>
+
+  <style>
+    .apex-skeleton-card {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+
+    .apex-skeleton-image {
+      background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 0.375rem;
+    }
+
+    .apex-skeleton-text {
+      background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 0.25rem;
+      height: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    @keyframes shimmer {
+      0% {
+        background-position: -200% 0;
+      }
+
+      100% {
+        background-position: 200% 0;
+      }
+    }
+  </style>
+
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const apexCategoryTabs = document.querySelectorAll(".apex-category-tab");
+      const apexCategoryTabsDropdown = document.querySelectorAll(
+        ".apex-category-tab-dropdown"
+      );
+      const apexArticlesContainer = document.getElementById("apex-articles-container");
+      const apexLoadingSpinner = document.getElementById("apex-loading-skeleton");
+      const apexNoResults = document.getElementById("apex-no-results");
+      const apexMoreToggle = document.querySelector(".apex-more-toggle");
+      const apexMoreMenu = document.querySelector(".apex-more-menu");
+      const apexLoadMoreBtn = document.getElementById("apex-load-more");
+
+      
+      apexMoreToggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        apexMoreMenu.classList.toggle("hidden");
+        const svg = this.querySelector("svg");
+        if (apexMoreMenu.classList.contains("hidden")) {
+          svg.style.transform = "rotate(0deg)";
+        } else {
+          svg.style.transform = "rotate(180deg)";
+        }
+      });
+
+      
+      document.addEventListener("click", function (e) {
+        if (!e.target.closest(".apex-more-dropdown")) {
+          apexMoreMenu.classList.add("hidden");
+          const svg = apexMoreToggle.querySelector("svg");
+          svg.style.transform = "rotate(0deg)";
+        }
+      });
+
+      
+      function filterApexArticles(category) {
+        
+        apexLoadingSpinner.classList.remove("hidden");
+        apexArticlesContainer.classList.add("opacity-50");
+
+        
+        setTimeout(() => {
+          const articles = document.querySelectorAll(".apex-article-item");
+          let visibleCount = 0;
+
+          console.log(`Filtering Apex articles for category: ${category}`);
+          console.log(`Total Apex articles found: ${articles.length}`);
+
+          
+          const validCategories = ["Apex Legends", "Battle Royale", "Esports", "Guides", "Updates", "News"];
+
+          articles.forEach((article) => {
+            const categoriesStr = article.dataset.categories || "";
+            const categories = categoriesStr ? categoriesStr.split(",") : [];
+            
+            const validArticleCategories = categories.filter(cat =>
+              validCategories.some(valid => valid.toLowerCase() === cat.trim().toLowerCase())
+            );
+
+            console.log(`Apex article categories: ${JSON.stringify(validArticleCategories)}`);
+
+            const shouldShow = category === "all" ||
+              validArticleCategories.some(
+                (cat) => cat.trim().toLowerCase() === category.toLowerCase()
+              );
+
+            if (shouldShow) {
+              article.classList.remove("hidden");
+              article.style.display = "block";
+              visibleCount++;
+              console.log(`Showing Apex article: ${article.querySelector('h3').textContent}`);
+            } else {
+              article.classList.add("hidden");
+              article.style.display = "none";
+            }
+          });
+
+          console.log(`Apex visible count: ${visibleCount}`);
+
+          
+          apexLoadingSpinner.classList.add("hidden");
+          apexArticlesContainer.classList.remove("opacity-50");
+
+          
+          if (visibleCount === 0) {
+            apexNoResults.classList.remove("hidden");
+          } else {
+            apexNoResults.classList.add("hidden");
+          }
+
+          
+          apexCategoryTabs.forEach((tab) => {
+            if (tab.dataset.category === category) {
+              tab.classList.add("active", "border-accent", "text-accent");
+            } else {
+              tab.classList.remove("active", "border-accent", "text-accent");
+            }
+          });
+
+          apexCategoryTabsDropdown.forEach((tab) => {
+            if (tab.dataset.category === category) {
+              tab.classList.add("bg-accent", "text-white");
+            } else {
+              tab.classList.remove("bg-accent", "text-white");
+            }
+          });
+        }, 300);
+      }
+
+      
+      apexCategoryTabs.forEach((tab) => {
+        tab.addEventListener("click", function (e) {
+          e.preventDefault();
+          const category = this.dataset.category;
+          filterApexArticles(category);
+        });
+      });
+
+      
+      apexCategoryTabsDropdown.forEach((tab) => {
+        tab.addEventListener("click", function (e) {
+          e.preventDefault();
+          const category = this.dataset.category;
+          filterApexArticles(category);
+          apexMoreMenu.classList.add("hidden");
+          const svg = apexMoreToggle.querySelector("svg");
+          svg.style.transform = "rotate(0deg)";
+        });
+      });
+
+      
+      apexLoadMoreBtn.addEventListener("click", function () {
+        
+        this.textContent = "Loading...";
+        this.disabled = true;
+
+        
+        setTimeout(() => {
+          
+          
+          this.textContent = "No More Articles";
+          this.classList.add("opacity-50", "cursor-not-allowed");
+        }, 1000);
+      });
+    });
+  </script>
+
+  <style>
+    .apex-category-tab.active {
+      color: var(--accent-color, #6366f1);
+      border-bottom-color: var(--accent-color, #6366f1);
+    }
+
+    .apex-more-menu {
+      scrollbar-width: thin;
+      scrollbar-color: #cbd5e1 #f1f5f9;
+    }
+
+    .apex-more-menu::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .apex-more-menu::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+
+    .apex-more-menu::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 3px;
+    }
+  </style>
+</div>
+      
+<section class="latest-articles-section mb-12">
+  
+  <div class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+      <h2
+        class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block">
+          LATEST ARTICLES
+      </h2>
+    </div>
+
+  
+  <div id="latest-articles-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    
+  </div>
+
+  
+  <div id="latest-articles-loading" class="hidden flex justify-center items-center py-8">
+    <div class="flex space-x-2">
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0s;"></div>
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0.1s;"></div>
+      <div class="w-3 h-3 bg-accent rounded-full animate-bounce" style="animation-delay: 0.2s;"></div>
+    </div>
+  </div>
+
+  
+  <div id="latest-articles-end" class="hidden text-center py-8 text-gray-400">
+    <p>No more articles to load</p>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  let currentPage = 1;
+  let isLoading = false;
+  let hasMoreArticles = true;
+
+  const articlesContainer = document.getElementById('latest-articles-container');
+  const loadingSpinner = document.getElementById('latest-articles-loading');
+  const endMessage = document.getElementById('latest-articles-end');
+
+  
+  loadLatestArticles();
+
+  
+  window.addEventListener('scroll', function() {
+    if (isLoading || !hasMoreArticles) return;
+
+    const scrollPosition = window.innerHeight + window.scrollY;
+    const documentHeight = document.documentElement.offsetHeight;
+
+    if (scrollPosition >= documentHeight - 1000) {
+      loadLatestArticles();
+    }
+  });
+
+  function loadLatestArticles() {
+    if (isLoading || !hasMoreArticles) return;
+
+    isLoading = true;
+    loadingSpinner.classList.remove('hidden');
+
+    
+    setTimeout(() => {
+      fetchLatestArticles(currentPage)
+        .then(articles => {
+          if (articles.length === 0) {
+            hasMoreArticles = false;
+            endMessage.classList.remove('hidden');
+          } else {
+            appendArticles(articles);
+            currentPage++;
+          }
+        })
+        .catch(error => {
+          console.error('Error loading articles:', error);
+        })
+        .finally(() => {
+          isLoading = false;
+          loadingSpinner.classList.add('hidden');
+        });
+    }, 800);
+  }
+
+  function appendArticles(articles) {
+    articles.forEach(article => {
+      const articleCard = createArticleCard(article);
+      articlesContainer.appendChild(articleCard);
+    });
+  }
+
+  function createArticleCard(article) {
+    const card = document.createElement('article');
+    card.className = 'latest-article-card group cursor-pointer';
+    
+    card.innerHTML = `
+      <div class="relative overflow-hidden">
+        <img 
+          src="${article.image}" 
+          alt="${article.title}" 
+          class="w-full h-64 object-cover"
+          loading="lazy"
+        />
+        <div class="absolute bottom-0 left-0 bg-black bg-opacity-75 text-white tracking-wider px-3 py-1 text-sm font-light">
+          ${article.category}
+        </div>
+      </div>
+      <div class="mt-4">
+        <h3 class="text-xl font-semibold hover:text-accent-hover text-black mb-2 line-clamp-2">
+          <a href="${article.url}" class="block">${article.title}</a>
+        </h3>
+        <div class="text-sm text-gray-500">
+          <time datetime="${article.date}">${formatDate(article.date)}</time>
+        </div>
+      </div>
+    `;
+
+    return card;
+  }
+
+  function formatDate(dateString) {
+    const options = { year: 'numeric', month: 'short', day: 'numeric' };
+    return new Date(dateString).toLocaleDateString('en-US', options);
+  }
+
+  
+  async function fetchLatestArticles(page) {
+    const articlesPerPage = 8;
+    const startIndex = (page - 1) * articlesPerPage;
+    
+    
+    const response = await fetch('/latest-articles/index.xml');
+    const text = await response.text();
+    
+    
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(text, 'text/xml');
+    const items = xmlDoc.querySelectorAll('item');
+    
+    const allArticles = Array.from(items).map(item => ({
+      title: item.querySelector('title')?.textContent || '',
+      date: item.querySelector('pubDate')?.textContent ? new Date(item.querySelector('pubDate').textContent).toISOString().split('T')[0] : '',
+      categories: Array.from(item.querySelectorAll('category')).map(cat => cat.textContent),
+      url: item.querySelector('link')?.textContent || '',
+      summary: item.querySelector('description')?.textContent || ''
+    })).filter(article => article.title && article.url);
+    
+    
+    allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+    
+    
+    const paginatedArticles = allArticles.slice(startIndex, startIndex + articlesPerPage);
+    
+    return paginatedArticles.map(article => ({
+      title: article.title,
+      image: article.image || `https://picsum.photos/seed/${article.title.replace(/\s+/g, '-').toLowerCase()}/400/300.jpg`,
+      category: article.categories && article.categories.length > 0 ? article.categories[0] : "Gaming",
+      date: article.date,
+      url: article.url
+    }));
+  }
+});
+</script>
+    </div>
+    
+    
+    <div class="md:col-span-4">
+      <aside class="pt-8 h-auto sticky top-8">
+  
+  <div class="bg-white ">
+    <div class="border-b">
+      <h4 class="font-sans w-max px-5 py-2 bg-black font-bold uppercase text-sm text-white tracking-wider">
+        Follow Us
+      </h4>
+    </div>
+    <div class="space-y-4 mt-6">
+      
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-[#3b5998] rounded-full flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex-1 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-lg text-black">50K</span>
+            <span class="text-sm text-black">Fans</span>
+          </div>
+          <span class="text-xs text-black font-medium">Like</span>
+        </div>
+      </div>
+
+      
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-[#1da1f2] rounded-full flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex-1 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-lg text-black">25K</span>
+            <span class="text-sm text-black">Followers</span>
+          </div>
+          <span class="text-xs text-black font-medium uppercase">Follow</span>
+        </div>
+      </div>
+
+      
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 bg-[#ff0000] rounded-full flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path
+              d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex-1 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-lg text-black">100K</span>
+            <span class="text-sm text-black">Subscribers</span>
+          </div>
+          <span class="text-xs text-black font-medium uppercase">Subscribe</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+    </div>
+  </div>  
+</div>
+
+    </main>
+    <footer class="bg-gray-900 border-t border-gray-800 pt-20 pb-10 mt-0 font-body text-sm text-slate-400">
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        
+        
+        <div class="flex flex-col gap-6">
+            <a href="https://example.org/" class="flex flex-col group">
+                <span class="font-sans font-bold text-3xl tracking-tighter text-white uppercase italic leading-none group-hover:text-accent transition-colors">
+                    BATTLE<span class="text-accent group-hover:text-white transition-colors">ROYALE</span>
+                </span>
+                <span class="text-[0.6rem] uppercase tracking-[0.2em] text-slate-500 leading-none mt-1">Fanatics</span>
+            </a>
+            <p class="leading-relaxed opacity-80">
+                The premier destination for Battle Royale news, guides, and competitive analysis. We cover everything from the drop to the final circle.
+            </p>
+            <div class="flex gap-4">
+                
+                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
+                    <span class="capitalize hidden">twitter</span>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+                </a>
+                
+                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
+                    <span class="capitalize hidden">facebook</span>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+                </a>
+                
+                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
+                    <span class="capitalize hidden">twitch</span>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+                </a>
+                
+                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
+                    <span class="capitalize hidden">youtube</span>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+                </a>
+                
+            </div>
+        </div>
+
+        
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Top Categories</h4>
+            <ul class="space-y-4">
+                
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">Apex Legends</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">Fortnite</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">Call of Duty</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">PUBG</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">Valorant</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+
+        
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Recent Updates</h4>
+            <div class="flex flex-col gap-6">
+                
+                <a href="/posts/overwatch-anniversary-2025/" class="group flex gap-4">
+                    <div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative">
+                        <img src="https://picsum.photos/seed/overwatch-2-anniversary-event-2025/200/150" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100">
+                    </div>
+                    <div class="flex flex-col gap-1.5">
+                        <h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Overwatch 2: Anniversary Event 2025</h5>
+                        <div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase">
+                            <span>Dec 13</span>
+                            <span class="w-1 h-1 bg-accent rounded-full"></span>
+                            <span>News</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <a href="/posts/apex-esports-analysis/" class="group flex gap-4">
+                    <div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative">
+                        <img src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/200/150" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100">
+                    </div>
+                    <div class="flex flex-col gap-1.5">
+                        <h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Apex Legends Esports Scene: Team Analysis 2025</h5>
+                        <div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase">
+                            <span>Dec 13</span>
+                            <span class="w-1 h-1 bg-accent rounded-full"></span>
+                            <span>News</span>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+
+         
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Subscribe</h4>
+            <p class="text-slate-400 text-sm mb-6 opacity-80">Get the latest news and guides delivered straight to your inbox.</p>
+            <form class="flex flex-col gap-3">
+                <input type="email" placeholder="Your email address" class="bg-gray-800 border border-white/10 text-white px-4 py-3 text-xs focus:outline-none focus:border-accent rounded-sm uppercase tracking-wide placeholder:text-slate-600">
+                <button class="bg-accent text-white font-bold uppercase text-xs py-3 px-4 hover:bg-white hover:text-slate-900 transition-colors rounded-sm tracking-widest">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="border-t border-white/5 pt-8">
+        <div class="container flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-slate-500 font-bold uppercase tracking-wider">
+            <div>
+                &copy; 2025 Battle Royale Fanatics Clone. <span class="hidden md:inline">All Rights Reserved.</span>
+            </div>
+            <div class="flex gap-8">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                <a href="#" class="hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  </body>
+</html>

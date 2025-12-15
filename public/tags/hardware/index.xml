@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Hugo Tailwind</title>
+    <link>https://example.org/tags/hardware/</link>
+    <description>Recent content in Hardware on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 09:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Gaming Monitors for 2025</title>
+      <link>https://example.org/latest-articles/best-gaming-monitors-2025/</link>
+      <pubDate>Mon, 15 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/best-gaming-monitors-2025/</guid>
+      <description>Complete guide to choosing the perfect gaming monitor for your setup in 2025.</description>
+    </item>
+    <item>
+      <title>Nintendo Switch 2 Leaked Specs Reveal Major Upgrade</title>
+      <link>https://example.org/posts/nintendo-switch-2/</link>
+      <pubDate>Mon, 08 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/nintendo-switch-2/</guid>
+      <description>Leaked documents suggest Nintendo Switch 2 will feature 4K output, DLSS support, and backward compatibility with all Switch games.</description>
+    </item>
+    <item>
+      <title>Ultimate Gaming PC Build Guide 2025</title>
+      <link>https://example.org/posts/gaming-pc-2025/</link>
+      <pubDate>Fri, 05 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/gaming-pc-2025/</guid>
+      <description>Complete guide to building the perfect gaming PC for 2025 with RTX 5000 series and next-gen CPUs.</description>
+    </item>
+  </channel>
+</rss>

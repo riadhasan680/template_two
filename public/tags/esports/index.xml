@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esports on Hugo Tailwind</title>
+    <link>https://example.org/tags/esports/</link>
+    <description>Recent content in Esports on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 23:15:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/esports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Business of Esports: How Competitive Gaming Became a Billion-Dollar Industry</title>
+      <link>https://example.org/latest-articles/esports-business/</link>
+      <pubDate>Sat, 13 Dec 2025 23:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/esports-business/</guid>
+      <description>Exploring the business models and economics behind the explosive growth of esports.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: World Cup 2025 Details</title>
+      <link>https://example.org/posts/overwatch-world-cup/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-world-cup/</guid>
+      <description>Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.</description>
+    </item>
+    <item>
+      <title>PUBG: Global Championship 2025 Announced</title>
+      <link>https://example.org/posts/pubg-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-championship-2025/</guid>
+      <description>Krafton reveals details for PUBG Global Championship 2025 with record prize pool.</description>
+    </item>
+    <item>
+      <title>League of Legends 2026 Season Changes</title>
+      <link>https://example.org/posts/lol-update/</link>
+      <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/lol-update/</guid>
+      <description>Riot Games announces massive jungle changes and a new void champion for the upcoming season.</description>
+    </item>
+    <item>
+      <title>Streamer &#39;NinjaX&#39; Breaks World Record for Solo Kills</title>
+      <link>https://example.org/posts/streamer-record/</link>
+      <pubDate>Mon, 08 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/streamer-record/</guid>
+      <description>In a stunning display of skill, the popular streamer managed to wipe out nearly half the lobby in a single match.</description>
+    </item>
+  </channel>
+</rss>

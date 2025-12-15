@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics on Hugo Tailwind</title>
+    <link>https://example.org/tags/graphics/</link>
+    <description>Recent content in Graphics on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 10:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/graphics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Gaming Graphics: From Pixels to Ray Tracing</title>
+      <link>https://example.org/latest-articles/evolution-gaming-graphics/</link>
+      <pubDate>Sun, 14 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/evolution-gaming-graphics/</guid>
+      <description>Tracing the remarkable journey of video game graphics from simple pixels to photorealistic visuals.</description>
+    </item>
+    <item>
+      <title>PUBG Mobile 3.0 Update Brings Revolutionary Graphics</title>
+      <link>https://example.org/posts/pubg-mobile/</link>
+      <pubDate>Fri, 12 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-mobile/</guid>
+      <description>Krafton unveils PUBG Mobile 3.0 with Unreal Engine 5 integration, bringing console-quality graphics to mobile devices.</description>
+    </item>
+    <item>
+      <title>PUBG Mobile 3.0: Unreal Engine 5 Upgrade</title>
+      <link>https://example.org/posts/pubg-mobile-update/</link>
+      <pubDate>Thu, 11 Dec 2025 20:15:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-mobile-update/</guid>
+      <description>PUBG Mobile transitions to Unreal Engine 5 with revolutionary graphics, new maps, and gameplay mechanics.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide on Hugo Tailwind</title>
+    <link>https://example.org/tags/guide/</link>
+    <description>Recent content in Guide on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 14:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ranked Season 12: Meta Analysis and Top Picks</title>
+      <link>https://example.org/posts/ranked-meta/</link>
+      <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/ranked-meta/</guid>
+      <description>The new patch has shaken up the leaderboard. Here are the legends and loadouts you need to be running to hit Predator this season.</description>
+    </item>
+    <item>
+      <title>Best Gaming Laptops 2025: RTX 5000 Series Dominates</title>
+      <link>https://example.org/posts/gaming-laptop-2025/</link>
+      <pubDate>Wed, 03 Dec 2025 11:20:00 +0600</pubDate>
+      <guid>https://example.org/posts/gaming-laptop-2025/</guid>
+      <description>Complete guide to the best gaming laptops of 2025 featuring RTX 5000 series GPUs and next-gen processors.</description>
+    </item>
+  </channel>
+</rss>

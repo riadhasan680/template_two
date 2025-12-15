@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Characters on Hugo Tailwind</title>
+    <link>https://example.org/tags/characters/</link>
+    <description>Recent content in Characters on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 17:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/characters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6: Character Customization Deep Dive</title>
+      <link>https://example.org/posts/gta-6-customization/</link>
+      <pubDate>Sat, 13 Dec 2025 17:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-6-customization/</guid>
+      <description>Rockstar reveals unprecedented character customization options coming to GTA 6.</description>
+    </item>
+  </channel>
+</rss>

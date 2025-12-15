@@ -1,0 +1,47 @@
+<section class="py-8">
+  <div class="container">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-1.5 h-auto lg:h-[500px]">
+      {{/* Left Column: 1 Large Feature */}} {{ range first 1 (where
+      .Site.RegularPages "Type" "posts") }}
+      <div class="lg:col-span-7 relative group cursor-pointer h-full overflow-hidden">
+        <img src="https://picsum.photos/seed/{{ .Title | urlize }}/2000/5000"
+          class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 z-10 w-full">
+          <span
+            class="bg-accent-default tracking-widest text-white text-[12px] font-semibold uppercase px-2 py-1 inline-block">Apex
+            Legends</span>
+          <div class="inline-block bg-black/60 px-2 py-1">
+            <h2
+              class="font-[Oswald] font-bold text-3xl md:text-3xl lg:text-4xl uppercase text-white leading-tight drop-shadow-md">
+              {{ .Title }}
+            </h2>
+          </div>
+          <div class="block">
+            <span class="text-[11px] text-white font-bold uppercase bg-black/60 px-2 inline-block">{{ .Date.Format
+              "January 2, 2006" }}</span>
+          </div>
+        </div>
+      </div>
+      {{ end }} {{/* Right Column: 4 Small Grid */}}
+      <div class="lg:col-span-5 grid grid-cols-2 gap-1 h-full">
+        {{ range first 4 (where .Site.RegularPages "Type" "posts") }}
+        <div class="relative group cursor-pointer overflow-hidden h-full min-h-[200px]">
+          <img src="https://picsum.photos/seed/{{ .Title | urlize }}/600/400"
+            class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent"></div>
+          <div class="absolute bottom-0 left-0 z-10 w-full">
+            <span
+              class="bg-accent-default text-white tracking-widest text-[9px] font-semibold uppercase px-1.5 py-0.5 inline-block">Apex
+              Legends</span>
+            <h3
+              class="font-sans font-semibold bg-black/60 text-sm uppercase text-white leading-tight line-clamp-3 p-2 group-hover:text-blue-200 transition-colors drop-shadow-sm">
+              {{ .Title }}
+            </h3>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>

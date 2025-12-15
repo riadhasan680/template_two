@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Esports Business on Hugo Tailwind</title>
+    <link>https://example.org/tags/esports-business/</link>
+    <description>Recent content in Esports Business on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 12:45:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/esports-business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Business of Esports: Economics and Industry Growth</title>
+      <link>https://example.org/latest-articles/esports-business-economics/</link>
+      <pubDate>Fri, 12 Dec 2025 12:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/esports-business-economics/</guid>
+      <description>Understanding the business models and economic factors driving esports industry growth.</description>
+    </item>
+  </channel>
+</rss>

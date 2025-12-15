@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Economics on Hugo Tailwind</title>
+    <link>https://example.org/categories/economics/</link>
+    <description>Recent content in Economics on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 04:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Economics of Virtual Items: Why We Buy Digital Goods</title>
+      <link>https://example.org/latest-articles/virtual-items-economics/</link>
+      <pubDate>Sun, 14 Dec 2025 04:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/virtual-items-economics/</guid>
+      <description>Understanding the psychology and economics behind virtual item purchases in games.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming Education on Hugo Tailwind</title>
+    <link>https://example.org/tags/gaming-education/</link>
+    <description>Recent content in Gaming Education on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 08:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/gaming-education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Esports Scholarships: Gaming Your Way to College</title>
+      <link>https://example.org/latest-articles/esports-scholarships/</link>
+      <pubDate>Mon, 15 Dec 2025 08:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/esports-scholarships/</guid>
+      <description>How competitive gaming is opening doors to higher education through esports scholarships.</description>
+    </item>
+    <item>
+      <title>Gaming and Cognitive Development: How Games Shape Young Minds</title>
+      <link>https://example.org/latest-articles/gaming-cognitive-development/</link>
+      <pubDate>Fri, 12 Dec 2025 04:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-cognitive-development/</guid>
+      <description>The impact of video games on cognitive development and learning in children and adolescents.</description>
+    </item>
+  </channel>
+</rss>

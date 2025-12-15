@@ -1,0 +1,88 @@
+<footer class="bg-gray-900 border-t border-gray-800 pt-20 pb-10 mt-0 font-body text-sm text-slate-400">
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        
+        {{/*  Column 1: Brand  */}}
+        <div class="flex flex-col gap-6">
+            <a href="{{ absURL "/" }}" class="flex flex-col group">
+                <span class="font-sans font-bold text-3xl tracking-tighter text-white uppercase italic leading-none group-hover:text-accent transition-colors">
+                    BATTLE<span class="text-accent group-hover:text-white transition-colors">ROYALE</span>
+                </span>
+                <span class="text-[0.6rem] uppercase tracking-[0.2em] text-slate-500 leading-none mt-1">Fanatics</span>
+            </a>
+            <p class="leading-relaxed opacity-80">
+                The premier destination for Battle Royale news, guides, and competitive analysis. We cover everything from the drop to the final circle.
+            </p>
+            <div class="flex gap-4">
+                {{ range slice "twitter" "facebook" "twitch" "youtube" }}
+                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
+                    <span class="capitalize hidden">{{ . }}</span>
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+
+        {{/*  Column 2: Categories  */}}
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Top Categories</h4>
+            <ul class="space-y-4">
+                {{ range slice "Apex Legends" "Fortnite" "Call of Duty" "PUBG" "Valorant" }}
+                <li>
+                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
+                        <span class="uppercase tracking-wide font-bold text-xs">{{ . }}</span>
+                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
+                    </a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+
+        {{/*  Column 3: Recent Posts (Small)  */}}
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Recent Updates</h4>
+            <div class="flex flex-col gap-6">
+                {{ range first 2 (where site.RegularPages "Type" "posts") }}
+                <a href="{{ .RelPermalink }}" class="group flex gap-4">
+                    <div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative">
+                        <img src="https://picsum.photos/seed/{{ .Title | urlize }}/200/150" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100">
+                    </div>
+                    <div class="flex flex-col gap-1.5">
+                        <h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">{{ .Title }}</h5>
+                        <div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase">
+                            <span>{{ .Date.Format "Jan 02" }}</span>
+                            <span class="w-1 h-1 bg-accent rounded-full"></span>
+                            <span>News</span>
+                        </div>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+
+         {{/*  Column 4: Newsletter  */}}
+        <div>
+            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Subscribe</h4>
+            <p class="text-slate-400 text-sm mb-6 opacity-80">Get the latest news and guides delivered straight to your inbox.</p>
+            <form class="flex flex-col gap-3">
+                <input type="email" placeholder="Your email address" class="bg-gray-800 border border-white/10 text-white px-4 py-3 text-xs focus:outline-none focus:border-accent rounded-sm uppercase tracking-wide placeholder:text-slate-600">
+                <button class="bg-accent text-white font-bold uppercase text-xs py-3 px-4 hover:bg-white hover:text-slate-900 transition-colors rounded-sm tracking-widest">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+    </div>
+
+    {{/*  Bottom Bar  */}}
+    <div class="border-t border-white/5 pt-8">
+        <div class="container flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-slate-500 font-bold uppercase tracking-wider">
+            <div>
+                &copy; {{ now.Year }} Battle Royale Fanatics Clone. <span class="hidden md:inline">All Rights Reserved.</span>
+            </div>
+            <div class="flex gap-8">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                <a href="#" class="hover:text-white transition-colors">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>

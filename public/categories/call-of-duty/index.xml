@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Call of Duty on Hugo Tailwind</title>
+    <link>https://example.org/categories/call-of-duty/</link>
+    <description>Recent content in Call of Duty on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/call-of-duty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call of Duty Warzone: New Map Urzikstan Drops Today</title>
+      <link>https://example.org/posts/cod-warzone/</link>
+      <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-warzone/</guid>
+      <description>The largest Warzone map ever created is now live, featuring diverse terrain and over 300 points of interest.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Mobile 2 - Next Generation</title>
+      <link>https://example.org/posts/cod-mobile-2/</link>
+      <pubDate>Fri, 12 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-mobile-2/</guid>
+      <description>Activision announces Call of Duty: Mobile 2 with Unreal Engine 5, 120 FPS gameplay, and cross-platform progression.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Warzone 3 - Pacific Reimagined</title>
+      <link>https://example.org/posts/cod-warzone-3/</link>
+      <pubDate>Fri, 12 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-warzone-3/</guid>
+      <description>Raven Software reveals Warzone 3, complete Pacific map overhaul with new mechanics and 300-player support.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Black Ops 6 - Cold War Returns</title>
+      <link>https://example.org/posts/cod-black-ops-6/</link>
+      <pubDate>Fri, 12 Dec 2025 15:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-black-ops-6/</guid>
+      <description>Treyarch announces Black Ops 6, returning to Cold War era with revolutionary gameplay mechanics and next-gen graphics.</description>
+    </item>
+    <item>
+      <title>Review: &#39;Cyber-Frontier&#39; - A Buggy but Beautiful Mess</title>
+      <link>https://example.org/posts/game-review/</link>
+      <pubDate>Fri, 12 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/game-review/</guid>
+      <description>The graphics are next-gen, but the performance issues hold back what could have been the shooter of the year.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Warzone 2.5 Major Update</title>
+      <link>https://example.org/posts/cod-warzone-2/</link>
+      <pubDate>Thu, 11 Dec 2025 19:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-warzone-2/</guid>
+      <description>Warzone 2.5 brings massive gameplay overhaul with new map, weapons, and progression system.</description>
+    </item>
+    <item>
+      <title>Call of Duty: Zombies Mode Returns with New Story</title>
+      <link>https://example.org/posts/cod-zombies-return/</link>
+      <pubDate>Sun, 07 Dec 2025 12:15:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-zombies-return/</guid>
+      <description>Treyarch announces the return of classic Zombies mode with an all-new storyline and revolutionary gameplay mechanics.</description>
+    </item>
+  </channel>
+</rss>

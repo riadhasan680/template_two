@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laptops on Hugo Tailwind</title>
+    <link>https://example.org/tags/laptops/</link>
+    <description>Recent content in Laptops on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Dec 2025 11:20:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/laptops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best Gaming Laptops 2025: RTX 5000 Series Dominates</title>
+      <link>https://example.org/posts/gaming-laptop-2025/</link>
+      <pubDate>Wed, 03 Dec 2025 11:20:00 +0600</pubDate>
+      <guid>https://example.org/posts/gaming-laptop-2025/</guid>
+      <description>Complete guide to the best gaming laptops of 2025 featuring RTX 5000 series GPUs and next-gen processors.</description>
+    </item>
+  </channel>
+</rss>

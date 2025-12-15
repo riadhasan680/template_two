@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overwatch on Hugo Tailwind</title>
+    <link>https://example.org/categories/overwatch/</link>
+    <description>Recent content in Overwatch on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 20:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/overwatch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overwatch 2: Anniversary Event 2025</title>
+      <link>https://example.org/posts/overwatch-anniversary-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 20:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-anniversary-2025/</guid>
+      <description>Overwatch 2 celebrates 9th anniversary with legendary skins, game modes, and special events.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: PvE Mission &#39;Storm Rising&#39;</title>
+      <link>https://example.org/posts/overwatch-storm-rising/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-storm-rising/</guid>
+      <description>Blizzard releases new PvE mission &amp;lsquo;Storm Rising&amp;rsquo; with co-op gameplay and story progression.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: World Cup 2025 Details</title>
+      <link>https://example.org/posts/overwatch-world-cup/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-world-cup/</guid>
+      <description>Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: Competitive Season 10 Changes</title>
+      <link>https://example.org/posts/overwatch-season-10/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-season-10/</guid>
+      <description>Major competitive changes announced for Overwatch 2 Season 10 with new ranking system.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: New Tank Hero Revealed</title>
+      <link>https://example.org/posts/overwatch-maverick/</link>
+      <pubDate>Sat, 13 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-maverick/</guid>
+      <description>Blizzard unveils new tank hero &amp;lsquo;Maverick&amp;rsquo; with unique mobility and defensive abilities.</description>
+    </item>
+    <item>
+      <title>Overwatch 3: Next Generation Hero Shooter</title>
+      <link>https://example.org/posts/overwatch-3/</link>
+      <pubDate>Thu, 11 Dec 2025 21:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-3/</guid>
+      <description>Blizzard announces Overwatch 3 with revolutionary gameplay mechanics, new heroes, and cross-platform progression.</description>
+    </item>
+    <item>
+      <title>Overwatch 2 Season 8: New Support Hero Announced</title>
+      <link>https://example.org/posts/overwatch-2/</link>
+      <pubDate>Thu, 11 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-2/</guid>
+      <description>Blizzard reveals a new support hero with unique healing mechanics that reward aggressive positioning and team coordination.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: Hero 42 &#39;Nexus&#39; Breaks the Meta</title>
+      <link>https://example.org/posts/overwatch-new-hero/</link>
+      <pubDate>Thu, 04 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-new-hero/</guid>
+      <description>Blizzard introduces Nexus, a reality-bending support hero that changes how teams approach team composition.</description>
+    </item>
+  </channel>
+</rss>

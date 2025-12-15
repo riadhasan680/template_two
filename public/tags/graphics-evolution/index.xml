@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphics Evolution on Hugo Tailwind</title>
+    <link>https://example.org/tags/graphics-evolution/</link>
+    <description>Recent content in Graphics Evolution on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 19:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/graphics-evolution/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Game Graphics: From Pixels to Photorealism</title>
+      <link>https://example.org/latest-articles/game-graphics-evolution/</link>
+      <pubDate>Sat, 13 Dec 2025 19:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/game-graphics-evolution/</guid>
+      <description>Tracing the technological journey of video game graphics from simple pixels to realistic 3D worlds.</description>
+    </item>
+  </channel>
+</rss>

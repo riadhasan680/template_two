@@ -1,0 +1,7 @@
+baseURL: "https://example.org/"
+languageCode: "en-us"
+title: "Hugo Tailwind"
+theme: []
+pagination:
+  pagerSize: 2
+ignoreLogs: ['warning-goldmark-raw-html']

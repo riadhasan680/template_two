@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional Skills on Hugo Tailwind</title>
+    <link>https://example.org/tags/professional-skills/</link>
+    <description>Recent content in Professional Skills on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 18:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/professional-skills/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming and Career Development: Professional Skills Through Gaming</title>
+      <link>https://example.org/latest-articles/gaming-career-development/</link>
+      <pubDate>Fri, 12 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-career-development/</guid>
+      <description>How gaming experiences develop professional skills valuable in career advancement.</description>
+    </item>
+  </channel>
+</rss>

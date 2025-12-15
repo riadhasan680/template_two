@@ -1,0 +1,485 @@
+<div class="pt-8">
+  <!-- Main Content: News List -->
+    <!-- Section Header with Tabs -->
+    <div class="mb-6">
+      <div
+        class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4"
+      >
+        <h2
+          class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block"
+        >
+          LATEST NEWS
+        </h2>
+
+        <!-- Category Tabs -->
+        {{ $allCategories := .Site.Taxonomies.categories }} {{ $topCategories :=
+        slice }} {{ range $name, $taxonomy := $allCategories }} {{
+        $topCategories = $topCategories | append (dict "name" $name "count" (len
+        $taxonomy.Pages)) }} {{ end }} {{ $topCategories = sort $topCategories
+        "count" "desc" }}
+
+        <div class="flex flex-wrap items-center gap-2 text-sm relative">
+          <!-- All Tab -->
+          <button
+            data-category="all"
+            class="category-tab active text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            All
+          </button>
+
+          <!-- Top 4 Categories -->
+          {{ range first 4 $topCategories }}
+          <button
+            data-category="{{ .name }}"
+            class="category-tab text-slate-700 hover:text-accent font-medium transition-colors px-2 py-1 border-b-2 border-transparent"
+          >
+            {{ .name | title }}
+          </button>
+          {{ end }}
+
+          <!-- More Dropdown -->
+          <div class="relative more-dropdown">
+            <button
+              class="more-toggle text-[#2013db] hover:bg-accent/90 hover:text-white font-medium transition-colors px-3 py-1.5 flex items-center rounded gap-1 uppercase text-xs tracking-wide"
+            >
+              More
+              <svg
+                class="w-4 h-4 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M19 9l-7 7-7-7"
+                ></path>
+              </svg>
+            </button>
+
+            <!-- Dropdown Menu -->
+            <div
+              class="more-menu hidden absolute right-0 top-full mt-1 bg-white border border-gray-200 shadow-lg min-w-[200px] z-50 max-h-[300px] overflow-y-auto"
+            >
+              {{ range $topCategories }}
+              <button
+                data-category="{{ .name }}"
+                class="category-tab-dropdown w-full text-left px-4 py-2 text-sm text-slate-700 hover:bg-accent hover:text-white transition-colors"
+              >
+                {{ .name | title }}
+                <span class="float-right text-xs opacity-60"
+                  >({{ .count }})</span
+                >
+              </button>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Loading Skeleton Screen -->
+    <div id="loading-skeleton" class="skeleton-container flex flex-col" style="display: none">
+      <!-- Featured Articles Skeleton (2 large cards) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <!-- Skeleton Card 1 -->
+        <div class="skeleton-card">
+          <div class="skeleton-image h-64 mb-3"></div>
+          <div class="skeleton-text h-6 w-3/4 mb-2"></div>
+          <div class="skeleton-text h-4 w-full mb-1"></div>
+          <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+          <div class="skeleton-text h-3 w-32"></div>
+        </div>
+
+        <!-- Skeleton Card 2 -->
+        <div class="skeleton-card">
+          <div class="skeleton-image h-64 mb-3"></div>
+          <div class="skeleton-text h-6 w-2/3 mb-2"></div>
+          <div class="skeleton-text h-4 w-full mb-1"></div>
+          <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+          <div class="skeleton-text h-3 w-32"></div>
+        </div>
+      </div>
+
+      <!-- Small Articles Skeleton (8 items in 2 columns) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Skeleton Small Card 1 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 2 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 3 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 4 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 5 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 6 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-5/6 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 7 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-4/5 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+
+        <!-- Skeleton Small Card 8 -->
+        <div class="skeleton-card flex gap-3">
+          <div class="skeleton-image w-32 h-24 shrink-0"></div>
+          <div class="flex-1">
+            <div class="skeleton-text h-4 w-full mb-1"></div>
+            <div class="skeleton-text h-4 w-3/4 mb-2"></div>
+            <div class="skeleton-text h-3 w-24"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Articles Container -->
+    <div id="articles-container">
+      <!-- Featured Articles (Top 2 Large) -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4"
+        id="featured-articles"
+      >
+        {{ range first 2 (where .Site.RegularPages "Type" "posts") }}
+        <article
+          class="article-item group cursor-pointer"
+          data-categories='{{ delimit .Params.categories "," }}'
+        >
+          <a href="{{ .RelPermalink }}" class="block">
+            <!-- Image Container -->
+            <div class="relative overflow-hidden mb-3">
+              <img
+                src="https://picsum.photos/seed/{{ .Title | urlize }}/800/500"
+                alt="{{ .Title }}"
+                class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <!-- Category Tag -->
+              {{ with index .Params.categories 0 }}
+              <span
+                class="absolute bottom-0 left-0 bg-black text-white text-xs font-normal tracking-wider uppercase px-3 py-1 tracking-wide"
+              >
+                {{ . }}
+              </span>
+              {{ end }}
+            </div>
+
+            <!-- Content -->
+            <div>
+              <h3
+                class="font-bold text-lg uppercase leading-tight mb-2 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+              >
+                {{ .Title }}
+              </h3>
+              <span class="text-xs text-slate-500 font-medium mb-2">
+                {{ .Date.Format "December 11, 2025" }}
+              </span>
+              <p
+                class="text-slate-600 text-sm  line-clamp-2 leading-relaxed"
+              >
+                {{ .Summary }}
+              </p>
+              
+            </div>
+          </a>
+        </article>
+        {{ end }}
+      </div>
+
+      <!-- Smaller Articles Grid (8 items in 2 columns) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4" id="small-articles">
+        {{ range first 8 (after 2 (where .Site.RegularPages "Type" "posts")) }}
+        <article
+          class="article-item group cursor-pointer flex gap-3"
+          data-categories='{{ delimit .Params.categories "," }}'
+        >
+          <a href="{{ .RelPermalink }}" class="flex gap-3 w-full">
+            <!-- Thumbnail -->
+            <div class="relative overflow-hidden shrink-0 w-32 h-24">
+              <img
+                src="https://picsum.photos/seed/{{ .Title | urlize }}/320/240"
+                alt="{{ .Title }}"
+                class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="flex-1 flex flex-col justify-between">
+              <div>
+                <h4
+                  class="font-bold text-sm uppercase leading-tight mb-1 group-hover:text-[#2013db] transition-colors text-slate-900 line-clamp-2"
+                >
+                  {{ .Title }}
+                </h4>
+                <span class="text-xs text-slate-500 font-medium">
+                  {{ .Date.Format "December 10, 2025" }}
+                </span>
+              </div>
+            </div>
+          </a>
+        </article>
+        {{ end }}
+      </div>
+
+      <!-- No Results Message -->
+      <div id="no-results" class="hidden text-center py-20">
+        <svg
+          class="w-20 h-20 mx-auto text-gray-300 mb-4"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+          ></path>
+        </svg>
+        <h3 class="text-xl font-bold text-slate-700 mb-2">No articles found</h3>
+        <p class="text-slate-500">Try selecting a different category</p>
+      </div>
+    </div>
+
+    <!-- Skeleton Loader CSS -->
+    <style>
+      .skeleton-container {
+        animation: fadeIn 0.3s ease-in-out;
+      }
+      
+      .skeleton-card {
+        background: white;
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        padding: 1rem;
+      }
+      
+      .skeleton-image {
+        background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.375rem;
+      }
+      
+      .skeleton-text {
+        background: linear-gradient(90deg, #f3f4f6 25%, #e5e7eb 50%, #f3f4f6 75%);
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite;
+        border-radius: 0.25rem;
+        height: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      @keyframes shimmer {
+        0% { background-position: -200% 0; }
+        100% { background-position: 200% 0; }
+      }
+      
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+    </style>
+
+    <!-- JavaScript for Category Filtering -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const categoryTabs = document.querySelectorAll(".category-tab");
+        const categoryTabsDropdown = document.querySelectorAll(
+          ".category-tab-dropdown"
+        );
+        const articlesContainer = document.getElementById("articles-container");
+        const loadingSpinner = document.getElementById("loading-skeleton");
+        const noResults = document.getElementById("no-results");
+        const moreToggle = document.querySelector(".more-toggle");
+        const moreMenu = document.querySelector(".more-menu");
+
+        // Toggle More Dropdown
+        moreToggle.addEventListener("click", function (e) {
+          e.stopPropagation();
+          moreMenu.classList.toggle("hidden");
+          const svg = this.querySelector("svg");
+          if (moreMenu.classList.contains("hidden")) {
+            svg.style.transform = "rotate(0deg)";
+          } else {
+            svg.style.transform = "rotate(180deg)";
+          }
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener("click", function (e) {
+          if (!e.target.closest(".more-dropdown")) {
+            moreMenu.classList.add("hidden");
+            const svg = moreToggle.querySelector("svg");
+            svg.style.transform = "rotate(0deg)";
+          }
+        });
+
+        // Filter function
+        function filterArticles(category) {
+          // Show loading
+          loadingSpinner.style.display = "flex";
+          articlesContainer.classList.add("opacity-50");
+
+          // Simulate loading delay
+          setTimeout(() => {
+            const articles = document.querySelectorAll(".article-item");
+            let visibleCount = 0;
+
+            console.log(`Filtering for category: ${category}`);
+            console.log(`Total articles found: ${articles.length}`);
+
+            articles.forEach((article) => {
+              const categoriesStr = article.dataset.categories || "";
+              const categories = categoriesStr ? categoriesStr.split(",") : [];
+              console.log(`Article categories: ${JSON.stringify(categories)}`);
+
+              if (
+                category === "all" ||
+                categories.some(
+                  (cat) => cat.toLowerCase() === category.toLowerCase()
+                )
+              ) {
+                article.classList.remove("hidden");
+                visibleCount++;
+                console.log(`Showing article: ${article.querySelector('h3, h4').textContent}`);
+              } else {
+                article.classList.add("hidden");
+              }
+            });
+
+            console.log(`Visible count: ${visibleCount}`);
+
+            // Hide loading
+            loadingSpinner.style.display = "none";
+            articlesContainer.classList.remove("opacity-50");
+
+            // Show/hide no results message
+            if (visibleCount === 0) {
+              noResults.classList.remove("hidden");
+            } else {
+              noResults.classList.add("hidden");
+            }
+
+            // Update active tab
+            categoryTabs.forEach((tab) => {
+              if (tab.dataset.category === category) {
+                tab.classList.add("active", "border-accent", "text-accent");
+              } else {
+                tab.classList.remove("active", "border-accent", "text-accent");
+              }
+            });
+          }, 300);
+        }
+
+        // Add click handlers to tabs
+        categoryTabs.forEach((tab) => {
+          tab.addEventListener("click", function (e) {
+            e.preventDefault();
+            const category = this.dataset.category;
+            filterArticles(category);
+          });
+        });
+
+        // Add click handlers to dropdown items
+        categoryTabsDropdown.forEach((tab) => {
+          tab.addEventListener("click", function (e) {
+            e.preventDefault();
+            const category = this.dataset.category;
+            filterArticles(category);
+            moreMenu.classList.add("hidden");
+            const svg = moreToggle.querySelector("svg");
+            svg.style.transform = "rotate(0deg)";
+          });
+        });
+      });
+    </script>
+
+    <style>
+      .category-tab.active {
+        color: var(--accent-color, #6366f1);
+        border-bottom-color: var(--accent-color, #6366f1);
+      }
+
+      .more-menu {
+        scrollbar-width: thin;
+        scrollbar-color: #cbd5e1 #f1f5f9;
+      }
+
+      .more-menu::-webkit-scrollbar {
+        width: 6px;
+      }
+
+      .more-menu::-webkit-scrollbar-track {
+        background: #f1f5f9;
+      }
+
+      .more-menu::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 3px;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .animate-spin {
+        animation: spin 1s linear infinite;
+      }
+    </style>
+  </div>

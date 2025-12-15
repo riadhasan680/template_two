@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Streaming on Hugo Tailwind</title>
+    <link>https://example.org/tags/streaming/</link>
+    <description>Recent content in Streaming on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 09:45:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Rise of Gaming Influencers: How Streamers Shape the Industry</title>
+      <link>https://example.org/latest-articles/gaming-influencers-rise/</link>
+      <pubDate>Sat, 13 Dec 2025 09:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-influencers-rise/</guid>
+      <description>The impact of gaming influencers and streamers on game development and player behavior.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steam on Hugo Tailwind</title>
+    <link>https://example.org/tags/steam/</link>
+    <description>Recent content in Steam on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Dec 2025 18:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/steam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam Winter Sale 2025: Top 10 Deals You Can&#39;t Miss</title>
+      <link>https://example.org/posts/steam-winter-sale/</link>
+      <pubDate>Tue, 09 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/steam-winter-sale/</guid>
+      <description>The Steam Winter Sale is live with incredible discounts on AAA titles, indie gems, and VR games. Here are the best deals.</description>
+    </item>
+  </channel>
+</rss>

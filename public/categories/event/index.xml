@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Hugo Tailwind</title>
+    <link>https://example.org/categories/event/</link>
+    <description>Recent content in Event on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 20:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overwatch 2: Anniversary Event 2025</title>
+      <link>https://example.org/posts/overwatch-anniversary-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 20:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-anniversary-2025/</guid>
+      <description>Overwatch 2 celebrates 9th anniversary with legendary skins, game modes, and special events.</description>
+    </item>
+  </channel>
+</rss>

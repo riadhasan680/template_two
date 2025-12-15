@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World Cup on Hugo Tailwind</title>
+    <link>https://example.org/tags/world-cup/</link>
+    <description>Recent content in World Cup on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 16:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/world-cup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overwatch 2: World Cup 2025 Details</title>
+      <link>https://example.org/posts/overwatch-world-cup/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-world-cup/</guid>
+      <description>Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: Biggest Prize Pool Ever</title>
+      <link>https://example.org/posts/fortnite-world-cup/</link>
+      <pubDate>Thu, 11 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-world-cup/</guid>
+      <description>Epic Games announces record-breaking $30 million prize pool for Fortnite World Cup 2025 with new format and locations.</description>
+    </item>
+  </channel>
+</rss>

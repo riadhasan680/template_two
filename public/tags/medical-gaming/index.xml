@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Medical Gaming on Hugo Tailwind</title>
+    <link>https://example.org/tags/medical-gaming/</link>
+    <description>Recent content in Medical Gaming on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 13:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/medical-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming and Physical Therapy: How Games Are Revolutionizing Rehabilitation</title>
+      <link>https://example.org/latest-articles/gaming-physical-therapy/</link>
+      <pubDate>Sat, 13 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-physical-therapy/</guid>
+      <description>The use of video games in physical therapy and medical rehabilitation.</description>
+    </item>
+    <item>
+      <title>Gaming and Physical Rehabilitation: Therapeutic Applications in Medicine</title>
+      <link>https://example.org/latest-articles/gaming-medical-rehabilitation/</link>
+      <pubDate>Fri, 12 Dec 2025 09:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-medical-rehabilitation/</guid>
+      <description>How video games are being used in physical rehabilitation and medical therapy.</description>
+    </item>
+    <item>
+      <title>Gaming and Physical Rehabilitation: Therapeutic Applications in Medicine</title>
+      <link>https://example.org/latest-articles/gaming-physical-rehabilitation-medical/</link>
+      <pubDate>Thu, 11 Dec 2025 14:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-physical-rehabilitation-medical/</guid>
+      <description>How video games are being used in physical rehabilitation and medical therapy.</description>
+    </item>
+  </channel>
+</rss>

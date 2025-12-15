@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Season 20 on Hugo Tailwind</title>
+    <link>https://example.org/tags/season-20/</link>
+    <description>Recent content in Season 20 on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Dec 2025 15:20:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/season-20/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends Season 20: Breakout Brings Major Changes</title>
+      <link>https://example.org/posts/apex-season-20/</link>
+      <pubDate>Wed, 10 Dec 2025 15:20:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-season-20/</guid>
+      <description>Respawn Entertainment shakes up the meta with legend reworks, a new weapon, and significant map changes to Kings Canyon.</description>
+    </item>
+  </channel>
+</rss>

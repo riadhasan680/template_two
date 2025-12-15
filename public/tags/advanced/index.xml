@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Advanced on Hugo Tailwind</title>
+    <link>https://example.org/tags/advanced/</link>
+    <description>Recent content in Advanced on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 17:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/advanced/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Advanced Apex Legends Movement Guide: Pro Techniques</title>
+      <link>https://example.org/posts/apex-movement-guide/</link>
+      <pubDate>Sat, 13 Dec 2025 17:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-movement-guide/</guid>
+      <description>Master advanced movement techniques in Apex Legends with this comprehensive guide covering tap-strafing, super-gliding, and more.</description>
+    </item>
+  </channel>
+</rss>

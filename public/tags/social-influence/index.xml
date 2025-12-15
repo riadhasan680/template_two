@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Influence on Hugo Tailwind</title>
+    <link>https://example.org/tags/social-influence/</link>
+    <description>Recent content in Social Influence on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 18:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/social-influence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Cultural Impact of Gaming: How Video Games Shape Society</title>
+      <link>https://example.org/latest-articles/gaming-cultural-impact/</link>
+      <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-cultural-impact/</guid>
+      <description>Examining video games&amp;rsquo; influence on culture, art, and social norms.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on Hugo Tailwind</title>
+    <link>https://example.org/tags/tips/</link>
+    <description>Recent content in Tips on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 14:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends Mobile: Ultimate Guide to Ranked Play</title>
+      <link>https://example.org/posts/apex-mobile-guide/</link>
+      <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-mobile-guide/</guid>
+      <description>Complete guide to climbing the ranks in Apex Legends Mobile with tips, strategies, and meta analysis.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Winning Psychology on Hugo Tailwind</title>
+    <link>https://example.org/tags/winning-psychology/</link>
+    <description>Recent content in Winning Psychology on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 14:15:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/winning-psychology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Psychology of Gaming Competition: Why We Love to Win</title>
+      <link>https://example.org/latest-articles/competitive-gaming-psychology/</link>
+      <pubDate>Fri, 12 Dec 2025 14:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/competitive-gaming-psychology/</guid>
+      <description>Understanding the psychological drivers behind competitive gaming and the desire to win.</description>
+    </item>
+  </channel>
+</rss>

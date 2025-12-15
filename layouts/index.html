@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="font-body pt-24 pb-20">
+  {{/* 1. Trending Ticker */}} {{ partial "home/trending-bar.html" . }} {{/* 2.
+  Hero Grid */}} {{ partial "home/hero-grid.html" . }} {{/* 3. Don't Miss */}}
+  {{ partial "home/dont-miss.html" . }} {{/* 4. Latest News and Apex Legends with Right Sidebar */}}
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+    <!-- Left Sidebar - Content Area -->
+    <div class="md:col-span-8 space-y-8">
+      {{ partial "home/latest-news.html" . }}
+      {{ partial "home/apex-legends-section.html" . }}
+      {{ partial "home/latest-articles.html" . }}
+    </div>
+    
+    <!-- Right Sidebar -->
+    <div class="md:col-span-4">
+      {{ partial "home/sidebar.html" . }}
+    </div>
+  </div>  
+</div>
+{{ end }}

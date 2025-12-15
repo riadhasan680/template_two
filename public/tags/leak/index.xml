@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Leak on Hugo Tailwind</title>
+    <link>https://example.org/tags/leak/</link>
+    <description>Recent content in Leak on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 09:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/leak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6: Vice City Details Leaked</title>
+      <link>https://example.org/posts/gta-vice-city-leak/</link>
+      <pubDate>Sat, 13 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-vice-city-leak/</guid>
+      <description>Major leak reveals extensive details about GTA 6&amp;rsquo;s Vice City setting and gameplay features.</description>
+    </item>
+    <item>
+      <title>Nintendo Switch 2 Leaked Specs Reveal Major Upgrade</title>
+      <link>https://example.org/posts/nintendo-switch-2/</link>
+      <pubDate>Mon, 08 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/nintendo-switch-2/</guid>
+      <description>Leaked documents suggest Nintendo Switch 2 will feature 4K output, DLSS support, and backward compatibility with all Switch games.</description>
+    </item>
+  </channel>
+</rss>

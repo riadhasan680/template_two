@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Championship on Hugo Tailwind</title>
+    <link>https://example.org/tags/championship/</link>
+    <description>Recent content in Championship on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 16:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/championship/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends World Championship 2025: Tournament Preview</title>
+      <link>https://example.org/posts/apex-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-championship-2025/</guid>
+      <description>Complete preview of the Apex Legends Global Series Championship 2025 with teams, format, and predictions.</description>
+    </item>
+    <item>
+      <title>PUBG: Global Championship 2025 Announced</title>
+      <link>https://example.org/posts/pubg-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/pubg-championship-2025/</guid>
+      <description>Krafton reveals details for PUBG Global Championship 2025 with record prize pool.</description>
+    </item>
+    <item>
+      <title>League of Legends Worlds 2025: T1 Wins Fourth Championship</title>
+      <link>https://example.org/posts/league-legends/</link>
+      <pubDate>Thu, 11 Dec 2025 20:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/league-legends/</guid>
+      <description>Faker and T1 dominate the finals 3-0 against JDG, securing their fourth World Championship title in an incredible display of skill.</description>
+    </item>
+    <item>
+      <title>VCT 2025 Champions: New Era of Competition</title>
+      <link>https://example.org/posts/valorant-championship/</link>
+      <pubDate>Thu, 11 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-championship/</guid>
+      <description>Valorant Champions Tour 2025 introduces new format with $25 million prize pool and revolutionary broadcast features.</description>
+    </item>
+  </channel>
+</rss>

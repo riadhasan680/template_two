@@ -1,0 +1,91 @@
+<aside class="space-y-10">
+  {{/* More News Widget */}}
+  <div>
+    <div
+      class="bg-black text-white text-xs font-bold uppercase px-3 py-1.5 inline-block mb-4"
+    >
+      More News
+    </div>
+    <div class="space-y-4">
+      {{/* Using site.RegularPages to show recent content globally if local
+      context not enough, or passed in pages specific */}} {{ $pages :=
+      .Site.RegularPages }} {{/* Featured First Item */}} {{ range first 1
+      $pages }}
+      <div class="mb-6 group cursor-pointer">
+        <a
+          href="{{ .RelPermalink }}"
+          class="block w-full aspect-video overflow-hidden rounded-sm mb-3 relative"
+        >
+          {{ if .Params.image }}
+          <img
+            src="{{ .Params.image }}"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            alt="{{ .Title }}"
+          />
+          {{ else }}
+          <img
+            src="https://picsum.photos/seed/{{ .Title | urlize }}/600/400"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            alt="{{ .Title }}"
+          />
+          {{ end }}
+          <span
+            class="absolute bottom-2 left-2 bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5"
+          >
+            {{ if .Params.categories }}{{ index .Params.categories 0 }}{{ else
+            }}Games{{ end }}
+          </span>
+        </a>
+        <h4
+          class="text-base font-bold uppercase leading-tight text-slate-900 group-hover:text-accent transition-colors font-[Oswald]"
+        >
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h4>
+        <span class="text-[10px] text-gray-500 font-bold uppercase mt-1 block"
+          >{{ .Date.Format "January 2, 2006" }}</span
+        >
+      </div>
+      {{ end }} {{/* Remaining Items */}} {{ range first 5 (after 1 $pages) }}
+      <div
+        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
+      >
+        <a
+          href="{{ .RelPermalink }}"
+          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
+        >
+          {{ if .Params.image }}
+          <img
+            src="{{ .Params.image }}"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+            alt="{{ .Title }}"
+          />
+          {{ else }}
+          <img
+            src="https://picsum.photos/seed/{{ .Title | urlize }}/200/150"
+            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
+            alt="thumb"
+          />
+          {{ end }}
+        </a>
+        <div class="flex-1">
+          <h4
+            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
+          >
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          </h4>
+          <span class="text-[10px] text-gray-500 font-bold uppercase"
+            >{{ .Date.Format "Jan 02, 2006" }}</span
+          >
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  {{/* Ad / Promo Placehoder */}}
+  <div
+    class="bg-gray-100 h-64 flex items-center justify-center text-gray-400 font-bold uppercase tracking-widest text-xs border border-gray-200"
+  >
+    Ad Space
+  </div>
+</aside>

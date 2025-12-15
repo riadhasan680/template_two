@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Game Engines on Hugo Tailwind</title>
+    <link>https://example.org/tags/game-engines/</link>
+    <description>Recent content in Game Engines on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 13:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/game-engines/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Game Development Tools: Unity vs Unreal vs Godot</title>
+      <link>https://example.org/latest-articles/game-engines-comparison/</link>
+      <pubDate>Sun, 14 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/game-engines-comparison/</guid>
+      <description>Comparing the most popular game engines to help developers choose the right tool for their projects.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Competitive on Hugo Tailwind</title>
+    <link>https://example.org/tags/competitive/</link>
+    <description>Recent content in Competitive on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 14:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/competitive/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Overwatch 2: Competitive Season 10 Changes</title>
+      <link>https://example.org/posts/overwatch-season-10/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-season-10/</guid>
+      <description>Major competitive changes announced for Overwatch 2 Season 10 with new ranking system.</description>
+    </item>
+    <item>
+      <title>Valorant Episode 8 Act 2: New Agent Revealed</title>
+      <link>https://example.org/posts/valorant-update/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-update/</guid>
+      <description>Riot Games unveils a new controller agent with unique smoke abilities that can block vision and deal damage.</description>
+    </item>
+    <item>
+      <title>Ranked Season 12: Meta Analysis and Top Picks</title>
+      <link>https://example.org/posts/ranked-meta/</link>
+      <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/ranked-meta/</guid>
+      <description>The new patch has shaken up the leaderboard. Here are the legends and loadouts you need to be running to hit Predator this season.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: $10 Million Prize Pool</title>
+      <link>https://example.org/posts/fortnite-tournament/</link>
+      <pubDate>Tue, 09 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-tournament/</guid>
+      <description>Epic Games announces the biggest Fortnite tournament with record-breaking prize pool and new competitive format.</description>
+    </item>
+  </channel>
+</rss>

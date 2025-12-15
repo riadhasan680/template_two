@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zombies on Hugo Tailwind</title>
+    <link>https://example.org/tags/zombies/</link>
+    <description>Recent content in Zombies on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Dec 2025 12:15:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/zombies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Call of Duty: Zombies Mode Returns with New Story</title>
+      <link>https://example.org/posts/cod-zombies-return/</link>
+      <pubDate>Sun, 07 Dec 2025 12:15:00 +0600</pubDate>
+      <guid>https://example.org/posts/cod-zombies-return/</guid>
+      <description>Treyarch announces the return of classic Zombies mode with an all-new storyline and revolutionary gameplay mechanics.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smartphones on Hugo Tailwind</title>
+    <link>https://example.org/tags/smartphones/</link>
+    <description>Recent content in Smartphones on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 08:45:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/smartphones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mobile Gaming Revolution: Smartphones vs Gaming Phones</title>
+      <link>https://example.org/latest-articles/mobile-gaming-revolution/</link>
+      <pubDate>Mon, 15 Dec 2025 08:45:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/mobile-gaming-revolution/</guid>
+      <description>Are dedicated gaming phones worth it, or are regular smartphones good enough for mobile gaming?</description>
+    </item>
+    <item>
+      <title>Mobile Gaming Trends 2025: Console Quality on Phones</title>
+      <link>https://example.org/posts/mobile-gaming-trends/</link>
+      <pubDate>Tue, 02 Dec 2025 13:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/mobile-gaming-trends/</guid>
+      <description>Mobile gaming reaches new heights with console-quality graphics and gameplay becoming standard on smartphones.</description>
+    </item>
+  </channel>
+</rss>

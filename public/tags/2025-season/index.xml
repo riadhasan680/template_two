@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2025 Season on Hugo Tailwind</title>
+    <link>https://example.org/tags/2025-season/</link>
+    <description>Recent content in 2025 Season on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 19:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/2025-season/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends Esports Scene: Team Analysis 2025</title>
+      <link>https://example.org/posts/apex-esports-analysis/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-esports-analysis/</guid>
+      <description>In-depth analysis of top Apex Legends esports teams and their performance in the 2025 competitive season.</description>
+    </item>
+    <item>
+      <title>Apex Legends Pro Scene: 2025 Offseason Moves</title>
+      <link>https://example.org/posts/apex-legends-pro-scene/</link>
+      <pubDate>Fri, 12 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-legends-pro-scene/</guid>
+      <description>Major roster changes and team acquisitions shake up the Apex Legends competitive landscape for 2025.</description>
+    </item>
+  </channel>
+</rss>

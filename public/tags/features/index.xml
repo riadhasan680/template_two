@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Hugo Tailwind</title>
+    <link>https://example.org/tags/features/</link>
+    <description>Recent content in Features on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 13:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/features/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6: Online Features Revealed</title>
+      <link>https://example.org/posts/gta-6-online-features/</link>
+      <pubDate>Sat, 13 Dec 2025 13:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-6-online-features/</guid>
+      <description>Rockstar shares first details about GTA 6 Online&amp;rsquo;s revolutionary multiplayer features.</description>
+    </item>
+    <item>
+      <title>GTA 6: Revolutionary Gameplay Features Revealed</title>
+      <link>https://example.org/posts/gta-6-gameplay/</link>
+      <pubDate>Thu, 11 Dec 2025 21:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-6-gameplay/</guid>
+      <description>Rockstar Games unveils groundbreaking gameplay mechanics for GTA 6 including dual protagonists and dynamic world systems.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gaming Laptops on Hugo Tailwind</title>
+    <link>https://example.org/tags/gaming-laptops/</link>
+    <description>Recent content in Gaming Laptops on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 17:15:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/gaming-laptops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming Laptops vs Desktop PCs: Which Should You Buy in 2025?</title>
+      <link>https://example.org/latest-articles/laptop-vs-desktop-gaming/</link>
+      <pubDate>Sun, 14 Dec 2025 17:15:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/laptop-vs-desktop-gaming/</guid>
+      <description>Comprehensive comparison of gaming laptops and desktop PCs for modern gamers.</description>
+    </item>
+  </channel>
+</rss>

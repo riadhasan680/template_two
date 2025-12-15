@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fortnite on Hugo Tailwind</title>
+    <link>https://example.org/categories/fortnite/</link>
+    <description>Recent content in Fortnite on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 14:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/fortnite/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fortnite: Creative Mode 2.0 Update</title>
+      <link>https://example.org/posts/fortnite-creative-2/</link>
+      <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-creative-2/</guid>
+      <description>Fortnite Creative Mode gets massive update with new tools and features for creators.</description>
+    </item>
+    <item>
+      <title>Fortnite: New Mythic Weapon Arrives</title>
+      <link>https://example.org/posts/fortnite-mythic-weapon/</link>
+      <pubDate>Sat, 13 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-mythic-weapon/</guid>
+      <description>Epic Games introduces a powerful new mythic weapon that&amp;rsquo;s changing the meta.</description>
+    </item>
+    <item>
+      <title>Fortnite Live Event: The Big Bang 2025</title>
+      <link>https://example.org/posts/fortnite-live-event/</link>
+      <pubDate>Fri, 12 Dec 2025 11:15:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-live-event/</guid>
+      <description>Epic Games announces biggest Fortnite live event ever with universe-changing consequences and new chapter reveal.</description>
+    </item>
+    <item>
+      <title>Fortnite Chapter 6 Season 2: Zero Point Returns</title>
+      <link>https://example.org/posts/fortnite-news/</link>
+      <pubDate>Fri, 12 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-news/</guid>
+      <description>The island flips again! New battle pass skins revealed including a crossover with Matrix.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: Biggest Prize Pool Ever</title>
+      <link>https://example.org/posts/fortnite-world-cup/</link>
+      <pubDate>Thu, 11 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-world-cup/</guid>
+      <description>Epic Games announces record-breaking $30 million prize pool for Fortnite World Cup 2025 with new format and locations.</description>
+    </item>
+    <item>
+      <title>Fortnite World Cup 2025: $10 Million Prize Pool</title>
+      <link>https://example.org/posts/fortnite-tournament/</link>
+      <pubDate>Tue, 09 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-tournament/</guid>
+      <description>Epic Games announces the biggest Fortnite tournament with record-breaking prize pool and new competitive format.</description>
+    </item>
+    <item>
+      <title>Fortnite Chapter 5: New Map and Gameplay Mechanics</title>
+      <link>https://example.org/posts/fortnite-chapter-5/</link>
+      <pubDate>Tue, 09 Dec 2025 15:20:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-chapter-5/</guid>
+      <description>Epic Games launches Chapter 5 with a completely new island and revolutionary building mechanics.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Hugo Tailwind</title>
+    <link>https://example.org/tags/meta/</link>
+    <description>Recent content in Meta on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 15:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Valorant: Agent Balance Patch 8.0</title>
+      <link>https://example.org/posts/valorant-balance-patch/</link>
+      <pubDate>Sat, 13 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-balance-patch/</guid>
+      <description>Major balance changes shake up the Valorant meta with significant agent adjustments.</description>
+    </item>
+    <item>
+      <title>Fortnite: New Mythic Weapon Arrives</title>
+      <link>https://example.org/posts/fortnite-mythic-weapon/</link>
+      <pubDate>Sat, 13 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/fortnite-mythic-weapon/</guid>
+      <description>Epic Games introduces a powerful new mythic weapon that&amp;rsquo;s changing the meta.</description>
+    </item>
+    <item>
+      <title>Ranked Season 12: Meta Analysis and Top Picks</title>
+      <link>https://example.org/posts/ranked-meta/</link>
+      <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/ranked-meta/</guid>
+      <description>The new patch has shaken up the leaderboard. Here are the legends and loadouts you need to be running to hit Predator this season.</description>
+    </item>
+    <item>
+      <title>Apex Legends Season 20: Breakout Brings Major Changes</title>
+      <link>https://example.org/posts/apex-season-20/</link>
+      <pubDate>Wed, 10 Dec 2025 15:20:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-season-20/</guid>
+      <description>Respawn Entertainment shakes up the meta with legend reworks, a new weapon, and significant map changes to Kings Canyon.</description>
+    </item>
+    <item>
+      <title>Apex Legends Meta Shift: New Tier List Revealed</title>
+      <link>https://example.org/posts/apex-legends-meta/</link>
+      <pubDate>Wed, 10 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-legends-meta/</guid>
+      <description>Professional players reveal the current meta tier list with surprising changes in S-tier rankings.</description>
+    </item>
+    <item>
+      <title>Valorant Agent 25: Chronomancer Revealed</title>
+      <link>https://example.org/posts/valorant-agent-25/</link>
+      <pubDate>Mon, 08 Dec 2025 18:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/valorant-agent-25/</guid>
+      <description>Riot Games introduces the 25th agent with time manipulation abilities that change the meta completely.</description>
+    </item>
+    <item>
+      <title>Overwatch 2: Hero 42 &#39;Nexus&#39; Breaks the Meta</title>
+      <link>https://example.org/posts/overwatch-new-hero/</link>
+      <pubDate>Thu, 04 Dec 2025 16:45:00 +0600</pubDate>
+      <guid>https://example.org/posts/overwatch-new-hero/</guid>
+      <description>Blizzard introduces Nexus, a reality-bending support hero that changes how teams approach team composition.</description>
+    </item>
+  </channel>
+</rss>

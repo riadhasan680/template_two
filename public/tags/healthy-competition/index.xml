@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Healthy Competition on Hugo Tailwind</title>
+    <link>https://example.org/tags/healthy-competition/</link>
+    <description>Recent content in Healthy Competition on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Dec 2025 16:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/healthy-competition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Psychology of Gaming Competition: Healthy vs Unhealthy Rivalry</title>
+      <link>https://example.org/latest-articles/competitive-gaming-psychology-healthy/</link>
+      <pubDate>Thu, 11 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/competitive-gaming-psychology-healthy/</guid>
+      <description>Understanding competitive gaming psychology and maintaining healthy rivalry dynamics.</description>
+    </item>
+  </channel>
+</rss>

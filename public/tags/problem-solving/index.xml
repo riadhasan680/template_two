@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Solving on Hugo Tailwind</title>
+    <link>https://example.org/tags/problem-solving/</link>
+    <description>Recent content in Problem Solving on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 09:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/problem-solving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming and Problem-Solving: How Games Teach Critical Thinking</title>
+      <link>https://example.org/latest-articles/gaming-problem-solving/</link>
+      <pubDate>Sat, 13 Dec 2025 09:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-problem-solving/</guid>
+      <description>The problem-solving skills developed through gaming and their real-world applications.</description>
+    </item>
+  </channel>
+</rss>

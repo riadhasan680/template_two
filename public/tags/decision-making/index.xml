@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Decision Making on Hugo Tailwind</title>
+    <link>https://example.org/tags/decision-making/</link>
+    <description>Recent content in Decision Making on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 Dec 2025 21:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/decision-making/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming and Decision Making: How Games Improve Strategic Thinking</title>
+      <link>https://example.org/latest-articles/gaming-decision-making/</link>
+      <pubDate>Fri, 12 Dec 2025 21:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-decision-making/</guid>
+      <description>The decision-making skills developed through gaming and their real-world applications.</description>
+    </item>
+    <item>
+      <title>Gaming and Decision Making: How Games Improve Strategic Thinking</title>
+      <link>https://example.org/latest-articles/gaming-decision-making-skills/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/gaming-decision-making-skills/</guid>
+      <description>The decision-making skills developed through gaming and their real-world applications.</description>
+    </item>
+  </channel>
+</rss>

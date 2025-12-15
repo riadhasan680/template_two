@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Tailwind</title>
+    <link>https://example.org/categories/</link>
+    <description>Recent content in Categories on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 10:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaming</title>
+      <link>https://example.org/categories/gaming/</link>
+      <pubDate>Mon, 15 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://example.org/categories/technology/</link>
+      <pubDate>Mon, 15 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://example.org/categories/hardware/</link>
+      <pubDate>Mon, 15 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile</title>
+      <link>https://example.org/categories/mobile/</link>
+      <pubDate>Mon, 15 Dec 2025 08:45:00 +0600</pubDate>
+      <guid>https://example.org/categories/mobile/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education</title>
+      <link>https://example.org/categories/education/</link>
+      <pubDate>Mon, 15 Dec 2025 08:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/education/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Esports</title>
+      <link>https://example.org/categories/esports/</link>
+      <pubDate>Mon, 15 Dec 2025 08:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/esports/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Indie Games</title>
+      <link>https://example.org/categories/indie-games/</link>
+      <pubDate>Sun, 14 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/indie-games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Psychology</title>
+      <link>https://example.org/categories/psychology/</link>
+      <pubDate>Sun, 14 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/psychology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retro Gaming</title>
+      <link>https://example.org/categories/retro-gaming/</link>
+      <pubDate>Sun, 14 Dec 2025 15:45:00 +0600</pubDate>
+      <guid>https://example.org/categories/retro-gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Business</title>
+      <link>https://example.org/categories/business/</link>
+      <pubDate>Sun, 14 Dec 2025 14:15:00 +0600</pubDate>
+      <guid>https://example.org/categories/business/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://example.org/categories/development/</link>
+      <pubDate>Sun, 14 Dec 2025 13:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Community</title>
+      <link>https://example.org/categories/community/</link>
+      <pubDate>Sun, 14 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/community/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://example.org/categories/design/</link>
+      <pubDate>Sun, 14 Dec 2025 06:45:00 +0600</pubDate>
+      <guid>https://example.org/categories/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Streaming</title>
+      <link>https://example.org/categories/streaming/</link>
+      <pubDate>Sun, 14 Dec 2025 06:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/streaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>https://example.org/categories/economics/</link>
+      <pubDate>Sun, 14 Dec 2025 04:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Industry</title>
+      <link>https://example.org/categories/industry/</link>
+      <pubDate>Sun, 14 Dec 2025 02:15:00 +0600</pubDate>
+      <guid>https://example.org/categories/industry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Health</title>
+      <link>https://example.org/categories/health/</link>
+      <pubDate>Sun, 14 Dec 2025 01:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/health/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Accessibility</title>
+      <link>https://example.org/categories/accessibility/</link>
+      <pubDate>Sat, 13 Dec 2025 22:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/accessibility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Relationships</title>
+      <link>https://example.org/categories/relationships/</link>
+      <pubDate>Sat, 13 Dec 2025 21:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/relationships/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event</title>
+      <link>https://example.org/categories/event/</link>
+      <pubDate>Sat, 13 Dec 2025 20:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/event/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overwatch</title>
+      <link>https://example.org/categories/overwatch/</link>
+      <pubDate>Sat, 13 Dec 2025 20:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/overwatch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apex Legends</title>
+      <link>https://example.org/categories/apex-legends/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/apex-legends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://example.org/categories/news/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PvE</title>
+      <link>https://example.org/categories/pve/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/pve/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GTA</title>
+      <link>https://example.org/categories/gta/</link>
+      <pubDate>Sat, 13 Dec 2025 18:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/gta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Music</title>
+      <link>https://example.org/categories/music/</link>
+      <pubDate>Sat, 13 Dec 2025 18:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/music/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Battle Royale</title>
+      <link>https://example.org/categories/battle-royale/</link>
+      <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/battle-royale/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Culture</title>
+      <link>https://example.org/categories/culture/</link>
+      <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Guides</title>
+      <link>https://example.org/categories/guides/</link>
+      <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/guides/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Character Customization</title>
+      <link>https://example.org/categories/character-customization/</link>
+      <pubDate>Sat, 13 Dec 2025 17:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/character-customization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creativity</title>
+      <link>https://example.org/categories/creativity/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/creativity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PUBG</title>
+      <link>https://example.org/categories/pubg/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/pubg/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Balance</title>
+      <link>https://example.org/categories/balance/</link>
+      <pubDate>Sat, 13 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/balance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Updates</title>
+      <link>https://example.org/categories/updates/</link>
+      <pubDate>Sat, 13 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/updates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Valorant</title>
+      <link>https://example.org/categories/valorant/</link>
+      <pubDate>Sat, 13 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/valorant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitive</title>
+      <link>https://example.org/categories/competitive/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/competitive/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FPS</title>
+      <link>https://example.org/categories/fps/</link>
+      <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/fps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creative</title>
+      <link>https://example.org/categories/creative/</link>
+      <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/creative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fortnite</title>
+      <link>https://example.org/categories/fortnite/</link>
+      <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/fortnite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Gaming</title>
+      <link>https://example.org/categories/online-gaming/</link>
+      <pubDate>Sat, 13 Dec 2025 13:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/online-gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile Gaming</title>
+      <link>https://example.org/categories/mobile-gaming/</link>
+      <pubDate>Sat, 13 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/mobile-gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ethics</title>
+      <link>https://example.org/categories/ethics/</link>
+      <pubDate>Sat, 13 Dec 2025 11:15:00 +0600</pubDate>
+      <guid>https://example.org/categories/ethics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Call of Duty</title>
+      <link>https://example.org/categories/call-of-duty/</link>
+      <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/call-of-duty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Map</title>
+      <link>https://example.org/categories/new-map/</link>
+      <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/new-map/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lifestyle</title>
+      <link>https://example.org/categories/lifestyle/</link>
+      <pubDate>Sat, 13 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/lifestyle/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Hero</title>
+      <link>https://example.org/categories/new-hero/</link>
+      <pubDate>Sat, 13 Dec 2025 10:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/new-hero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open World</title>
+      <link>https://example.org/categories/open-world/</link>
+      <pubDate>Sat, 13 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/open-world/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Environment</title>
+      <link>https://example.org/categories/environment/</link>
+      <pubDate>Sat, 13 Dec 2025 06:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/environment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://example.org/categories/career/</link>
+      <pubDate>Fri, 12 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PC Gaming</title>
+      <link>https://example.org/categories/pc-gaming/</link>
+      <pubDate>Fri, 12 Dec 2025 16:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/pc-gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Warzone</title>
+      <link>https://example.org/categories/warzone/</link>
+      <pubDate>Fri, 12 Dec 2025 15:30:00 +0600</pubDate>
+      <guid>https://example.org/categories/warzone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Black Ops</title>
+      <link>https://example.org/categories/black-ops/</link>
+      <pubDate>Fri, 12 Dec 2025 15:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/black-ops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>New Agent</title>
+      <link>https://example.org/categories/new-agent/</link>
+      <pubDate>Fri, 12 Dec 2025 12:45:00 +0600</pubDate>
+      <guid>https://example.org/categories/new-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>League of Legends</title>
+      <link>https://example.org/categories/league-of-legends/</link>
+      <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/league-of-legends/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Live Events</title>
+      <link>https://example.org/categories/live-events/</link>
+      <pubDate>Fri, 12 Dec 2025 11:15:00 +0600</pubDate>
+      <guid>https://example.org/categories/live-events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Family</title>
+      <link>https://example.org/categories/family/</link>
+      <pubDate>Thu, 11 Dec 2025 17:15:00 +0600</pubDate>
+      <guid>https://example.org/categories/family/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>https://example.org/categories/artificial-intelligence/</link>
+      <pubDate>Wed, 10 Dec 2025 09:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Games</title>
+      <link>https://example.org/categories/games/</link>
+      <pubDate>Wed, 10 Dec 2025 09:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/games/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming News</title>
+      <link>https://example.org/categories/gaming-news/</link>
+      <pubDate>Tue, 09 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/gaming-news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nintendo</title>
+      <link>https://example.org/categories/nintendo/</link>
+      <pubDate>Mon, 08 Dec 2025 14:00:00 +0600</pubDate>
+      <guid>https://example.org/categories/nintendo/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open World on Hugo Tailwind</title>
+    <link>https://example.org/tags/open-world/</link>
+    <description>Recent content in Open World on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 09:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/open-world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GTA 6: Vice City Details Leaked</title>
+      <link>https://example.org/posts/gta-vice-city-leak/</link>
+      <pubDate>Sat, 13 Dec 2025 09:30:00 +0600</pubDate>
+      <guid>https://example.org/posts/gta-vice-city-leak/</guid>
+      <description>Major leak reveals extensive details about GTA 6&amp;rsquo;s Vice City setting and gameplay features.</description>
+    </item>
+  </channel>
+</rss>

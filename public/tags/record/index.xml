@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Record on Hugo Tailwind</title>
+    <link>https://example.org/tags/record/</link>
+    <description>Recent content in Record on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Dec 2025 18:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamer &#39;NinjaX&#39; Breaks World Record for Solo Kills</title>
+      <link>https://example.org/posts/streamer-record/</link>
+      <pubDate>Mon, 08 Dec 2025 18:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/streamer-record/</guid>
+      <description>In a stunning display of skill, the popular streamer managed to wipe out nearly half the lobby in a single match.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Hugo Tailwind</title>
+    <link>https://example.org/categories/news/</link>
+    <description>Recent content in News on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Dec 2025 19:00:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apex Legends Esports Scene: Team Analysis 2025</title>
+      <link>https://example.org/posts/apex-esports-analysis/</link>
+      <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-esports-analysis/</guid>
+      <description>In-depth analysis of top Apex Legends esports teams and their performance in the 2025 competitive season.</description>
+    </item>
+    <item>
+      <title>Apex Legends World Championship 2025: Tournament Preview</title>
+      <link>https://example.org/posts/apex-championship-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
+      <guid>https://example.org/posts/apex-championship-2025/</guid>
+      <description>Complete preview of the Apex Legends Global Series Championship 2025 with teams, format, and predictions.</description>
+    </item>
+  </channel>
+</rss>

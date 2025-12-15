@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ray Tracing on Hugo Tailwind</title>
+    <link>https://example.org/tags/ray-tracing/</link>
+    <description>Recent content in Ray Tracing on Hugo Tailwind</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 10:30:00 +0600</lastBuildDate>
+    <atom:link href="https://example.org/tags/ray-tracing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Evolution of Gaming Graphics: From Pixels to Ray Tracing</title>
+      <link>https://example.org/latest-articles/evolution-gaming-graphics/</link>
+      <pubDate>Sun, 14 Dec 2025 10:30:00 +0600</pubDate>
+      <guid>https://example.org/latest-articles/evolution-gaming-graphics/</guid>
+      <description>Tracing the remarkable journey of video game graphics from simple pixels to photorealistic visuals.</description>
+    </item>
+  </channel>
+</rss>
