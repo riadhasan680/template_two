@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Behavior on Hugo Tailwind</title>
-    <link>https://example.org/tags/behavior/</link>
-    <description>Recent content in Behavior on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Behavior on Battle Royale Fanatics</title>
+    <link>/tags/behavior/</link>
+    <description>Recent content in Behavior on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 16:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/behavior/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 16:30:00 +0600</lastBuildDate><atom:link href="/tags/behavior/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Psychology of Gaming: Why We Love Video Games</title>
-      <link>https://example.org/latest-articles/psychology-gaming/</link>
+      <link>/latest-articles/the-psychology-of-gaming-why-we-love-video-games/</link>
       <pubDate>Sun, 14 Dec 2025 16:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/psychology-gaming/</guid>
+      
+      <guid>/latest-articles/the-psychology-of-gaming-why-we-love-video-games/</guid>
       <description>Exploring the psychological factors that make video games so compelling and addictive.</description>
     </item>
+    
   </channel>
 </rss>

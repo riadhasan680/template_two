@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Platforms on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-platforms/</link>
-    <description>Recent content in Gaming Platforms on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Platforms on Battle Royale Fanatics</title>
+    <link>/tags/gaming-platforms/</link>
+    <description>Recent content in Gaming Platforms on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 19:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-platforms/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 19:30:00 +0600</lastBuildDate><atom:link href="/tags/gaming-platforms/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Business of Gaming Platforms: Competition and Market Dynamics</title>
-      <link>https://example.org/latest-articles/gaming-platforms-competition/</link>
+      <link>/latest-articles/the-business-of-gaming-platforms-competition-and-market-dynamics/</link>
       <pubDate>Thu, 11 Dec 2025 19:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-platforms-competition/</guid>
+      
+      <guid>/latest-articles/the-business-of-gaming-platforms-competition-and-market-dynamics/</guid>
       <description>Understanding platform economics and competition in the gaming industry.</description>
     </item>
+    
   </channel>
 </rss>

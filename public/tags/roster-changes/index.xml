@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Roster Changes on Hugo Tailwind</title>
-    <link>https://example.org/tags/roster-changes/</link>
-    <description>Recent content in Roster Changes on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Roster Changes on Battle Royale Fanatics</title>
+    <link>/tags/roster-changes/</link>
+    <description>Recent content in Roster Changes on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 10:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/roster-changes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 10:30:00 +0600</lastBuildDate><atom:link href="/tags/roster-changes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apex Legends Pro Scene: 2025 Offseason Moves</title>
-      <link>https://example.org/posts/apex-legends-pro-scene/</link>
+      <link>/posts/apex-legends-pro-scene-2025-offseason-moves/</link>
       <pubDate>Fri, 12 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-legends-pro-scene/</guid>
+      
+      <guid>/posts/apex-legends-pro-scene-2025-offseason-moves/</guid>
       <description>Major roster changes and team acquisitions shake up the Apex Legends competitive landscape for 2025.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,96 +1,119 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Update on Hugo Tailwind</title>
-    <link>https://example.org/tags/update/</link>
-    <description>Recent content in Update on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Update on Battle Royale Fanatics</title>
+    <link>/tags/update/</link>
+    <description>Recent content in Update on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 14:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/update/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 14:30:00 +0600</lastBuildDate><atom:link href="/tags/update/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valorant Episode 8 Act 2: New Agent Revealed</title>
-      <link>https://example.org/posts/valorant-update/</link>
+      <link>/posts/valorant-episode-8-act-2-new-agent-revealed/</link>
       <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-update/</guid>
+      
+      <guid>/posts/valorant-episode-8-act-2-new-agent-revealed/</guid>
       <description>Riot Games unveils a new controller agent with unique smoke abilities that can block vision and deal damage.</description>
     </item>
+    
     <item>
       <title>Fortnite: Creative Mode 2.0 Update</title>
-      <link>https://example.org/posts/fortnite-creative-2/</link>
+      <link>/posts/fortnite-creative-mode-2.0-update/</link>
       <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-creative-2/</guid>
+      
+      <guid>/posts/fortnite-creative-mode-2.0-update/</guid>
       <description>Fortnite Creative Mode gets massive update with new tools and features for creators.</description>
     </item>
+    
     <item>
       <title>Call of Duty Warzone: New Map Urzikstan Drops Today</title>
-      <link>https://example.org/posts/cod-warzone/</link>
+      <link>/posts/call-of-duty-warzone-new-map-urzikstan-drops-today/</link>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-warzone/</guid>
+      
+      <guid>/posts/call-of-duty-warzone-new-map-urzikstan-drops-today/</guid>
       <description>The largest Warzone map ever created is now live, featuring diverse terrain and over 300 points of interest.</description>
     </item>
+    
     <item>
       <title>Fortnite: New Mythic Weapon Arrives</title>
-      <link>https://example.org/posts/fortnite-mythic-weapon/</link>
+      <link>/posts/fortnite-new-mythic-weapon-arrives/</link>
       <pubDate>Sat, 13 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-mythic-weapon/</guid>
+      
+      <guid>/posts/fortnite-new-mythic-weapon-arrives/</guid>
       <description>Epic Games introduces a powerful new mythic weapon that&amp;rsquo;s changing the meta.</description>
     </item>
+    
     <item>
       <title>PUBG Mobile 3.0 Update Brings Revolutionary Graphics</title>
-      <link>https://example.org/posts/pubg-mobile/</link>
+      <link>/posts/pubg-mobile-3.0-update-brings-revolutionary-graphics/</link>
       <pubDate>Fri, 12 Dec 2025 16:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-mobile/</guid>
+      
+      <guid>/posts/pubg-mobile-3.0-update-brings-revolutionary-graphics/</guid>
       <description>Krafton unveils PUBG Mobile 3.0 with Unreal Engine 5 integration, bringing console-quality graphics to mobile devices.</description>
     </item>
+    
     <item>
       <title>League of Legends 2026 Season Changes</title>
-      <link>https://example.org/posts/lol-update/</link>
+      <link>/posts/league-of-legends-2026-season-changes/</link>
       <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/lol-update/</guid>
+      
+      <guid>/posts/league-of-legends-2026-season-changes/</guid>
       <description>Riot Games announces massive jungle changes and a new void champion for the upcoming season.</description>
     </item>
+    
     <item>
       <title>Overwatch 3: Next Generation Hero Shooter</title>
-      <link>https://example.org/posts/overwatch-3/</link>
+      <link>/posts/overwatch-3-next-generation-hero-shooter/</link>
       <pubDate>Thu, 11 Dec 2025 21:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-3/</guid>
+      
+      <guid>/posts/overwatch-3-next-generation-hero-shooter/</guid>
       <description>Blizzard announces Overwatch 3 with revolutionary gameplay mechanics, new heroes, and cross-platform progression.</description>
     </item>
+    
     <item>
       <title>PUBG Mobile 3.0: Unreal Engine 5 Upgrade</title>
-      <link>https://example.org/posts/pubg-mobile-update/</link>
+      <link>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</link>
       <pubDate>Thu, 11 Dec 2025 20:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-mobile-update/</guid>
+      
+      <guid>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</guid>
       <description>PUBG Mobile transitions to Unreal Engine 5 with revolutionary graphics, new maps, and gameplay mechanics.</description>
     </item>
+    
     <item>
       <title>Call of Duty: Warzone 2.5 Major Update</title>
-      <link>https://example.org/posts/cod-warzone-2/</link>
+      <link>/posts/call-of-duty-warzone-2.5-major-update/</link>
       <pubDate>Thu, 11 Dec 2025 19:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-warzone-2/</guid>
+      
+      <guid>/posts/call-of-duty-warzone-2.5-major-update/</guid>
       <description>Warzone 2.5 brings massive gameplay overhaul with new map, weapons, and progression system.</description>
     </item>
+    
     <item>
       <title>Apex Legends Mobile: New Legend Revealed</title>
-      <link>https://example.org/posts/apex-mobile-new/</link>
+      <link>/posts/apex-legends-mobile-new-legend-revealed/</link>
       <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-mobile-new/</guid>
+      
+      <guid>/posts/apex-legends-mobile-new-legend-revealed/</guid>
       <description>Apex Legends Mobile introduces a brand new exclusive legend with unique abilities designed for mobile gameplay.</description>
     </item>
+    
     <item>
       <title>Apex Legends Season 20: Breakout Brings Major Changes</title>
-      <link>https://example.org/posts/apex-season-20/</link>
+      <link>/posts/apex-legends-season-20-breakout-brings-major-changes/</link>
       <pubDate>Wed, 10 Dec 2025 15:20:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-season-20/</guid>
+      
+      <guid>/posts/apex-legends-season-20-breakout-brings-major-changes/</guid>
       <description>Respawn Entertainment shakes up the meta with legend reworks, a new weapon, and significant map changes to Kings Canyon.</description>
     </item>
+    
     <item>
       <title>PUBG: New Desert Map &#39;Miramar 2.0&#39; Released</title>
-      <link>https://example.org/posts/pubg-new-map/</link>
+      <link>/posts/pubg-new-desert-map-miramar-2.0-released/</link>
       <pubDate>Sat, 06 Dec 2025 09:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-new-map/</guid>
+      
+      <guid>/posts/pubg-new-desert-map-miramar-2.0-released/</guid>
       <description>Krafton releases completely redesigned Miramar desert map with new locations and gameplay mechanics.</description>
     </item>
+    
   </channel>
 </rss>

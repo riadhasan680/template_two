@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Fitness on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-fitness/</link>
-    <description>Recent content in Gaming Fitness on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Fitness on Battle Royale Fanatics</title>
+    <link>/tags/gaming-fitness/</link>
+    <description>Recent content in Gaming Fitness on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-fitness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 00:00:00 +0600</lastBuildDate><atom:link href="/tags/gaming-fitness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Physical Fitness: Active Gaming and Exercise Integration</title>
-      <link>https://example.org/latest-articles/gaming-physical-fitness/</link>
+      <link>/latest-articles/gaming-and-physical-fitness-active-gaming-and-exercise-integration/</link>
       <pubDate>Sat, 13 Dec 2025 00:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-physical-fitness/</guid>
+      
+      <guid>/latest-articles/gaming-and-physical-fitness-active-gaming-and-exercise-integration/</guid>
       <description>How video games are promoting physical fitness and integrating exercise into gameplay.</description>
     </item>
+    
   </channel>
 </rss>

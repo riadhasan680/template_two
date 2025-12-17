@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Ethics on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-ethics/</link>
-    <description>Recent content in Gaming Ethics on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Ethics on Battle Royale Fanatics</title>
+    <link>/tags/gaming-ethics/</link>
+    <description>Recent content in Gaming Ethics on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 11:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-ethics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 11:15:00 +0600</lastBuildDate><atom:link href="/tags/gaming-ethics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Ethics of Game Design: Responsibility in Creating Compelling Experiences</title>
-      <link>https://example.org/latest-articles/game-design-ethics/</link>
+      <link>/latest-articles/the-ethics-of-game-design-responsibility-in-creating-compelling-experiences/</link>
       <pubDate>Sat, 13 Dec 2025 11:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/game-design-ethics/</guid>
+      
+      <guid>/latest-articles/the-ethics-of-game-design-responsibility-in-creating-compelling-experiences/</guid>
       <description>Examining the ethical considerations in game design and developer responsibility.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Phones on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-phones/</link>
-    <description>Recent content in Gaming Phones on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Phones on Battle Royale Fanatics</title>
+    <link>/tags/gaming-phones/</link>
+    <description>Recent content in Gaming Phones on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 08:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-phones/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 08:45:00 +0600</lastBuildDate><atom:link href="/tags/gaming-phones/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mobile Gaming Revolution: Smartphones vs Gaming Phones</title>
-      <link>https://example.org/latest-articles/mobile-gaming-revolution/</link>
+      <link>/latest-articles/mobile-gaming-revolution-smartphones-vs-gaming-phones/</link>
       <pubDate>Mon, 15 Dec 2025 08:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/mobile-gaming-revolution/</guid>
+      
+      <guid>/latest-articles/mobile-gaming-revolution-smartphones-vs-gaming-phones/</guid>
       <description>Are dedicated gaming phones worth it, or are regular smartphones good enough for mobile gaming?</description>
     </item>
+    
   </channel>
 </rss>

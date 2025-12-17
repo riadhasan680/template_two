@@ -1,60 +1,87 @@
 <div class="bg-white group">
-  <div class="container flex items-center justify-between gap-6">
-    <div class="flex items-center gap-4 flex-1 overflow-hidden h-10">
-      <span
-        class="bg-black text-white text-[14px] font-black uppercase px-2.5 py-1.5 shrink-0 tracking-wider z-10 group-hover:bg-accent-hover transition-colors duration-300"
-        >Trending Now</span
-      >
-
-      {{/* Dynamic Slider Container */}}
-      <div
-        id="trending-container"
-        class="relative flex-1 text-lg h-full overflow-hidden"
-      >
-        <div
-          id="trending-track"
-          class="flex transition-transform duration-700 ease-in-out h-full items-center"
+  <!-- Mobile Version -->
+  <div class="sm:hidden py-2">
+    <div class="container mx-auto px-4 max-w-6xl">
+      <div class="flex items-center gap-2">
+        <span
+          class="bg-black text-white text-[12px] font-black uppercase px-2 py-1.5 shrink-0 tracking-wider z-10 group-hover:bg-accent-hover transition-colors duration-300"
+          >Trending</span
         >
-          {{ range first 5 (where site.RegularPages "Type" "posts") }}
-          <a
-            href="{{ .RelPermalink }}"
-            class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+        <div class="relative flex-1">
+          <select
+            id="trending-dropdown-mobile"
+            class="w-full text-[14px] font-semibold tracking-widest text-slate-900 bg-transparent border-0 outline-none cursor-pointer font-sans px-2"
           >
-            {{ .Title }}
-          </a>
-          {{ end }}
+            {{ range first 5 (where site.RegularPages "Type" "posts") }}
+            <option value="{{ .RelPermalink }}" class="font-body text-xs">
+              {{ .Title }}
+            </option>
+            {{ end }}
+          </select>
         </div>
       </div>
     </div>
-    <div class="flex items-center gap-1 shrink-0 z-20">
-      <button
-        id="trending-prev"
-        class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
-      >
-        <svg
-          class="w-4 h-4"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          stroke-width="2.5"
+  </div>
+
+  <!-- Desktop Version (Original Design) -->
+  <div class="hidden sm:block">
+    <div class="container flex items-center justify-between gap-6">
+      <div class="flex items-center gap-4 flex-1 overflow-hidden h-10">
+        <span
+          class="bg-black text-white text-[14px] font-black uppercase px-2.5 py-1.5 shrink-0 tracking-wider z-10 group-hover:bg-accent-hover transition-colors duration-300"
+          >Trending Now</span
         >
-          <path d="M15 18l-6-6 6-6" />
-        </svg>
-      </button>
-      <button
-        id="trending-next"
-        class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
-      >
-        <svg
-          class="w-4 h-4"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          stroke-width="2.5"
+
+        {{/* Dynamic Slider Container */}}
+        <div
+          id="trending-container"
+          class="relative flex-1 text-lg h-full overflow-hidden"
         >
-          <path d="M9 18l6-6-6-6" />
-        </svg>
-      </button>
+          <div
+            id="trending-track"
+            class="flex transition-transform duration-700 ease-in-out h-full items-center"
+          >
+            {{ range first 5 (where site.RegularPages "Type" "posts") }}
+            <a
+              href="{{ .RelPermalink }}"
+              class="trending-item shrink-0 w-full block text-[16px] font-bold text-slate-900 hover:text-accent-hover truncate transition-colors font-sans px-4"
+            >
+              {{ .Title }}
+            </a>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center gap-1 shrink-0 z-20">
+        <button
+          id="trending-prev"
+          class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+          >
+            <path d="M15 18l-6-6 6-6" />
+          </svg>
+        </button>
+        <button
+          id="trending-next"
+          class="w-8 h-8 flex items-center justify-center border border-gray-200 text-slate-400 hover:border-none hover:text-white hover:bg-accent-hover transition-colors cursor-pointer active:scale-95"
+        >
+          <svg
+            class="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            stroke-width="2.5"
+          >
+            <path d="M9 18l6-6-6-6" />
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -62,9 +89,10 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const track = document.getElementById("trending-track");
-    const items = track.querySelectorAll(".trending-item");
+    const items = track ? track.querySelectorAll(".trending-item") : [];
     const prevBtn = document.getElementById("trending-prev");
     const nextBtn = document.getElementById("trending-next");
+    const mobileDropdown = document.getElementById("trending-dropdown-mobile");
 
     let currentIndex = 0;
     const totalItems = items.length;
@@ -72,8 +100,10 @@
 
     // Initialize
     function updateSlide() {
-      const translateX = -(currentIndex * 100);
-      track.style.transform = `translateX(${translateX}%)`;
+      if (track) {
+        const translateX = -(currentIndex * 100);
+        track.style.transform = `translateX(${translateX}%)`;
+      }
     }
 
     function nextSlide() {
@@ -95,22 +125,52 @@
       clearInterval(intervalId);
     }
 
-    // Event Listeners
-    nextBtn.addEventListener("click", () => {
-      stopAutoPlay();
-      nextSlide();
-      startAutoPlay();
-    });
+    // Desktop Event Listeners
+    if (prevBtn && nextBtn && track) {
+      nextBtn.addEventListener("click", () => {
+        stopAutoPlay();
+        nextSlide();
+        startAutoPlay();
+      });
 
-    prevBtn.addEventListener("click", () => {
-      stopAutoPlay();
-      prevSlide();
-      startAutoPlay();
-    });
+      prevBtn.addEventListener("click", () => {
+        stopAutoPlay();
+        prevSlide();
+        startAutoPlay();
+      });
 
-    // Start
-    if (totalItems > 0) {
-      startAutoPlay();
+      // Start auto-play for desktop
+      if (totalItems > 0) {
+        startAutoPlay();
+      }
     }
+
+    // Mobile Dropdown Event Listener
+    if (mobileDropdown) {
+      mobileDropdown.addEventListener("change", (e) => {
+        if (e.target.value) {
+          window.location.href = e.target.value;
+        }
+      });
+    }
+
+    // Responsive handling
+    function handleResize() {
+      const isDesktop = window.innerWidth >= 640; // sm breakpoint
+      
+      if (isDesktop && track) {
+        // Desktop mode - restart auto-play
+        if (totalItems > 0 && !intervalId) {
+          startAutoPlay();
+        }
+      } else {
+        // Mobile mode - stop auto-play
+        stopAutoPlay();
+      }
+    }
+
+    // Initial check and resize listener
+    handleResize();
+    window.addEventListener('resize', handleResize);
   });
 </script>

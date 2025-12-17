@@ -1,54 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mobile Gaming on Hugo Tailwind</title>
-    <link>https://example.org/categories/mobile-gaming/</link>
-    <description>Recent content in Mobile Gaming on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Mobile Gaming on Battle Royale Fanatics</title>
+    <link>/categories/mobile-gaming/</link>
+    <description>Recent content in Mobile Gaming on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/mobile-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate><atom:link href="/categories/mobile-gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PUBG: New Sanhok Map Update</title>
-      <link>https://example.org/posts/pubg-sanhok-update/</link>
+      <link>/posts/pubg-new-sanhok-map-update/</link>
       <pubDate>Sat, 13 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-sanhok-update/</guid>
+      
+      <guid>/posts/pubg-new-sanhok-map-update/</guid>
       <description>PUBG Mobile receives major Sanhok map update with new locations and improved performance.</description>
     </item>
+    
     <item>
       <title>PUBG Mobile 3.0 Update Brings Revolutionary Graphics</title>
-      <link>https://example.org/posts/pubg-mobile/</link>
+      <link>/posts/pubg-mobile-3.0-update-brings-revolutionary-graphics/</link>
       <pubDate>Fri, 12 Dec 2025 16:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-mobile/</guid>
+      
+      <guid>/posts/pubg-mobile-3.0-update-brings-revolutionary-graphics/</guid>
       <description>Krafton unveils PUBG Mobile 3.0 with Unreal Engine 5 integration, bringing console-quality graphics to mobile devices.</description>
     </item>
+    
     <item>
       <title>Call of Duty: Mobile 2 - Next Generation</title>
-      <link>https://example.org/posts/cod-mobile-2/</link>
+      <link>/posts/call-of-duty-mobile-2-next-generation/</link>
       <pubDate>Fri, 12 Dec 2025 16:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-mobile-2/</guid>
+      
+      <guid>/posts/call-of-duty-mobile-2-next-generation/</guid>
       <description>Activision announces Call of Duty: Mobile 2 with Unreal Engine 5, 120 FPS gameplay, and cross-platform progression.</description>
     </item>
+    
     <item>
       <title>PUBG Mobile 3.0: Unreal Engine 5 Upgrade</title>
-      <link>https://example.org/posts/pubg-mobile-update/</link>
+      <link>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</link>
       <pubDate>Thu, 11 Dec 2025 20:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-mobile-update/</guid>
+      
+      <guid>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</guid>
       <description>PUBG Mobile transitions to Unreal Engine 5 with revolutionary graphics, new maps, and gameplay mechanics.</description>
     </item>
+    
     <item>
       <title>Apex Legends Mobile: New Legend Revealed</title>
-      <link>https://example.org/posts/apex-mobile-new/</link>
+      <link>/posts/apex-legends-mobile-new-legend-revealed/</link>
       <pubDate>Thu, 11 Dec 2025 14:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-mobile-new/</guid>
+      
+      <guid>/posts/apex-legends-mobile-new-legend-revealed/</guid>
       <description>Apex Legends Mobile introduces a brand new exclusive legend with unique abilities designed for mobile gameplay.</description>
     </item>
+    
     <item>
       <title>Mobile Gaming Trends 2025: Console Quality on Phones</title>
-      <link>https://example.org/posts/mobile-gaming-trends/</link>
+      <link>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</link>
       <pubDate>Tue, 02 Dec 2025 13:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/mobile-gaming-trends/</guid>
+      
+      <guid>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</guid>
       <description>Mobile gaming reaches new heights with console-quality graphics and gameplay becoming standard on smartphones.</description>
     </item>
+    
   </channel>
 </rss>

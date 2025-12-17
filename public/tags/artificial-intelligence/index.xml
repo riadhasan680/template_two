@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artificial Intelligence on Hugo Tailwind</title>
-    <link>https://example.org/tags/artificial-intelligence/</link>
-    <description>Recent content in Artificial Intelligence on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Artificial Intelligence on Battle Royale Fanatics</title>
+    <link>/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 12:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 12:45:00 +0600</lastBuildDate><atom:link href="/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Impact of AI on Gaming Industry</title>
-      <link>https://example.org/latest-articles/ai-gaming-impact/</link>
+      <link>/latest-articles/the-impact-of-ai-on-gaming-industry/</link>
       <pubDate>Sun, 14 Dec 2025 12:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/ai-gaming-impact/</guid>
+      
+      <guid>/latest-articles/the-impact-of-ai-on-gaming-industry/</guid>
       <description>How artificial intelligence is revolutionizing game development and player experiences.</description>
     </item>
+    
     <item>
       <title>Gaming and Artificial Intelligence: The Future of Intelligent NPCs</title>
-      <link>https://example.org/latest-articles/gaming-artificial-intelligence/</link>
+      <link>/latest-articles/gaming-and-artificial-intelligence-the-future-of-intelligent-npcs/</link>
       <pubDate>Fri, 12 Dec 2025 15:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-artificial-intelligence/</guid>
+      
+      <guid>/latest-articles/gaming-and-artificial-intelligence-the-future-of-intelligent-npcs/</guid>
       <description>How AI is revolutionizing NPC behavior and creating more realistic game worlds.</description>
     </item>
+    
   </channel>
 </rss>

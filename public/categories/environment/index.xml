@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Environment on Hugo Tailwind</title>
-    <link>https://example.org/categories/environment/</link>
-    <description>Recent content in Environment on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Environment on Battle Royale Fanatics</title>
+    <link>/categories/environment/</link>
+    <description>Recent content in Environment on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 06:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/environment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 06:00:00 +0600</lastBuildDate><atom:link href="/categories/environment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Environmental Awareness: Eco-Themes in Digital Worlds</title>
-      <link>https://example.org/latest-articles/gaming-environmental-awareness/</link>
+      <link>/latest-articles/gaming-and-environmental-awareness-eco-themes-in-digital-worlds/</link>
       <pubDate>Sat, 13 Dec 2025 06:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-environmental-awareness/</guid>
+      
+      <guid>/latest-articles/gaming-and-environmental-awareness-eco-themes-in-digital-worlds/</guid>
       <description>How video games are addressing environmental issues and promoting ecological awareness.</description>
     </item>
+    
     <item>
       <title>Gaming and Environmental Sustainability: Green Gaming Initiatives</title>
-      <link>https://example.org/latest-articles/gaming-environmental-sustainability/</link>
+      <link>/latest-articles/gaming-and-environmental-sustainability-green-gaming-initiatives/</link>
       <pubDate>Fri, 12 Dec 2025 06:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-environmental-sustainability/</guid>
+      
+      <guid>/latest-articles/gaming-and-environmental-sustainability-green-gaming-initiatives/</guid>
       <description>How the gaming industry is addressing environmental challenges and promoting sustainability.</description>
     </item>
+    
   </channel>
 </rss>

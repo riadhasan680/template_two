@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Emotional Intelligence on Hugo Tailwind</title>
-    <link>https://example.org/tags/emotional-intelligence/</link>
-    <description>Recent content in Emotional Intelligence on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Emotional Intelligence on Battle Royale Fanatics</title>
+    <link>/tags/emotional-intelligence/</link>
+    <description>Recent content in Emotional Intelligence on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 01:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/emotional-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 01:30:00 +0600</lastBuildDate><atom:link href="/tags/emotional-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Emotional Intelligence: How Games Teach Empathy and Social Skills</title>
-      <link>https://example.org/latest-articles/gaming-emotional-intelligence/</link>
+      <link>/latest-articles/gaming-and-emotional-intelligence-how-games-teach-empathy-and-social-skills/</link>
       <pubDate>Sat, 13 Dec 2025 01:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-emotional-intelligence/</guid>
+      
+      <guid>/latest-articles/gaming-and-emotional-intelligence-how-games-teach-empathy-and-social-skills/</guid>
       <description>The role of video games in developing emotional intelligence and social understanding.</description>
     </item>
+    
   </channel>
 </rss>

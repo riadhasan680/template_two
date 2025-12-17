@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Story on Hugo Tailwind</title>
-    <link>https://example.org/tags/story/</link>
-    <description>Recent content in Story on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Story on Battle Royale Fanatics</title>
+    <link>/tags/story/</link>
+    <description>Recent content in Story on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 19:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/story/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 19:00:00 +0600</lastBuildDate><atom:link href="/tags/story/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overwatch 2: PvE Mission &#39;Storm Rising&#39;</title>
-      <link>https://example.org/posts/overwatch-storm-rising/</link>
+      <link>/posts/overwatch-2-pve-mission-storm-rising/</link>
       <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-storm-rising/</guid>
+      
+      <guid>/posts/overwatch-2-pve-mission-storm-rising/</guid>
       <description>Blizzard releases new PvE mission &amp;lsquo;Storm Rising&amp;rsquo; with co-op gameplay and story progression.</description>
     </item>
+    
   </channel>
 </rss>

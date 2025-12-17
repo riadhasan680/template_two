@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Industry Impact on Hugo Tailwind</title>
-    <link>https://example.org/tags/industry-impact/</link>
-    <description>Recent content in Industry Impact on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Industry Impact on Battle Royale Fanatics</title>
+    <link>/tags/industry-impact/</link>
+    <description>Recent content in Industry Impact on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 19:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/industry-impact/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 19:30:00 +0600</lastBuildDate><atom:link href="/tags/industry-impact/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Innovation: How Games Drive Technological Progress</title>
-      <link>https://example.org/latest-articles/gaming-technological-innovation/</link>
+      <link>/latest-articles/gaming-and-innovation-how-games-drive-technological-progress/</link>
       <pubDate>Fri, 12 Dec 2025 19:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-technological-innovation/</guid>
+      
+      <guid>/latest-articles/gaming-and-innovation-how-games-drive-technological-progress/</guid>
       <description>The role of video games in driving technological innovation across industries.</description>
     </item>
+    
     <item>
       <title>Gaming and Innovation: How Games Drive Technological Progress</title>
-      <link>https://example.org/latest-articles/gaming-technological-innovation-impact/</link>
+      <link>/latest-articles/gaming-and-innovation-how-games-drive-technological-progress/</link>
       <pubDate>Thu, 11 Dec 2025 22:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-technological-innovation-impact/</guid>
+      
+      <guid>/latest-articles/gaming-and-innovation-how-games-drive-technological-progress/</guid>
       <description>The role of video games in driving technological innovation across industries.</description>
     </item>
+    
   </channel>
 </rss>

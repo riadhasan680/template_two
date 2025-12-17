@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Guides on Hugo Tailwind</title>
-    <link>https://example.org/categories/guides/</link>
-    <description>Recent content in Guides on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Guides on Battle Royale Fanatics</title>
+    <link>/categories/guides/</link>
+    <description>Recent content in Guides on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 18:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/guides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 18:00:00 +0600</lastBuildDate><atom:link href="/categories/guides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apex Legends Battle Royale Map Control Guide</title>
-      <link>https://example.org/posts/apex-map-control/</link>
+      <link>/posts/apex-legends-battle-royale-map-control-guide/</link>
       <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-map-control/</guid>
+      
+      <guid>/posts/apex-legends-battle-royale-map-control-guide/</guid>
       <description>Complete guide to controlling zones and positioning on all Apex Legends Battle Royale maps for competitive advantage.</description>
     </item>
+    
     <item>
       <title>Advanced Apex Legends Movement Guide: Pro Techniques</title>
-      <link>https://example.org/posts/apex-movement-guide/</link>
+      <link>/posts/advanced-apex-legends-movement-guide-pro-techniques/</link>
       <pubDate>Sat, 13 Dec 2025 17:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-movement-guide/</guid>
+      
+      <guid>/posts/advanced-apex-legends-movement-guide-pro-techniques/</guid>
       <description>Master advanced movement techniques in Apex Legends with this comprehensive guide covering tap-strafing, super-gliding, and more.</description>
     </item>
+    
     <item>
       <title>Apex Legends Mobile: Ultimate Guide to Ranked Play</title>
-      <link>https://example.org/posts/apex-mobile-guide/</link>
+      <link>/posts/apex-legends-mobile-ultimate-guide-to-ranked-play/</link>
       <pubDate>Sat, 13 Dec 2025 14:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-mobile-guide/</guid>
+      
+      <guid>/posts/apex-legends-mobile-ultimate-guide-to-ranked-play/</guid>
       <description>Complete guide to climbing the ranks in Apex Legends Mobile with tips, strategies, and meta analysis.</description>
     </item>
+    
   </channel>
 </rss>

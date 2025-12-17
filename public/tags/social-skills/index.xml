@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social Skills on Hugo Tailwind</title>
-    <link>https://example.org/tags/social-skills/</link>
-    <description>Recent content in Social Skills on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Social Skills on Battle Royale Fanatics</title>
+    <link>/tags/social-skills/</link>
+    <description>Recent content in Social Skills on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 01:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/social-skills/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 01:30:00 +0600</lastBuildDate><atom:link href="/tags/social-skills/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Emotional Intelligence: How Games Teach Empathy and Social Skills</title>
-      <link>https://example.org/latest-articles/gaming-emotional-intelligence/</link>
+      <link>/latest-articles/gaming-and-emotional-intelligence-how-games-teach-empathy-and-social-skills/</link>
       <pubDate>Sat, 13 Dec 2025 01:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-emotional-intelligence/</guid>
+      
+      <guid>/latest-articles/gaming-and-emotional-intelligence-how-games-teach-empathy-and-social-skills/</guid>
       <description>The role of video games in developing emotional intelligence and social understanding.</description>
     </item>
+    
     <item>
       <title>Gaming and Social Skills: How Multiplayer Games Build Communication</title>
-      <link>https://example.org/latest-articles/gaming-social-skills/</link>
+      <link>/latest-articles/gaming-and-social-skills-how-multiplayer-games-build-communication/</link>
       <pubDate>Fri, 12 Dec 2025 03:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-social-skills/</guid>
+      
+      <guid>/latest-articles/gaming-and-social-skills-how-multiplayer-games-build-communication/</guid>
       <description>The role of multiplayer gaming in developing social skills and communication abilities.</description>
     </item>
+    
   </channel>
 </rss>

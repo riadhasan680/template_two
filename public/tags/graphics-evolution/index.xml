@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graphics Evolution on Hugo Tailwind</title>
-    <link>https://example.org/tags/graphics-evolution/</link>
-    <description>Recent content in Graphics Evolution on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Graphics Evolution on Battle Royale Fanatics</title>
+    <link>/tags/graphics-evolution/</link>
+    <description>Recent content in Graphics Evolution on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 19:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/graphics-evolution/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 19:30:00 +0600</lastBuildDate><atom:link href="/tags/graphics-evolution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Evolution of Game Graphics: From Pixels to Photorealism</title>
-      <link>https://example.org/latest-articles/game-graphics-evolution/</link>
+      <link>/latest-articles/the-evolution-of-game-graphics-from-pixels-to-photorealism/</link>
       <pubDate>Sat, 13 Dec 2025 19:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/game-graphics-evolution/</guid>
+      
+      <guid>/latest-articles/the-evolution-of-game-graphics-from-pixels-to-photorealism/</guid>
       <description>Tracing the technological journey of video game graphics from simple pixels to realistic 3D worlds.</description>
     </item>
+    
   </channel>
 </rss>

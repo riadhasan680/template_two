@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esports Economics on Hugo Tailwind</title>
-    <link>https://example.org/tags/esports-economics/</link>
-    <description>Recent content in Esports Economics on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Esports Economics on Battle Royale Fanatics</title>
+    <link>/tags/esports-economics/</link>
+    <description>Recent content in Esports Economics on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 12:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/esports-economics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 12:45:00 +0600</lastBuildDate><atom:link href="/tags/esports-economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Business of Esports: Economics and Industry Growth</title>
-      <link>https://example.org/latest-articles/esports-business-economics/</link>
+      <link>/latest-articles/the-business-of-esports-economics-and-industry-growth/</link>
       <pubDate>Fri, 12 Dec 2025 12:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/esports-business-economics/</guid>
+      
+      <guid>/latest-articles/the-business-of-esports-economics-and-industry-growth/</guid>
       <description>Understanding the business models and economic factors driving esports industry growth.</description>
     </item>
+    
   </channel>
 </rss>

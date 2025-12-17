@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Community on Hugo Tailwind</title>
-    <link>https://example.org/categories/community/</link>
-    <description>Recent content in Community on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Community on Battle Royale Fanatics</title>
+    <link>/categories/community/</link>
+    <description>Recent content in Community on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/community/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 12:00:00 +0600</lastBuildDate><atom:link href="/categories/community/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming Communities: Finding Your Tribe Online</title>
-      <link>https://example.org/latest-articles/gaming-communities/</link>
+      <link>/latest-articles/gaming-communities-finding-your-tribe-online/</link>
       <pubDate>Sun, 14 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-communities/</guid>
+      
+      <guid>/latest-articles/gaming-communities-finding-your-tribe-online/</guid>
       <description>How online gaming communities provide belonging and support in the digital age.</description>
     </item>
+    
+    <item>
+      <title>Community Event: Apex Legends Fan Convention 2025</title>
+      <link>/hero/community-event-apex-legends-fan-convention-2025/</link>
+      <pubDate>Sat, 13 Dec 2025 16:30:00 +0000</pubDate>
+      
+      <guid>/hero/community-event-apex-legends-fan-convention-2025/</guid>
+      <description>The biggest Apex Legends community gathering brings together fans, developers, and pro players for an unforgettable celebration of the game&amp;rsquo;s culture and competitive spirit.</description>
+    </item>
+    
   </channel>
 </rss>

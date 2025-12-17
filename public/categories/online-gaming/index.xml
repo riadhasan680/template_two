@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Online Gaming on Hugo Tailwind</title>
-    <link>https://example.org/categories/online-gaming/</link>
-    <description>Recent content in Online Gaming on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Online Gaming on Battle Royale Fanatics</title>
+    <link>/categories/online-gaming/</link>
+    <description>Recent content in Online Gaming on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 13:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/online-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 13:00:00 +0600</lastBuildDate><atom:link href="/categories/online-gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GTA 6: Online Features Revealed</title>
-      <link>https://example.org/posts/gta-6-online-features/</link>
+      <link>/posts/gta-6-online-features-revealed/</link>
       <pubDate>Sat, 13 Dec 2025 13:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/gta-6-online-features/</guid>
+      
+      <guid>/posts/gta-6-online-features-revealed/</guid>
       <description>Rockstar shares first details about GTA 6 Online&amp;rsquo;s revolutionary multiplayer features.</description>
     </item>
+    
   </channel>
 </rss>

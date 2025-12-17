@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mythic Weapon on Hugo Tailwind</title>
-    <link>https://example.org/tags/mythic-weapon/</link>
-    <description>Recent content in Mythic Weapon on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Mythic Weapon on Battle Royale Fanatics</title>
+    <link>/tags/mythic-weapon/</link>
+    <description>Recent content in Mythic Weapon on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 10:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/mythic-weapon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 10:30:00 +0600</lastBuildDate><atom:link href="/tags/mythic-weapon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fortnite: New Mythic Weapon Arrives</title>
-      <link>https://example.org/posts/fortnite-mythic-weapon/</link>
+      <link>/posts/fortnite-new-mythic-weapon-arrives/</link>
       <pubDate>Sat, 13 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-mythic-weapon/</guid>
+      
+      <guid>/posts/fortnite-new-mythic-weapon-arrives/</guid>
       <description>Epic Games introduces a powerful new mythic weapon that&amp;rsquo;s changing the meta.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scholarships on Hugo Tailwind</title>
-    <link>https://example.org/tags/scholarships/</link>
-    <description>Recent content in Scholarships on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Scholarships on Battle Royale Fanatics</title>
+    <link>/tags/scholarships/</link>
+    <description>Recent content in Scholarships on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 08:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/scholarships/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 08:00:00 +0600</lastBuildDate><atom:link href="/tags/scholarships/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esports Scholarships: Gaming Your Way to College</title>
-      <link>https://example.org/latest-articles/esports-scholarships/</link>
+      <link>/latest-articles/esports-scholarships-gaming-your-way-to-college/</link>
       <pubDate>Mon, 15 Dec 2025 08:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/esports-scholarships/</guid>
+      
+      <guid>/latest-articles/esports-scholarships-gaming-your-way-to-college/</guid>
       <description>How competitive gaming is opening doors to higher education through esports scholarships.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,7 +1,14 @@
-baseURL: "https://example.org/"
+baseURL: ""
 languageCode: "en-us"
-title: "Hugo Tailwind"
+title: "Battle Royale Fanatics"
 theme: []
 pagination:
   pagerSize: 2
 ignoreLogs: ['warning-goldmark-raw-html']
+
+# Permalinks for proper navigation
+permalinks:
+  posts: "/posts/:slug/"
+  hero: "/hero/:slug/"
+  latest-news: "/latest-news/:slug/"
+  latest-articles: "/latest-articles/:slug/"

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Black Ops on Hugo Tailwind</title>
-    <link>https://example.org/categories/black-ops/</link>
-    <description>Recent content in Black Ops on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Black Ops on Battle Royale Fanatics</title>
+    <link>/categories/black-ops/</link>
+    <description>Recent content in Black Ops on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 15:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/black-ops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 15:00:00 +0600</lastBuildDate><atom:link href="/categories/black-ops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Call of Duty: Black Ops 6 - Cold War Returns</title>
-      <link>https://example.org/posts/cod-black-ops-6/</link>
+      <link>/posts/call-of-duty-black-ops-6-cold-war-returns/</link>
       <pubDate>Fri, 12 Dec 2025 15:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-black-ops-6/</guid>
+      
+      <guid>/posts/call-of-duty-black-ops-6-cold-war-returns/</guid>
       <description>Treyarch announces Black Ops 6, returning to Cold War era with revolutionary gameplay mechanics and next-gen graphics.</description>
     </item>
+    
   </channel>
 </rss>

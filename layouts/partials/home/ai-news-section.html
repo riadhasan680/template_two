@@ -1,0 +1,51 @@
+<section class="py-8">
+    <div class="container">
+        <h2 class="section-title">AI News</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {{ $aiNews := first 4 (where site.RegularPages "Type" "ai-news") }}
+            {{ if $aiNews }}
+                {{ range $aiNews }}
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="{{ .Params.image | default "https://picsum.photos/seed/ai-news-default/400/225.jpg" | relURL }}" 
+                             alt="{{ .Title }}" 
+                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    
+                    <div class="p-4">
+                        <h3 class="font-sans font-semibold text-lg text-gray-900 hover:text-accent transition-colors duration-200">
+                            <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        </h3>
+                        
+                        <time class="text-sm text-gray-500 mt-2 block">
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                    </div>
+                </article>
+                {{ end }}
+            {{ else }}
+                <!-- Fallback AI News Cards -->
+                {{ range slice "AI Technology Breakthrough" "Machine Learning Advances" "Neural Network Research" "AI Industry News" }}
+                <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+                    <div class="aspect-video overflow-hidden">
+                        <img src="https://picsum.photos/seed/{{ . | urlize }}/400/225.jpg" 
+                             alt="{{ . }}" 
+                             class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
+                    </div>
+                    
+                    <div class="p-4">
+                        <h3 class="font-sans font-semibold text-lg text-gray-900 hover:text-accent transition-colors duration-200">
+                            <a href="#">{{ . }}</a>
+                        </h3>
+                        
+                        <time class="text-sm text-gray-500 mt-2 block">
+                            {{ now.Format "January 2, 2006" }}
+                        </time>
+                    </div>
+                </article>
+                {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>

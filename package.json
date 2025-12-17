@@ -1,24 +1,33 @@
 {
   "name": "template_two",
-  "version": "1.0.0",
-  "description": "Hugo site template",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "hugo server -D",
-    "build": "hugo --minify",
-    "build:vercel": "hugo --minify --baseURL /",
-    "clean": "rm -rf public",
-    "postinstall": "chmod +x node_modules/.bin/*"
+    "dev": "concurrently \"npm run tailwind\" \"npm run hugo\"",
+    "tailwind": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/output.css --watch",
+    "hugo": "hugo server --disableFastRender --ignoreCache --poll 700ms",
+    "build": "npx tailwindcss -i ./assets/css/main.css -o ./static/css/output.css && npx -y hugo-bin -- --gc --minify",
+    "start": "hugo server -D --disableFastRender",
+    "serve": "hugo server -D --disableFastRender",
+    "develop": "concurrently \"npm run watch:css\" \"npm run serve\"",
+    "watch:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css --watch",
+    "build:css": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css"
   },
-  "keywords": ["hugo", "static-site"],
+  "keywords": [
+    "hugo",
+    "static-site"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.18",
-    "autoprefixer": "^10.4.22",
+    "autoprefixer": "^10.4.23",
+    "concurrently": "^9.2.1",
+    "hugo-bin": "^0.111.3",
     "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1",
-    "tailwindcss": "^4.1.18",
-    "hugo-bin": "^0.111.3"
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18"
   }
 }

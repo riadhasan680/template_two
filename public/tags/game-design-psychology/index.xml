@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game Design Psychology on Hugo Tailwind</title>
-    <link>https://example.org/tags/game-design-psychology/</link>
-    <description>Recent content in Game Design Psychology on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Game Design Psychology on Battle Royale Fanatics</title>
+    <link>/tags/game-design-psychology/</link>
+    <description>Recent content in Game Design Psychology on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 14:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/game-design-psychology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 14:15:00 +0600</lastBuildDate><atom:link href="/tags/game-design-psychology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Psychology of Game Design: Why Games Are So Compelling</title>
-      <link>https://example.org/latest-articles/game-design-psychology/</link>
+      <link>/latest-articles/the-psychology-of-game-design-why-games-are-so-compelling/</link>
       <pubDate>Sat, 13 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/game-design-psychology/</guid>
+      
+      <guid>/latest-articles/the-psychology-of-game-design-why-games-are-so-compelling/</guid>
       <description>Understanding the psychological principles that make games engaging and addictive.</description>
     </item>
+    
   </channel>
 </rss>

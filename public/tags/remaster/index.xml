@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Remaster on Hugo Tailwind</title>
-    <link>https://example.org/tags/remaster/</link>
-    <description>Recent content in Remaster on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Remaster on Battle Royale Fanatics</title>
+    <link>/tags/remaster/</link>
+    <description>Recent content in Remaster on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/remaster/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +0600</lastBuildDate><atom:link href="/tags/remaster/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valorant: New Map &#39;Haven&#39; Remastered</title>
-      <link>https://example.org/posts/valorant-haven-remastered/</link>
+      <link>/posts/valorant-new-map-haven-remastered/</link>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-haven-remastered/</guid>
+      
+      <guid>/posts/valorant-new-map-haven-remastered/</guid>
       <description>Riot Games releases remastered version of popular Haven map with improved visuals and gameplay.</description>
     </item>
+    
   </channel>
 </rss>

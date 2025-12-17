@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Revenue Models on Hugo Tailwind</title>
-    <link>https://example.org/tags/revenue-models/</link>
-    <description>Recent content in Revenue Models on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Revenue Models on Battle Royale Fanatics</title>
+    <link>/tags/revenue-models/</link>
+    <description>Recent content in Revenue Models on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 14:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/revenue-models/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 14:15:00 +0600</lastBuildDate><atom:link href="/tags/revenue-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Business of Gaming: How the Industry Makes Money</title>
-      <link>https://example.org/latest-articles/gaming-business-models/</link>
+      <link>/latest-articles/the-business-of-gaming-how-the-industry-makes-money/</link>
       <pubDate>Sun, 14 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-business-models/</guid>
+      
+      <guid>/latest-articles/the-business-of-gaming-how-the-industry-makes-money/</guid>
       <description>Understanding the various revenue streams that drive the multi-billion dollar gaming industry.</description>
     </item>
+    
   </channel>
 </rss>

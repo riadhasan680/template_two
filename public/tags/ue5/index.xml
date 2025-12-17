@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UE5 on Hugo Tailwind</title>
-    <link>https://example.org/tags/ue5/</link>
-    <description>Recent content in UE5 on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>UE5 on Battle Royale Fanatics</title>
+    <link>/tags/ue5/</link>
+    <description>Recent content in UE5 on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 20:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/ue5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 20:15:00 +0600</lastBuildDate><atom:link href="/tags/ue5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PUBG Mobile 3.0: Unreal Engine 5 Upgrade</title>
-      <link>https://example.org/posts/pubg-mobile-update/</link>
+      <link>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</link>
       <pubDate>Thu, 11 Dec 2025 20:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-mobile-update/</guid>
+      
+      <guid>/posts/pubg-mobile-3.0-unreal-engine-5-upgrade/</guid>
       <description>PUBG Mobile transitions to Unreal Engine 5 with revolutionary graphics, new maps, and gameplay mechanics.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Faker on Hugo Tailwind</title>
-    <link>https://example.org/tags/faker/</link>
-    <description>Recent content in Faker on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Faker on Battle Royale Fanatics</title>
+    <link>/tags/faker/</link>
+    <description>Recent content in Faker on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 20:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/faker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 20:00:00 +0600</lastBuildDate><atom:link href="/tags/faker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>League of Legends Worlds 2025: T1 Wins Fourth Championship</title>
-      <link>https://example.org/posts/league-legends/</link>
+      <link>/posts/league-of-legends-worlds-2025-t1-wins-fourth-championship/</link>
       <pubDate>Thu, 11 Dec 2025 20:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/league-legends/</guid>
+      
+      <guid>/posts/league-of-legends-worlds-2025-t1-wins-fourth-championship/</guid>
       <description>Faker and T1 dominate the finals 3-0 against JDG, securing their fourth World Championship title in an incredible display of skill.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Career on Hugo Tailwind</title>
-    <link>https://example.org/categories/career/</link>
-    <description>Recent content in Career on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Career on Battle Royale Fanatics</title>
+    <link>/categories/career/</link>
+    <description>Recent content in Career on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 18:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/career/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 18:00:00 +0600</lastBuildDate><atom:link href="/categories/career/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Career Development: Professional Skills Through Gaming</title>
-      <link>https://example.org/latest-articles/gaming-career-development/</link>
+      <link>/latest-articles/gaming-and-career-development-professional-skills-through-gaming/</link>
       <pubDate>Fri, 12 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-career-development/</guid>
+      
+      <guid>/latest-articles/gaming-and-career-development-professional-skills-through-gaming/</guid>
       <description>How gaming experiences develop professional skills valuable in career advancement.</description>
     </item>
+    
     <item>
       <title>Gaming and Career Opportunities: Professional Paths in Gaming Industry</title>
-      <link>https://example.org/latest-articles/gaming-career-opportunities/</link>
+      <link>/latest-articles/gaming-and-career-opportunities-professional-paths-in-gaming-industry/</link>
       <pubDate>Thu, 11 Dec 2025 15:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-career-opportunities/</guid>
+      
+      <guid>/latest-articles/gaming-and-career-opportunities-professional-paths-in-gaming-industry/</guid>
       <description>Career opportunities and professional development paths in the gaming industry.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mobile Business on Hugo Tailwind</title>
-    <link>https://example.org/tags/mobile-business/</link>
-    <description>Recent content in Mobile Business on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Mobile Business on Battle Royale Fanatics</title>
+    <link>/tags/mobile-business/</link>
+    <description>Recent content in Mobile Business on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 05:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/mobile-business/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 05:15:00 +0600</lastBuildDate><atom:link href="/tags/mobile-business/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Business of Mobile Gaming: Economics and Market Dynamics</title>
-      <link>https://example.org/latest-articles/mobile-gaming-business/</link>
+      <link>/latest-articles/the-business-of-mobile-gaming-economics-and-market-dynamics/</link>
       <pubDate>Fri, 12 Dec 2025 05:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/mobile-gaming-business/</guid>
+      
+      <guid>/latest-articles/the-business-of-mobile-gaming-economics-and-market-dynamics/</guid>
       <description>Understanding the business models and economic factors driving mobile gaming success.</description>
     </item>
+    
   </channel>
 </rss>

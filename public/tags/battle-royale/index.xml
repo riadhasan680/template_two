@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Battle Royale on Hugo Tailwind</title>
-    <link>https://example.org/tags/battle-royale/</link>
-    <description>Recent content in Battle Royale on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Battle Royale on Battle Royale Fanatics</title>
+    <link>/tags/battle-royale/</link>
+    <description>Recent content in Battle Royale on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 10:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/battle-royale/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 10:00:00 +0600</lastBuildDate><atom:link href="/tags/battle-royale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fortnite Chapter 6 Season 2: Zero Point Returns</title>
-      <link>https://example.org/posts/fortnite-news/</link>
+      <link>/posts/fortnite-chapter-6-season-2-zero-point-returns/</link>
       <pubDate>Fri, 12 Dec 2025 10:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-news/</guid>
+      
+      <guid>/posts/fortnite-chapter-6-season-2-zero-point-returns/</guid>
       <description>The island flips again! New battle pass skins revealed including a crossover with Matrix.</description>
     </item>
+    
   </channel>
 </rss>

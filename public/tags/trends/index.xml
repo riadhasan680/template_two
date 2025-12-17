@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Trends on Hugo Tailwind</title>
-    <link>https://example.org/tags/trends/</link>
-    <description>Recent content in Trends on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Trends on Battle Royale Fanatics</title>
+    <link>/tags/trends/</link>
+    <description>Recent content in Trends on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 09:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/trends/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Dec 2025 09:00:00 +0600</lastBuildDate><atom:link href="/tags/trends/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Future of Battle Royale: What&#39;s Next in 2026?</title>
-      <link>https://example.org/posts/future-of-br/</link>
+      <link>/posts/the-future-of-battle-royale-whats-next-in-2026/</link>
       <pubDate>Wed, 10 Dec 2025 09:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/future-of-br/</guid>
+      
+      <guid>/posts/the-future-of-battle-royale-whats-next-in-2026/</guid>
       <description>Developers are pushing the boundaries of scale and interactivity. We explore the upcoming trends that will define the next generation of survival shooters.</description>
     </item>
+    
     <item>
       <title>Mobile Gaming Trends 2025: Console Quality on Phones</title>
-      <link>https://example.org/posts/mobile-gaming-trends/</link>
+      <link>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</link>
       <pubDate>Tue, 02 Dec 2025 13:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/mobile-gaming-trends/</guid>
+      
+      <guid>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</guid>
       <description>Mobile gaming reaches new heights with console-quality graphics and gameplay becoming standard on smartphones.</description>
     </item>
+    
   </channel>
 </rss>

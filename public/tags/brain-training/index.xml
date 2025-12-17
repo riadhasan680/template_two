@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Brain Training on Hugo Tailwind</title>
-    <link>https://example.org/tags/brain-training/</link>
-    <description>Recent content in Brain Training on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Brain Training on Battle Royale Fanatics</title>
+    <link>/tags/brain-training/</link>
+    <description>Recent content in Brain Training on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/brain-training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate><atom:link href="/tags/brain-training/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Memory: How Games Improve Cognitive Function</title>
-      <link>https://example.org/latest-articles/gaming-memory-cognition/</link>
+      <link>/latest-articles/gaming-and-memory-how-games-improve-cognitive-function/</link>
       <pubDate>Sat, 13 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-memory-cognition/</guid>
+      
+      <guid>/latest-articles/gaming-and-memory-how-games-improve-cognitive-function/</guid>
       <description>The cognitive benefits of gaming, particularly for memory and brain function.</description>
     </item>
+    
   </channel>
 </rss>

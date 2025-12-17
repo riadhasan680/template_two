@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mental Wellness on Hugo Tailwind</title>
-    <link>https://example.org/tags/mental-wellness/</link>
-    <description>Recent content in Mental Wellness on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Mental Wellness on Battle Royale Fanatics</title>
+    <link>/tags/mental-wellness/</link>
+    <description>Recent content in Mental Wellness on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 20:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/mental-wellness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 20:15:00 +0600</lastBuildDate><atom:link href="/tags/mental-wellness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Mental Wellness: Therapeutic Benefits and Healthy Habits</title>
-      <link>https://example.org/latest-articles/gaming-mental-wellness/</link>
+      <link>/latest-articles/gaming-and-mental-wellness-therapeutic-benefits-and-healthy-habits/</link>
       <pubDate>Thu, 11 Dec 2025 20:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-mental-wellness/</guid>
+      
+      <guid>/latest-articles/gaming-and-mental-wellness-therapeutic-benefits-and-healthy-habits/</guid>
       <description>How video games support mental wellness and contribute to psychological wellbeing.</description>
     </item>
+    
   </channel>
 </rss>

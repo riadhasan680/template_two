@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Techniques on Hugo Tailwind</title>
-    <link>https://example.org/tags/techniques/</link>
-    <description>Recent content in Techniques on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Techniques on Battle Royale Fanatics</title>
+    <link>/tags/techniques/</link>
+    <description>Recent content in Techniques on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 17:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/techniques/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 17:00:00 +0600</lastBuildDate><atom:link href="/tags/techniques/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Advanced Apex Legends Movement Guide: Pro Techniques</title>
-      <link>https://example.org/posts/apex-movement-guide/</link>
+      <link>/posts/advanced-apex-legends-movement-guide-pro-techniques/</link>
       <pubDate>Sat, 13 Dec 2025 17:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-movement-guide/</guid>
+      
+      <guid>/posts/advanced-apex-legends-movement-guide-pro-techniques/</guid>
       <description>Master advanced movement techniques in Apex Legends with this comprehensive guide covering tap-strafing, super-gliding, and more.</description>
     </item>
+    
   </channel>
 </rss>

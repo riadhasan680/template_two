@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social Change on Hugo Tailwind</title>
-    <link>https://example.org/tags/social-change/</link>
-    <description>Recent content in Social Change on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Social Change on Battle Royale Fanatics</title>
+    <link>/tags/social-change/</link>
+    <description>Recent content in Social Change on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/social-change/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 12:00:00 +0600</lastBuildDate><atom:link href="/tags/social-change/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Social Change: How Games Drive Cultural Movements</title>
-      <link>https://example.org/latest-articles/gaming-social-change/</link>
+      <link>/latest-articles/gaming-and-social-change-how-games-drive-cultural-movements/</link>
       <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-social-change/</guid>
+      
+      <guid>/latest-articles/gaming-and-social-change-how-games-drive-cultural-movements/</guid>
       <description>The role of video games in driving social change and cultural movements.</description>
     </item>
+    
   </channel>
 </rss>

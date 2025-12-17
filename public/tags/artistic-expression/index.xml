@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artistic Expression on Hugo Tailwind</title>
-    <link>https://example.org/tags/artistic-expression/</link>
-    <description>Recent content in Artistic Expression on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Artistic Expression on Battle Royale Fanatics</title>
+    <link>/tags/artistic-expression/</link>
+    <description>Recent content in Artistic Expression on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 16:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/artistic-expression/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 16:30:00 +0600</lastBuildDate><atom:link href="/tags/artistic-expression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Creativity: How Video Games Inspire Artistic Expression</title>
-      <link>https://example.org/latest-articles/gaming-creativity/</link>
+      <link>/latest-articles/gaming-and-creativity-how-video-games-inspire-artistic-expression/</link>
       <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-creativity/</guid>
+      
+      <guid>/latest-articles/gaming-and-creativity-how-video-games-inspire-artistic-expression/</guid>
       <description>The relationship between gaming and creativity, and how games inspire artistic expression.</description>
     </item>
+    
   </channel>
 </rss>

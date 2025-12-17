@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game Streaming on Hugo Tailwind</title>
-    <link>https://example.org/tags/game-streaming/</link>
-    <description>Recent content in Game Streaming on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Game Streaming on Battle Royale Fanatics</title>
+    <link>/tags/game-streaming/</link>
+    <description>Recent content in Game Streaming on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 07:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/game-streaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 07:15:00 +0600</lastBuildDate><atom:link href="/tags/game-streaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cloud Gaming Services Compared: Xbox vs PlayStation vs GeForce Now</title>
-      <link>https://example.org/latest-articles/cloud-gaming-comparison/</link>
+      <link>/latest-articles/cloud-gaming-services-compared-xbox-vs-playstation-vs-geforce-now/</link>
       <pubDate>Mon, 15 Dec 2025 07:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/cloud-gaming-comparison/</guid>
+      
+      <guid>/latest-articles/cloud-gaming-services-compared-xbox-vs-playstation-vs-geforce-now/</guid>
       <description>Which cloud gaming service offers the best value and performance in 2025?</description>
     </item>
+    
   </channel>
 </rss>

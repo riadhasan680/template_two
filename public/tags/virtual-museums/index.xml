@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Virtual Museums on Hugo Tailwind</title>
-    <link>https://example.org/tags/virtual-museums/</link>
-    <description>Recent content in Virtual Museums on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Virtual Museums on Battle Royale Fanatics</title>
+    <link>/tags/virtual-museums/</link>
+    <description>Recent content in Virtual Museums on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 04:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/virtual-museums/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 04:30:00 +0600</lastBuildDate><atom:link href="/tags/virtual-museums/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Sat, 13 Dec 2025 04:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation-digital/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Fri, 12 Dec 2025 07:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation-digital/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation-virtual/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Thu, 11 Dec 2025 12:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation-virtual/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
   </channel>
 </rss>

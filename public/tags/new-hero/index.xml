@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>New Hero on Hugo Tailwind</title>
-    <link>https://example.org/tags/new-hero/</link>
-    <description>Recent content in New Hero on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>New Hero on Battle Royale Fanatics</title>
+    <link>/tags/new-hero/</link>
+    <description>Recent content in New Hero on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 10:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/new-hero/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 10:00:00 +0600</lastBuildDate><atom:link href="/tags/new-hero/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overwatch 2: New Tank Hero Revealed</title>
-      <link>https://example.org/posts/overwatch-maverick/</link>
+      <link>/posts/overwatch-2-new-tank-hero-revealed/</link>
       <pubDate>Sat, 13 Dec 2025 10:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-maverick/</guid>
+      
+      <guid>/posts/overwatch-2-new-tank-hero-revealed/</guid>
       <description>Blizzard unveils new tank hero &amp;lsquo;Maverick&amp;rsquo; with unique mobility and defensive abilities.</description>
     </item>
+    
     <item>
       <title>Overwatch 2: Hero 42 &#39;Nexus&#39; Breaks the Meta</title>
-      <link>https://example.org/posts/overwatch-new-hero/</link>
+      <link>/posts/overwatch-2-hero-42-nexus-breaks-the-meta/</link>
       <pubDate>Thu, 04 Dec 2025 16:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-new-hero/</guid>
+      
+      <guid>/posts/overwatch-2-hero-42-nexus-breaks-the-meta/</guid>
       <description>Blizzard introduces Nexus, a reality-bending support hero that changes how teams approach team composition.</description>
     </item>
+    
   </channel>
 </rss>

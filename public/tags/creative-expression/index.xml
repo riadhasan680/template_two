@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Creative Expression on Hugo Tailwind</title>
-    <link>https://example.org/tags/creative-expression/</link>
-    <description>Recent content in Creative Expression on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Creative Expression on Battle Royale Fanatics</title>
+    <link>/tags/creative-expression/</link>
+    <description>Recent content in Creative Expression on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 10:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/creative-expression/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 10:30:00 +0600</lastBuildDate><atom:link href="/tags/creative-expression/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Creativity: How Games Foster Creative Expression</title>
-      <link>https://example.org/latest-articles/gaming-creativity-expression/</link>
+      <link>/latest-articles/gaming-and-creativity-how-games-foster-creative-expression/</link>
       <pubDate>Fri, 12 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-creativity-expression/</guid>
+      
+      <guid>/latest-articles/gaming-and-creativity-how-games-foster-creative-expression/</guid>
       <description>The role of video games in developing and expressing creativity across various domains.</description>
     </item>
+    
   </channel>
 </rss>

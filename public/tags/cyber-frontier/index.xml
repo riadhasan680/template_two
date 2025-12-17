@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cyber-Frontier on Hugo Tailwind</title>
-    <link>https://example.org/tags/cyber-frontier/</link>
-    <description>Recent content in Cyber-Frontier on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Cyber-Frontier on Battle Royale Fanatics</title>
+    <link>/tags/cyber-frontier/</link>
+    <description>Recent content in Cyber-Frontier on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 10:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/cyber-frontier/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 10:00:00 +0600</lastBuildDate><atom:link href="/tags/cyber-frontier/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review: &#39;Cyber-Frontier&#39; - A Buggy but Beautiful Mess</title>
-      <link>https://example.org/posts/game-review/</link>
+      <link>/posts/review-cyber-frontier-a-buggy-but-beautiful-mess/</link>
       <pubDate>Fri, 12 Dec 2025 10:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/game-review/</guid>
+      
+      <guid>/posts/review-cyber-frontier-a-buggy-but-beautiful-mess/</guid>
       <description>The graphics are next-gen, but the performance issues hold back what could have been the shooter of the year.</description>
     </item>
+    
   </channel>
 </rss>

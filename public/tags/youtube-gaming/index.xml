@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YouTube Gaming on Hugo Tailwind</title>
-    <link>https://example.org/tags/youtube-gaming/</link>
-    <description>Recent content in YouTube Gaming on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>YouTube Gaming on Battle Royale Fanatics</title>
+    <link>/tags/youtube-gaming/</link>
+    <description>Recent content in YouTube Gaming on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 06:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/youtube-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 06:00:00 +0600</lastBuildDate><atom:link href="/tags/youtube-gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming Streaming Platforms: Twitch vs YouTube vs Kick</title>
-      <link>https://example.org/latest-articles/streaming-platforms-comparison/</link>
+      <link>/latest-articles/gaming-streaming-platforms-twitch-vs-youtube-vs-kick/</link>
       <pubDate>Sun, 14 Dec 2025 06:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/streaming-platforms-comparison/</guid>
+      
+      <guid>/latest-articles/gaming-streaming-platforms-twitch-vs-youtube-vs-kick/</guid>
       <description>Comparing the major streaming platforms for gamers and content creators.</description>
     </item>
+    
   </channel>
 </rss>

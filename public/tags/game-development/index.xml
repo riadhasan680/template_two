@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game Development on Hugo Tailwind</title>
-    <link>https://example.org/tags/game-development/</link>
-    <description>Recent content in Game Development on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Game Development on Battle Royale Fanatics</title>
+    <link>/tags/game-development/</link>
+    <description>Recent content in Game Development on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 18:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 18:00:00 +0600</lastBuildDate><atom:link href="/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Rise of Indie Games in 2025</title>
-      <link>https://example.org/latest-articles/rise-indie-games/</link>
+      <link>/latest-articles/the-rise-of-indie-games-in-2025/</link>
       <pubDate>Sun, 14 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/rise-indie-games/</guid>
+      
+      <guid>/latest-articles/the-rise-of-indie-games-in-2025/</guid>
       <description>How independent developers are reshaping the gaming landscape with innovative titles.</description>
     </item>
+    
     <item>
       <title>The Art of Game Design: What Makes Games Fun?</title>
-      <link>https://example.org/latest-articles/art-game-design/</link>
+      <link>/latest-articles/the-art-of-game-design-what-makes-games-fun/</link>
       <pubDate>Sun, 14 Dec 2025 06:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/art-game-design/</guid>
+      
+      <guid>/latest-articles/the-art-of-game-design-what-makes-games-fun/</guid>
       <description>Exploring the fundamental principles of game design that create engaging experiences.</description>
     </item>
+    
     <item>
       <title>The Rise of Indie Games: How Small Studios Are Changing the Industry</title>
-      <link>https://example.org/latest-articles/indie-games-rise/</link>
+      <link>/latest-articles/the-rise-of-indie-games-how-small-studios-are-changing-the-industry/</link>
       <pubDate>Sun, 14 Dec 2025 02:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/indie-games-rise/</guid>
+      
+      <guid>/latest-articles/the-rise-of-indie-games-how-small-studios-are-changing-the-industry/</guid>
       <description>How independent game developers are challenging industry giants with innovative ideas.</description>
     </item>
+    
     <item>
       <title>The Impact of AI on Gaming: How Machine Learning Is Changing Game Development</title>
-      <link>https://example.org/latest-articles/ai-impact-gaming/</link>
+      <link>/latest-articles/the-impact-of-ai-on-gaming-how-machine-learning-is-changing-game-development/</link>
       <pubDate>Sat, 13 Dec 2025 21:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/ai-impact-gaming/</guid>
+      
+      <guid>/latest-articles/the-impact-of-ai-on-gaming-how-machine-learning-is-changing-game-development/</guid>
       <description>Exploring how artificial intelligence is revolutionizing game development and player experiences.</description>
     </item>
+    
     <item>
       <title>The Business of Game Development: How Studios Create Hit Games</title>
-      <link>https://example.org/latest-articles/game-development-business/</link>
+      <link>/latest-articles/the-business-of-game-development-how-studios-create-hit-games/</link>
       <pubDate>Sat, 13 Dec 2025 15:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/game-development-business/</guid>
+      
+      <guid>/latest-articles/the-business-of-game-development-how-studios-create-hit-games/</guid>
       <description>Behind the scenes of game development and the business strategies that create successful games.</description>
     </item>
+    
   </channel>
 </rss>

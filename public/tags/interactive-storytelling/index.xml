@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Interactive Storytelling on Hugo Tailwind</title>
-    <link>https://example.org/tags/interactive-storytelling/</link>
-    <description>Recent content in Interactive Storytelling on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Interactive Storytelling on Battle Royale Fanatics</title>
+    <link>/tags/interactive-storytelling/</link>
+    <description>Recent content in Interactive Storytelling on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 03:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/interactive-storytelling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 03:45:00 +0600</lastBuildDate><atom:link href="/tags/interactive-storytelling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Future of Gaming Narratives: Interactive Storytelling Evolution</title>
-      <link>https://example.org/latest-articles/future-gaming-narratives/</link>
+      <link>/latest-articles/the-future-of-gaming-narratives-interactive-storytelling-evolution/</link>
       <pubDate>Fri, 12 Dec 2025 03:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/future-gaming-narratives/</guid>
+      
+      <guid>/latest-articles/the-future-of-gaming-narratives-interactive-storytelling-evolution/</guid>
       <description>How gaming narratives are evolving with new technologies and storytelling techniques.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>F2P Business Models on Hugo Tailwind</title>
-    <link>https://example.org/tags/f2p-business-models/</link>
-    <description>Recent content in F2P Business Models on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>F2P Business Models on Battle Royale Fanatics</title>
+    <link>/tags/f2p-business-models/</link>
+    <description>Recent content in F2P Business Models on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 02:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/f2p-business-models/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 02:15:00 +0600</lastBuildDate><atom:link href="/tags/f2p-business-models/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Economics of Free-to-Play Games: Understanding F2P Business Models</title>
-      <link>https://example.org/latest-articles/free-to-play-economics/</link>
+      <link>/latest-articles/the-economics-of-free-to-play-games-understanding-f2p-business-models/</link>
       <pubDate>Sat, 13 Dec 2025 02:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/free-to-play-economics/</guid>
+      
+      <guid>/latest-articles/the-economics-of-free-to-play-games-understanding-f2p-business-models/</guid>
       <description>How free-to-play games generate revenue and the economics behind F2P success.</description>
     </item>
+    
   </channel>
 </rss>

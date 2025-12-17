@@ -1,40 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Map Update on Hugo Tailwind</title>
-    <link>https://example.org/tags/map-update/</link>
-    <description>Recent content in Map Update on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Map Update on Battle Royale Fanatics</title>
+    <link>/tags/map-update/</link>
+    <description>Recent content in Map Update on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/map-update/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 12:00:00 +0600</lastBuildDate><atom:link href="/tags/map-update/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PUBG: New Sanhok Map Update</title>
-      <link>https://example.org/posts/pubg-sanhok-update/</link>
+      <link>/posts/pubg-new-sanhok-map-update/</link>
       <pubDate>Sat, 13 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-sanhok-update/</guid>
+      
+      <guid>/posts/pubg-new-sanhok-map-update/</guid>
       <description>PUBG Mobile receives major Sanhok map update with new locations and improved performance.</description>
     </item>
+    
     <item>
       <title>Valorant: New Map &#39;Haven&#39; Remastered</title>
-      <link>https://example.org/posts/valorant-haven-remastered/</link>
+      <link>/posts/valorant-new-map-haven-remastered/</link>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-haven-remastered/</guid>
+      
+      <guid>/posts/valorant-new-map-haven-remastered/</guid>
       <description>Riot Games releases remastered version of popular Haven map with improved visuals and gameplay.</description>
     </item>
+    
     <item>
       <title>Valorant Map Update: &#39;Abyss&#39; New Map Revealed</title>
-      <link>https://example.org/posts/valorant-map-update/</link>
+      <link>/posts/valorant-map-update-abyss-new-map-revealed/</link>
       <pubDate>Fri, 12 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-map-update/</guid>
+      
+      <guid>/posts/valorant-map-update-abyss-new-map-revealed/</guid>
       <description>Riot Games unveils Abyss, a vertical-focused map with unique three-level design and revolutionary gameplay mechanics.</description>
     </item>
+    
     <item>
       <title>Apex Legends: New World&#39;s Edge Map Update</title>
-      <link>https://example.org/posts/apex-legends-new-map/</link>
+      <link>/posts/apex-legends-new-worlds-edge-map-update/</link>
       <pubDate>Fri, 12 Dec 2025 09:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-legends-new-map/</guid>
+      
+      <guid>/posts/apex-legends-new-worlds-edge-map-update/</guid>
       <description>Respawn Entertainment reveals massive World&amp;rsquo;s Edge map overhaul with new points of interest and gameplay mechanics.</description>
     </item>
+    
   </channel>
 </rss>

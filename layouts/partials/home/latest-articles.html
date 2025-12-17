@@ -1,9 +1,9 @@
 <!-- Latest Articles Section -->
 <section class="latest-articles-section mb-12">
   <!-- Section Header -->
-  <div class="flex flex-col border-b sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+  <div class="flex flex-col border-b border-black sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
       <h2
-        class="font-[Oswald] font-normal text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block">
+        class="font-body font-normal w-max text-sm tracking-wider uppercase bg-[#2013db] text-white px-4 py-2 inline-block">
           LATEST ARTICLES
       </h2>
     </div>
@@ -127,36 +127,83 @@ document.addEventListener('DOMContentLoaded', function() {
     const articlesPerPage = 8;
     const startIndex = (page - 1) * articlesPerPage;
     
-    // Get all latest-articles data
-    const response = await fetch('/latest-articles/index.xml');
-    const text = await response.text();
+    try {
+      // Get all latest-articles data
+      const response = await fetch('/latest-articles/index.xml');
+      if (!response.ok) {
+        throw new Error('Failed to fetch articles');
+      }
+      const text = await response.text();
+      
+      // Parse XML and extract article data
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(text, 'text/xml');
+      const items = xmlDoc.querySelectorAll('item');
+      
+      const allArticles = Array.from(items).map(item => ({
+        title: item.querySelector('title')?.textContent || '',
+        date: item.querySelector('pubDate')?.textContent ? new Date(item.querySelector('pubDate').textContent).toISOString().split('T')[0] : '',
+        categories: Array.from(item.querySelectorAll('category')).map(cat => cat.textContent),
+        url: item.querySelector('link')?.textContent || '',
+        summary: item.querySelector('description')?.textContent || ''
+      })).filter(article => article.title && article.url);
+      
+      // Sort by date (newest first)
+      allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
+      
+      // Get paginated results
+      const paginatedArticles = allArticles.slice(startIndex, startIndex + articlesPerPage);
+      
+      return paginatedArticles.map(article => ({
+        title: article.title,
+        image: article.image || `https://picsum.photos/seed/${article.title.replace(/\s+/g, '-').toLowerCase()}/400/300.jpg`,
+        category: article.categories && article.categories.length > 0 ? article.categories[0] : "Gaming",
+        date: article.date,
+        url: article.url
+      }));
+    } catch (error) {
+      console.error('Error fetching articles:', error);
+      // Return fallback articles if fetch fails
+      return getFallbackArticles(page);
+    }
+  }
+
+  // Fallback articles when no data is available
+  function getFallbackArticles(page) {
+    const fallbackArticles = [
+      {
+        title: "Latest Gaming News and Updates",
+        image: "https://picsum.photos/seed/gaming-news-1/400/300.jpg",
+        category: "Gaming",
+        date: new Date().toISOString().split('T')[0],
+        url: "#"
+      },
+      {
+        title: "Esports Tournament Highlights",
+        image: "https://picsum.photos/seed/esports-2/400/300.jpg",
+        category: "Esports",
+        date: new Date().toISOString().split('T')[0],
+        url: "#"
+      },
+      {
+        title: "Game Reviews and Ratings",
+        image: "https://picsum.photos/seed/reviews-3/400/300.jpg",
+        category: "Reviews",
+        date: new Date().toISOString().split('T')[0],
+        url: "#"
+      },
+      {
+        title: "Gaming Industry Trends",
+        image: "https://picsum.photos/seed/trends-4/400/300.jpg",
+        category: "Industry",
+        date: new Date().toISOString().split('T')[0],
+        url: "#"
+      }
+    ];
     
-    // Parse XML and extract article data
-    const parser = new DOMParser();
-    const xmlDoc = parser.parseFromString(text, 'text/xml');
-    const items = xmlDoc.querySelectorAll('item');
-    
-    const allArticles = Array.from(items).map(item => ({
-      title: item.querySelector('title')?.textContent || '',
-      date: item.querySelector('pubDate')?.textContent ? new Date(item.querySelector('pubDate').textContent).toISOString().split('T')[0] : '',
-      categories: Array.from(item.querySelectorAll('category')).map(cat => cat.textContent),
-      url: item.querySelector('link')?.textContent || '',
-      summary: item.querySelector('description')?.textContent || ''
-    })).filter(article => article.title && article.url);
-    
-    // Sort by date (newest first)
-    allArticles.sort((a, b) => new Date(b.date) - new Date(a.date));
-    
-    // Get paginated results
-    const paginatedArticles = allArticles.slice(startIndex, startIndex + articlesPerPage);
-    
-    return paginatedArticles.map(article => ({
-      title: article.title,
-      image: article.image || `https://picsum.photos/seed/${article.title.replace(/\s+/g, '-').toLowerCase()}/400/300.jpg`,
-      category: article.categories && article.categories.length > 0 ? article.categories[0] : "Gaming",
-      date: article.date,
-      url: article.url
-    }));
+    const articlesPerPage = 8;
+    const startIndex = (page - 1) * articlesPerPage;
+    return fallbackArticles.slice(startIndex, startIndex + articlesPerPage);
   }
 });
 </script>

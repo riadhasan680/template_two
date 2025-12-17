@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Story Mode on Hugo Tailwind</title>
-    <link>https://example.org/tags/story-mode/</link>
-    <description>Recent content in Story Mode on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Story Mode on Battle Royale Fanatics</title>
+    <link>/tags/story-mode/</link>
+    <description>Recent content in Story Mode on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Dec 2025 12:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/story-mode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2025 12:15:00 +0600</lastBuildDate><atom:link href="/tags/story-mode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Call of Duty: Zombies Mode Returns with New Story</title>
-      <link>https://example.org/posts/cod-zombies-return/</link>
+      <link>/posts/call-of-duty-zombies-mode-returns-with-new-story/</link>
       <pubDate>Sun, 07 Dec 2025 12:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-zombies-return/</guid>
+      
+      <guid>/posts/call-of-duty-zombies-mode-returns-with-new-story/</guid>
       <description>Treyarch announces the return of classic Zombies mode with an all-new storyline and revolutionary gameplay mechanics.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,61 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Culture on Hugo Tailwind</title>
-    <link>https://example.org/categories/culture/</link>
-    <description>Recent content in Culture on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Culture on Battle Royale Fanatics</title>
+    <link>/categories/culture/</link>
+    <description>Recent content in Culture on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 18:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 18:00:00 +0600</lastBuildDate><atom:link href="/categories/culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cultural Impact of Gaming: How Video Games Shape Society</title>
-      <link>https://example.org/latest-articles/gaming-cultural-impact/</link>
+      <link>/latest-articles/the-cultural-impact-of-gaming-how-video-games-shape-society/</link>
       <pubDate>Sat, 13 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-impact/</guid>
+      
+      <guid>/latest-articles/the-cultural-impact-of-gaming-how-video-games-shape-society/</guid>
       <description>Examining video games&amp;rsquo; influence on culture, art, and social norms.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Sat, 13 Dec 2025 04:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Exchange: How Games Connect Global Communities</title>
-      <link>https://example.org/latest-articles/gaming-cultural-exchange/</link>
+      <link>/latest-articles/gaming-and-cultural-exchange-how-games-connect-global-communities/</link>
       <pubDate>Fri, 12 Dec 2025 22:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-exchange/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-exchange-how-games-connect-global-communities/</guid>
       <description>The role of video games in facilitating cultural exchange and global understanding.</description>
     </item>
+    
     <item>
       <title>Gaming and Social Change: How Games Drive Cultural Movements</title>
-      <link>https://example.org/latest-articles/gaming-social-change/</link>
+      <link>/latest-articles/gaming-and-social-change-how-games-drive-cultural-movements/</link>
       <pubDate>Fri, 12 Dec 2025 12:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-social-change/</guid>
+      
+      <guid>/latest-articles/gaming-and-social-change-how-games-drive-cultural-movements/</guid>
       <description>The role of video games in driving social change and cultural movements.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation-digital/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Fri, 12 Dec 2025 07:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation-digital/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Exchange: How Games Connect Global Communities</title>
-      <link>https://example.org/latest-articles/gaming-cultural-exchange-global/</link>
+      <link>/latest-articles/gaming-and-cultural-exchange-how-games-connect-global-communities/</link>
       <pubDate>Thu, 11 Dec 2025 21:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-exchange-global/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-exchange-how-games-connect-global-communities/</guid>
       <description>The role of video games in facilitating cultural exchange and global understanding.</description>
     </item>
+    
     <item>
       <title>Gaming and Cultural Preservation: Digital Heritage and Virtual Museums</title>
-      <link>https://example.org/latest-articles/gaming-cultural-preservation-virtual/</link>
+      <link>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</link>
       <pubDate>Thu, 11 Dec 2025 12:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cultural-preservation-virtual/</guid>
+      
+      <guid>/latest-articles/gaming-and-cultural-preservation-digital-heritage-and-virtual-museums/</guid>
       <description>How video games are preserving cultural heritage and creating virtual museums.</description>
     </item>
+    
   </channel>
 </rss>

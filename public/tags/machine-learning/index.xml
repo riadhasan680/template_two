@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning on Hugo Tailwind</title>
-    <link>https://example.org/tags/machine-learning/</link>
-    <description>Recent content in Machine Learning on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Machine Learning on Battle Royale Fanatics</title>
+    <link>/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 21:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 21:45:00 +0600</lastBuildDate><atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Impact of AI on Gaming: How Machine Learning Is Changing Game Development</title>
-      <link>https://example.org/latest-articles/ai-impact-gaming/</link>
+      <link>/latest-articles/the-impact-of-ai-on-gaming-how-machine-learning-is-changing-game-development/</link>
       <pubDate>Sat, 13 Dec 2025 21:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/ai-impact-gaming/</guid>
+      
+      <guid>/latest-articles/the-impact-of-ai-on-gaming-how-machine-learning-is-changing-game-development/</guid>
       <description>Exploring how artificial intelligence is revolutionizing game development and player experiences.</description>
     </item>
+    
   </channel>
 </rss>

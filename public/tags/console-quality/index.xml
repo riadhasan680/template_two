@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Console Quality on Hugo Tailwind</title>
-    <link>https://example.org/tags/console-quality/</link>
-    <description>Recent content in Console Quality on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Console Quality on Battle Royale Fanatics</title>
+    <link>/tags/console-quality/</link>
+    <description>Recent content in Console Quality on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Dec 2025 13:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/console-quality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Dec 2025 13:00:00 +0600</lastBuildDate><atom:link href="/tags/console-quality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mobile Gaming Trends 2025: Console Quality on Phones</title>
-      <link>https://example.org/posts/mobile-gaming-trends/</link>
+      <link>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</link>
       <pubDate>Tue, 02 Dec 2025 13:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/mobile-gaming-trends/</guid>
+      
+      <guid>/posts/mobile-gaming-trends-2025-console-quality-on-phones/</guid>
       <description>Mobile gaming reaches new heights with console-quality graphics and gameplay becoming standard on smartphones.</description>
     </item>
+    
   </channel>
 </rss>

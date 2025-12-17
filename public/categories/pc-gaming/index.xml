@@ -1,47 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PC Gaming on Hugo Tailwind</title>
-    <link>https://example.org/categories/pc-gaming/</link>
-    <description>Recent content in PC Gaming on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>PC Gaming on Battle Royale Fanatics</title>
+    <link>/categories/pc-gaming/</link>
+    <description>Recent content in PC Gaming on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 16:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/pc-gaming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 16:30:00 +0600</lastBuildDate><atom:link href="/categories/pc-gaming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PUBG PC 2.0 - Unreal Engine 5 Revolution</title>
-      <link>https://example.org/posts/pubg-pc-2/</link>
+      <link>/posts/pubg-pc-2.0-unreal-engine-5-revolution/</link>
       <pubDate>Fri, 12 Dec 2025 16:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-pc-2/</guid>
+      
+      <guid>/posts/pubg-pc-2.0-unreal-engine-5-revolution/</guid>
       <description>KRAFTON announces PUBG PC 2.0 with complete Unreal Engine 5 overhaul, 200-player matches, and next-gen graphics.</description>
     </item>
+    
     <item>
       <title>Best Gaming PC Build for 2025 Under $1500</title>
-      <link>https://example.org/posts/gaming-pc-build/</link>
+      <link>/posts/best-gaming-pc-build-for-2025-under-1500/</link>
       <pubDate>Wed, 10 Dec 2025 10:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/gaming-pc-build/</guid>
+      
+      <guid>/posts/best-gaming-pc-build-for-2025-under-1500/</guid>
       <description>Complete guide to building a high-performance gaming PC that can run all modern games at 1440p with ray tracing enabled.</description>
     </item>
+    
     <item>
       <title>Steam Winter Sale 2025: Top 10 Deals You Can&#39;t Miss</title>
-      <link>https://example.org/posts/steam-winter-sale/</link>
+      <link>/posts/steam-winter-sale-2025-top-10-deals-you-cant-miss/</link>
       <pubDate>Tue, 09 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/steam-winter-sale/</guid>
+      
+      <guid>/posts/steam-winter-sale-2025-top-10-deals-you-cant-miss/</guid>
       <description>The Steam Winter Sale is live with incredible discounts on AAA titles, indie gems, and VR games. Here are the best deals.</description>
     </item>
+    
     <item>
       <title>Ultimate Gaming PC Build Guide 2025</title>
-      <link>https://example.org/posts/gaming-pc-2025/</link>
+      <link>/posts/ultimate-gaming-pc-build-guide-2025/</link>
       <pubDate>Fri, 05 Dec 2025 09:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/gaming-pc-2025/</guid>
+      
+      <guid>/posts/ultimate-gaming-pc-build-guide-2025/</guid>
       <description>Complete guide to building the perfect gaming PC for 2025 with RTX 5000 series and next-gen CPUs.</description>
     </item>
+    
     <item>
       <title>Best Gaming Laptops 2025: RTX 5000 Series Dominates</title>
-      <link>https://example.org/posts/gaming-laptop-2025/</link>
+      <link>/posts/best-gaming-laptops-2025-rtx-5000-series-dominates/</link>
       <pubDate>Wed, 03 Dec 2025 11:20:00 +0600</pubDate>
-      <guid>https://example.org/posts/gaming-laptop-2025/</guid>
+      
+      <guid>/posts/best-gaming-laptops-2025-rtx-5000-series-dominates/</guid>
       <description>Complete guide to the best gaming laptops of 2025 featuring RTX 5000 series GPUs and next-gen processors.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tank on Hugo Tailwind</title>
-    <link>https://example.org/tags/tank/</link>
-    <description>Recent content in Tank on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Tank on Battle Royale Fanatics</title>
+    <link>/tags/tank/</link>
+    <description>Recent content in Tank on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 10:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/tank/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 10:00:00 +0600</lastBuildDate><atom:link href="/tags/tank/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overwatch 2: New Tank Hero Revealed</title>
-      <link>https://example.org/posts/overwatch-maverick/</link>
+      <link>/posts/overwatch-2-new-tank-hero-revealed/</link>
       <pubDate>Sat, 13 Dec 2025 10:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-maverick/</guid>
+      
+      <guid>/posts/overwatch-2-new-tank-hero-revealed/</guid>
       <description>Blizzard unveils new tank hero &amp;lsquo;Maverick&amp;rsquo; with unique mobility and defensive abilities.</description>
     </item>
+    
   </channel>
 </rss>

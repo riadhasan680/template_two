@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overwatch 3 on Hugo Tailwind</title>
-    <link>https://example.org/tags/overwatch-3/</link>
-    <description>Recent content in Overwatch 3 on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Overwatch 3 on Battle Royale Fanatics</title>
+    <link>/tags/overwatch-3/</link>
+    <description>Recent content in Overwatch 3 on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Dec 2025 21:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/overwatch-3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Dec 2025 21:45:00 +0600</lastBuildDate><atom:link href="/tags/overwatch-3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Overwatch 3: Next Generation Hero Shooter</title>
-      <link>https://example.org/posts/overwatch-3/</link>
+      <link>/posts/overwatch-3-next-generation-hero-shooter/</link>
       <pubDate>Thu, 11 Dec 2025 21:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-3/</guid>
+      
+      <guid>/posts/overwatch-3-next-generation-hero-shooter/</guid>
       <description>Blizzard announces Overwatch 3 with revolutionary gameplay mechanics, new heroes, and cross-platform progression.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,68 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Valorant on Hugo Tailwind</title>
-    <link>https://example.org/categories/valorant/</link>
-    <description>Recent content in Valorant on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Valorant on Battle Royale Fanatics</title>
+    <link>/categories/valorant/</link>
+    <description>Recent content in Valorant on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 15:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/valorant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 15:30:00 +0600</lastBuildDate><atom:link href="/categories/valorant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valorant: Agent Balance Patch 8.0</title>
-      <link>https://example.org/posts/valorant-balance-patch/</link>
+      <link>/posts/valorant-agent-balance-patch-8.0/</link>
       <pubDate>Sat, 13 Dec 2025 15:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-balance-patch/</guid>
+      
+      <guid>/posts/valorant-agent-balance-patch-8.0/</guid>
       <description>Major balance changes shake up the Valorant meta with significant agent adjustments.</description>
     </item>
+    
     <item>
       <title>Valorant Episode 8 Act 2: New Agent Revealed</title>
-      <link>https://example.org/posts/valorant-update/</link>
+      <link>/posts/valorant-episode-8-act-2-new-agent-revealed/</link>
       <pubDate>Sat, 13 Dec 2025 14:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-update/</guid>
+      
+      <guid>/posts/valorant-episode-8-act-2-new-agent-revealed/</guid>
       <description>Riot Games unveils a new controller agent with unique smoke abilities that can block vision and deal damage.</description>
     </item>
+    
     <item>
       <title>Valorant: New Map &#39;Haven&#39; Remastered</title>
-      <link>https://example.org/posts/valorant-haven-remastered/</link>
+      <link>/posts/valorant-new-map-haven-remastered/</link>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-haven-remastered/</guid>
+      
+      <guid>/posts/valorant-new-map-haven-remastered/</guid>
       <description>Riot Games releases remastered version of popular Haven map with improved visuals and gameplay.</description>
     </item>
+    
     <item>
       <title>Valorant Map Update: &#39;Abyss&#39; New Map Revealed</title>
-      <link>https://example.org/posts/valorant-map-update/</link>
+      <link>/posts/valorant-map-update-abyss-new-map-revealed/</link>
       <pubDate>Fri, 12 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-map-update/</guid>
+      
+      <guid>/posts/valorant-map-update-abyss-new-map-revealed/</guid>
       <description>Riot Games unveils Abyss, a vertical-focused map with unique three-level design and revolutionary gameplay mechanics.</description>
     </item>
+    
     <item>
       <title>Valorant Esports 2025: VCT Format Revolution</title>
-      <link>https://example.org/posts/valorant-esports-2025/</link>
+      <link>/posts/valorant-esports-2025-vct-format-revolution/</link>
       <pubDate>Fri, 12 Dec 2025 13:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-esports-2025/</guid>
+      
+      <guid>/posts/valorant-esports-2025-vct-format-revolution/</guid>
       <description>Riot Games announces major VCT 2025 format changes with new regions, increased prize pools, and fan engagement features.</description>
     </item>
+    
     <item>
       <title>Valorant Agent 26: &#39;Vex&#39; Revealed</title>
-      <link>https://example.org/posts/valorant-new-agent/</link>
+      <link>/posts/valorant-agent-26-vex-revealed/</link>
       <pubDate>Fri, 12 Dec 2025 12:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-new-agent/</guid>
+      
+      <guid>/posts/valorant-agent-26-vex-revealed/</guid>
       <description>Riot Games unveils Vex, the shadow manipulation Initiator with unique area denial and information gathering abilities.</description>
     </item>
+    
     <item>
       <title>VCT 2025 Champions: New Era of Competition</title>
-      <link>https://example.org/posts/valorant-championship/</link>
+      <link>/posts/vct-2025-champions-new-era-of-competition/</link>
       <pubDate>Thu, 11 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-championship/</guid>
+      
+      <guid>/posts/vct-2025-champions-new-era-of-competition/</guid>
       <description>Valorant Champions Tour 2025 introduces new format with $25 million prize pool and revolutionary broadcast features.</description>
     </item>
+    
     <item>
       <title>Valorant Agent 25: Chronomancer Revealed</title>
-      <link>https://example.org/posts/valorant-agent-25/</link>
+      <link>/posts/valorant-agent-25-chronomancer-revealed/</link>
       <pubDate>Mon, 08 Dec 2025 18:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-agent-25/</guid>
+      
+      <guid>/posts/valorant-agent-25-chronomancer-revealed/</guid>
       <description>Riot Games introduces the 25th agent with time manipulation abilities that change the meta completely.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Child Development on Hugo Tailwind</title>
-    <link>https://example.org/tags/child-development/</link>
-    <description>Recent content in Child Development on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Child Development on Battle Royale Fanatics</title>
+    <link>/tags/child-development/</link>
+    <description>Recent content in Child Development on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 04:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/child-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 04:30:00 +0600</lastBuildDate><atom:link href="/tags/child-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Cognitive Development: How Games Shape Young Minds</title>
-      <link>https://example.org/latest-articles/gaming-cognitive-development/</link>
+      <link>/latest-articles/gaming-and-cognitive-development-how-games-shape-young-minds/</link>
       <pubDate>Fri, 12 Dec 2025 04:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-cognitive-development/</guid>
+      
+      <guid>/latest-articles/gaming-and-cognitive-development-how-games-shape-young-minds/</guid>
       <description>The impact of video games on cognitive development and learning in children and adolescents.</description>
     </item>
+    
   </channel>
 </rss>

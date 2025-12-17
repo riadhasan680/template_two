@@ -1,96 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esports on Hugo Tailwind</title>
-    <link>https://example.org/categories/esports/</link>
-    <description>Recent content in Esports on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Esports on Battle Royale Fanatics</title>
+    <link>/categories/esports/</link>
+    <description>Recent content in Esports on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 08:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/esports/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 08:00:00 +0600</lastBuildDate><atom:link href="/categories/esports/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esports Scholarships: Gaming Your Way to College</title>
-      <link>https://example.org/latest-articles/esports-scholarships/</link>
+      <link>/latest-articles/esports-scholarships-gaming-your-way-to-college/</link>
       <pubDate>Mon, 15 Dec 2025 08:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/esports-scholarships/</guid>
+      
+      <guid>/latest-articles/esports-scholarships-gaming-your-way-to-college/</guid>
       <description>How competitive gaming is opening doors to higher education through esports scholarships.</description>
     </item>
+    
+    <item>
+      <title>Apex Legends Esports Scene Explodes with Record Viewership</title>
+      <link>/hero/apex-legends-esports-scene-explodes-with-record-viewership/</link>
+      <pubDate>Sun, 14 Dec 2025 11:00:00 +0000</pubDate>
+      
+      <guid>/hero/apex-legends-esports-scene-explodes-with-record-viewership/</guid>
+      <description>Apex Legends competitive gaming reaches unprecedented heights with record-breaking viewership numbers and massive global audience engagement across streaming platforms.</description>
+    </item>
+    
     <item>
       <title>Competitive Gaming: From Casual Play to Professional Esports</title>
-      <link>https://example.org/latest-articles/competitive-gaming-journey/</link>
+      <link>/latest-articles/competitive-gaming-from-casual-play-to-professional-esports/</link>
       <pubDate>Sun, 14 Dec 2025 09:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/competitive-gaming-journey/</guid>
+      
+      <guid>/latest-articles/competitive-gaming-from-casual-play-to-professional-esports/</guid>
       <description>The journey of becoming a professional esports player in the modern gaming landscape.</description>
     </item>
+    
     <item>
       <title>Apex Legends Esports Scene: Team Analysis 2025</title>
-      <link>https://example.org/posts/apex-esports-analysis/</link>
+      <link>/posts/apex-legends-esports-scene-team-analysis-2025/</link>
       <pubDate>Sat, 13 Dec 2025 19:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-esports-analysis/</guid>
+      
+      <guid>/posts/apex-legends-esports-scene-team-analysis-2025/</guid>
       <description>In-depth analysis of top Apex Legends esports teams and their performance in the 2025 competitive season.</description>
     </item>
+    
     <item>
       <title>Overwatch 2: World Cup 2025 Details</title>
-      <link>https://example.org/posts/overwatch-world-cup/</link>
+      <link>/posts/overwatch-2-world-cup-2025-details/</link>
       <pubDate>Sat, 13 Dec 2025 16:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/overwatch-world-cup/</guid>
+      
+      <guid>/posts/overwatch-2-world-cup-2025-details/</guid>
       <description>Blizzard announces Overwatch World Cup 2025 with record-breaking prize pool and new format.</description>
     </item>
+    
     <item>
       <title>Apex Legends World Championship 2025: Tournament Preview</title>
-      <link>https://example.org/posts/apex-championship-2025/</link>
+      <link>/posts/apex-legends-world-championship-2025-tournament-preview/</link>
       <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-championship-2025/</guid>
+      
+      <guid>/posts/apex-legends-world-championship-2025-tournament-preview/</guid>
       <description>Complete preview of the Apex Legends Global Series Championship 2025 with teams, format, and predictions.</description>
     </item>
+    
     <item>
       <title>PUBG: Global Championship 2025 Announced</title>
-      <link>https://example.org/posts/pubg-championship-2025/</link>
+      <link>/posts/pubg-global-championship-2025-announced/</link>
       <pubDate>Sat, 13 Dec 2025 16:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/pubg-championship-2025/</guid>
+      
+      <guid>/posts/pubg-global-championship-2025-announced/</guid>
       <description>Krafton reveals details for PUBG Global Championship 2025 with record prize pool.</description>
     </item>
+    
     <item>
       <title>Valorant Esports 2025: VCT Format Revolution</title>
-      <link>https://example.org/posts/valorant-esports-2025/</link>
+      <link>/posts/valorant-esports-2025-vct-format-revolution/</link>
       <pubDate>Fri, 12 Dec 2025 13:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-esports-2025/</guid>
+      
+      <guid>/posts/valorant-esports-2025-vct-format-revolution/</guid>
       <description>Riot Games announces major VCT 2025 format changes with new regions, increased prize pools, and fan engagement features.</description>
     </item>
+    
     <item>
       <title>Apex Legends Pro Scene: 2025 Offseason Moves</title>
-      <link>https://example.org/posts/apex-legends-pro-scene/</link>
+      <link>/posts/apex-legends-pro-scene-2025-offseason-moves/</link>
       <pubDate>Fri, 12 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-legends-pro-scene/</guid>
+      
+      <guid>/posts/apex-legends-pro-scene-2025-offseason-moves/</guid>
       <description>Major roster changes and team acquisitions shake up the Apex Legends competitive landscape for 2025.</description>
     </item>
+    
     <item>
       <title>League of Legends Worlds 2025: T1 Wins Fourth Championship</title>
-      <link>https://example.org/posts/league-legends/</link>
+      <link>/posts/league-of-legends-worlds-2025-t1-wins-fourth-championship/</link>
       <pubDate>Thu, 11 Dec 2025 20:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/league-legends/</guid>
+      
+      <guid>/posts/league-of-legends-worlds-2025-t1-wins-fourth-championship/</guid>
       <description>Faker and T1 dominate the finals 3-0 against JDG, securing their fourth World Championship title in an incredible display of skill.</description>
     </item>
+    
     <item>
       <title>VCT 2025 Champions: New Era of Competition</title>
-      <link>https://example.org/posts/valorant-championship/</link>
+      <link>/posts/vct-2025-champions-new-era-of-competition/</link>
       <pubDate>Thu, 11 Dec 2025 18:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-championship/</guid>
+      
+      <guid>/posts/vct-2025-champions-new-era-of-competition/</guid>
       <description>Valorant Champions Tour 2025 introduces new format with $25 million prize pool and revolutionary broadcast features.</description>
     </item>
+    
     <item>
       <title>Fortnite World Cup 2025: Biggest Prize Pool Ever</title>
-      <link>https://example.org/posts/fortnite-world-cup/</link>
+      <link>/posts/fortnite-world-cup-2025-biggest-prize-pool-ever/</link>
       <pubDate>Thu, 11 Dec 2025 16:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-world-cup/</guid>
+      
+      <guid>/posts/fortnite-world-cup-2025-biggest-prize-pool-ever/</guid>
       <description>Epic Games announces record-breaking $30 million prize pool for Fortnite World Cup 2025 with new format and locations.</description>
     </item>
+    
     <item>
       <title>Fortnite World Cup 2025: $10 Million Prize Pool</title>
-      <link>https://example.org/posts/fortnite-tournament/</link>
+      <link>/posts/fortnite-world-cup-2025-10-million-prize-pool/</link>
       <pubDate>Tue, 09 Dec 2025 16:45:00 +0600</pubDate>
-      <guid>https://example.org/posts/fortnite-tournament/</guid>
+      
+      <guid>/posts/fortnite-world-cup-2025-10-million-prize-pool/</guid>
       <description>Epic Games announces the biggest Fortnite tournament with record-breaking prize pool and new competitive format.</description>
     </item>
+    
   </channel>
 </rss>

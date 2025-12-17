@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Therapy on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-therapy/</link>
-    <description>Recent content in Gaming Therapy on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Therapy on Battle Royale Fanatics</title>
+    <link>/tags/gaming-therapy/</link>
+    <description>Recent content in Gaming Therapy on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 13:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-therapy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 13:30:00 +0600</lastBuildDate><atom:link href="/tags/gaming-therapy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Physical Therapy: How Games Are Revolutionizing Rehabilitation</title>
-      <link>https://example.org/latest-articles/gaming-physical-therapy/</link>
+      <link>/latest-articles/gaming-and-physical-therapy-how-games-are-revolutionizing-rehabilitation/</link>
       <pubDate>Sat, 13 Dec 2025 13:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-physical-therapy/</guid>
+      
+      <guid>/latest-articles/gaming-and-physical-therapy-how-games-are-revolutionizing-rehabilitation/</guid>
       <description>The use of video games in physical therapy and medical rehabilitation.</description>
     </item>
+    
     <item>
       <title>Gaming and Mental Health: Therapeutic Applications and Benefits</title>
-      <link>https://example.org/latest-articles/gaming-mental-health-therapy/</link>
+      <link>/latest-articles/gaming-and-mental-health-therapeutic-applications-and-benefits/</link>
       <pubDate>Fri, 12 Dec 2025 16:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-mental-health-therapy/</guid>
+      
+      <guid>/latest-articles/gaming-and-mental-health-therapeutic-applications-and-benefits/</guid>
       <description>How video games are being used therapeutically to support mental health treatment.</description>
     </item>
+    
   </channel>
 </rss>

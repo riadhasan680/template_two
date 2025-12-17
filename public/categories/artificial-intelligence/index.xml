@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Artificial Intelligence on Hugo Tailwind</title>
-    <link>https://example.org/categories/artificial-intelligence/</link>
-    <description>Recent content in Artificial Intelligence on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Artificial Intelligence on Battle Royale Fanatics</title>
+    <link>/categories/artificial-intelligence/</link>
+    <description>Recent content in Artificial Intelligence on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 09:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Dec 2025 09:00:00 +0600</lastBuildDate><atom:link href="/categories/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Future of Battle Royale: What&#39;s Next in 2026?</title>
-      <link>https://example.org/posts/future-of-br/</link>
+      <link>/posts/the-future-of-battle-royale-whats-next-in-2026/</link>
       <pubDate>Wed, 10 Dec 2025 09:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/future-of-br/</guid>
+      
+      <guid>/posts/the-future-of-battle-royale-whats-next-in-2026/</guid>
       <description>Developers are pushing the boundaries of scale and interactivity. We explore the upcoming trends that will define the next generation of survival shooters.</description>
     </item>
+    
   </channel>
 </rss>

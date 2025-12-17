@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Communication Development on Hugo Tailwind</title>
-    <link>https://example.org/tags/communication-development/</link>
-    <description>Recent content in Communication Development on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Communication Development on Battle Royale Fanatics</title>
+    <link>/tags/communication-development/</link>
+    <description>Recent content in Communication Development on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 03:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/communication-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 03:00:00 +0600</lastBuildDate><atom:link href="/tags/communication-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Social Skills: How Multiplayer Games Build Communication</title>
-      <link>https://example.org/latest-articles/gaming-social-skills/</link>
+      <link>/latest-articles/gaming-and-social-skills-how-multiplayer-games-build-communication/</link>
       <pubDate>Fri, 12 Dec 2025 03:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-social-skills/</guid>
+      
+      <guid>/latest-articles/gaming-and-social-skills-how-multiplayer-games-build-communication/</guid>
       <description>The role of multiplayer gaming in developing social skills and communication abilities.</description>
     </item>
+    
   </channel>
 </rss>

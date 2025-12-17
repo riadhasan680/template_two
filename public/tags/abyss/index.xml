@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abyss on Hugo Tailwind</title>
-    <link>https://example.org/tags/abyss/</link>
-    <description>Recent content in Abyss on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Abyss on Battle Royale Fanatics</title>
+    <link>/tags/abyss/</link>
+    <description>Recent content in Abyss on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 14:15:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/abyss/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 14:15:00 +0600</lastBuildDate><atom:link href="/tags/abyss/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Valorant Map Update: &#39;Abyss&#39; New Map Revealed</title>
-      <link>https://example.org/posts/valorant-map-update/</link>
+      <link>/posts/valorant-map-update-abyss-new-map-revealed/</link>
       <pubDate>Fri, 12 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/posts/valorant-map-update/</guid>
+      
+      <guid>/posts/valorant-map-update-abyss-new-map-revealed/</guid>
       <description>Riot Games unveils Abyss, a vertical-focused map with unique three-level design and revolutionary gameplay mechanics.</description>
     </item>
+    
   </channel>
 </rss>

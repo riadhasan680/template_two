@@ -2,7 +2,7 @@
     
     {{/*  Main Navigation Bar  */}}
     {{/*  Added shadow-md and rounded-b-lg for the floating look since it is not full width  */}}
-    <div class="bg-[#0e6fff] px-8">
+    <div class="bg-[#0e6fff] px-2 md:px-8 lg:px-8">
         <div class="container h-[68px] flex items-center justify-between">
             
             {{/*  Logo Area  */}}
@@ -23,7 +23,7 @@
                 {{ range slice "GAMES" "APEX LEGENDS" "CALL OF DUTY" "LEAGUE OF LEGENDS" "FORTNITE" "ARTIFICIAL INTELLIGENCE" }}
                 {{ $isActive := eq (upper $.Title) . }}
                 <a href="{{ absURL (printf "categories/%s" (urlize .)) }}" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap {{ if $isActive }}bg-[#1953aa] text-white{{ else }}text-white hover:bg-white/10{{ end }}">
+                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body {{ if $isActive }}bg-[#1953aa] text-white{{ else }}text-white hover:bg-white/10{{ end }}">
                     {{ . }}
                 </a>
                 {{ end }}
@@ -33,16 +33,37 @@
             </nav>
 
             {{/*  Mobile Actions  */}}
-            <div class="flex lg:hidden items-center gap-4 text-white">
-                 <button class="hover:text-white/80 p-1">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <div class="flex lg:hidden items-center gap-3 text-white">
+                 <button class="hover:text-white/80 p-2 transition-colors">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                 </button>
-                <button class="hover:text-white/80 p-1">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+                <button id="mobile-menu-toggle" class="hover:text-white/80 p-2 transition-colors relative">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
                 </button>
             </div>
 
         </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-[#0e6fff] border-t border-white/20">
+        <nav class="container py-4">
+            <div class="flex flex-col space-y-2">
+                {{ range slice "GAMES" "APEX LEGENDS" "CALL OF DUTY" "LEAGUE OF LEGENDS" "FORTNITE" "ARTIFICIAL INTELLIGENCE" }}
+                {{ $isActive := eq (upper $.Title) . }}
+                <a href="{{ absURL (printf "categories/%s" (urlize .)) }}" 
+                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body {{ if $isActive }}bg-[#1953aa] text-white{{ else }}text-white hover:bg-white/10{{ end }}">
+                    {{ . }}
+                </a>
+                {{ end }}
+                <a href="#" class="px-4 py-3 text-white hover:text-white/80 transition-colors border-t border-white/20 mt-2">
+                    <div class="flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <span>Search</span>
+                    </div>
+                </a>
+            </div>
+        </nav>
     </div>
 </header>
 
@@ -50,19 +71,34 @@
     document.addEventListener('DOMContentLoaded', function() {
         let lastScrollTop = 0;
         const header = document.getElementById('main-header');
-        const scrollThreshold = 100; // Only hide after scrolling down this much
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const scrollThreshold = 100;
 
+        // Mobile menu toggle
+        mobileMenuToggle.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Hide/show header on scroll
         window.addEventListener('scroll', function() {
             let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
             
             if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
-                // Scroll Down
                 header.classList.add('-translate-y-full');
+                // Close mobile menu when hiding header
+                mobileMenu.classList.add('hidden');
             } else {
-                // Scroll Up
                 header.classList.remove('-translate-y-full');
             }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+        });
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!header.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+            }
         });
     });
 </script>

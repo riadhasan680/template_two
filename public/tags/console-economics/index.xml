@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Console Economics on Hugo Tailwind</title>
-    <link>https://example.org/tags/console-economics/</link>
-    <description>Recent content in Console Economics on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Console Economics on Battle Royale Fanatics</title>
+    <link>/tags/console-economics/</link>
+    <description>Recent content in Console Economics on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 15:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/console-economics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 15:45:00 +0600</lastBuildDate><atom:link href="/tags/console-economics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Economics of Gaming Consoles: Platform Wars and Business Strategy</title>
-      <link>https://example.org/latest-articles/console-economics-platform-wars/</link>
+      <link>/latest-articles/the-economics-of-gaming-consoles-platform-wars-and-business-strategy/</link>
       <pubDate>Fri, 12 Dec 2025 15:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/console-economics-platform-wars/</guid>
+      
+      <guid>/latest-articles/the-economics-of-gaming-consoles-platform-wars-and-business-strategy/</guid>
       <description>Understanding the business strategies behind console gaming and platform competition.</description>
     </item>
+    
   </channel>
 </rss>

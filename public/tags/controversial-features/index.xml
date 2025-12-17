@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Controversial Features on Hugo Tailwind</title>
-    <link>https://example.org/tags/controversial-features/</link>
-    <description>Recent content in Controversial Features on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Controversial Features on Battle Royale Fanatics</title>
+    <link>/tags/controversial-features/</link>
+    <description>Recent content in Controversial Features on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 03:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/controversial-features/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 03:00:00 +0600</lastBuildDate><atom:link href="/tags/controversial-features/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Psychology of Loot Boxes: Understanding Gaming&#39;s Most Controversial Feature</title>
-      <link>https://example.org/latest-articles/loot-boxes-psychology/</link>
+      <link>/latest-articles/the-psychology-of-loot-boxes-understanding-gamings-most-controversial-feature/</link>
       <pubDate>Sun, 14 Dec 2025 03:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/loot-boxes-psychology/</guid>
+      
+      <guid>/latest-articles/the-psychology-of-loot-boxes-understanding-gamings-most-controversial-feature/</guid>
       <description>Examining the psychological mechanisms behind loot boxes and their impact on players.</description>
     </item>
+    
   </channel>
 </rss>

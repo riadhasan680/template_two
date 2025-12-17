@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Professional on Hugo Tailwind</title>
-    <link>https://example.org/tags/professional/</link>
-    <description>Recent content in Professional on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Professional on Battle Royale Fanatics</title>
+    <link>/tags/professional/</link>
+    <description>Recent content in Professional on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Dec 2025 10:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/professional/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Dec 2025 10:30:00 +0600</lastBuildDate><atom:link href="/tags/professional/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Apex Legends Meta Shift: New Tier List Revealed</title>
-      <link>https://example.org/posts/apex-legends-meta/</link>
+      <link>/posts/apex-legends-meta-shift-new-tier-list-revealed/</link>
       <pubDate>Wed, 10 Dec 2025 10:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/apex-legends-meta/</guid>
+      
+      <guid>/posts/apex-legends-meta-shift-new-tier-list-revealed/</guid>
       <description>Professional players reveal the current meta tier list with surprising changes in S-tier rankings.</description>
     </item>
+    
   </channel>
 </rss>

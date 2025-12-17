@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gaming Addiction on Hugo Tailwind</title>
-    <link>https://example.org/tags/gaming-addiction/</link>
-    <description>Recent content in Gaming Addiction on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Gaming Addiction on Battle Royale Fanatics</title>
+    <link>/tags/gaming-addiction/</link>
+    <description>Recent content in Gaming Addiction on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 18:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/gaming-addiction/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 18:45:00 +0600</lastBuildDate><atom:link href="/tags/gaming-addiction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Psychology of Gaming Addiction: Understanding and Prevention</title>
-      <link>https://example.org/latest-articles/gaming-addiction-psychology/</link>
+      <link>/latest-articles/the-psychology-of-gaming-addiction-understanding-and-prevention/</link>
       <pubDate>Fri, 12 Dec 2025 18:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-addiction-psychology/</guid>
+      
+      <guid>/latest-articles/the-psychology-of-gaming-addiction-understanding-and-prevention/</guid>
       <description>Understanding gaming addiction psychology and strategies for healthy gaming habits.</description>
     </item>
+    
     <item>
       <title>The Psychology of Gaming Addiction: Understanding and Prevention</title>
-      <link>https://example.org/latest-articles/gaming-addiction-prevention/</link>
+      <link>/latest-articles/the-psychology-of-gaming-addiction-understanding-and-prevention/</link>
       <pubDate>Fri, 12 Dec 2025 02:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-addiction-prevention/</guid>
+      
+      <guid>/latest-articles/the-psychology-of-gaming-addiction-understanding-and-prevention/</guid>
       <description>Understanding gaming addiction psychology and strategies for healthy gaming habits.</description>
     </item>
+    
   </channel>
 </rss>

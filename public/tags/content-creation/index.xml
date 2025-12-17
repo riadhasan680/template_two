@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Content Creation on Hugo Tailwind</title>
-    <link>https://example.org/tags/content-creation/</link>
-    <description>Recent content in Content Creation on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Content Creation on Battle Royale Fanatics</title>
+    <link>/tags/content-creation/</link>
+    <description>Recent content in Content Creation on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 09:45:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/content-creation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 09:45:00 +0600</lastBuildDate><atom:link href="/tags/content-creation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Rise of Gaming Influencers: How Streamers Shape the Industry</title>
-      <link>https://example.org/latest-articles/gaming-influencers-rise/</link>
+      <link>/latest-articles/the-rise-of-gaming-influencers-how-streamers-shape-the-industry/</link>
       <pubDate>Sat, 13 Dec 2025 09:45:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-influencers-rise/</guid>
+      
+      <guid>/latest-articles/the-rise-of-gaming-influencers-how-streamers-shape-the-industry/</guid>
       <description>The impact of gaming influencers and streamers on game development and player behavior.</description>
     </item>
+    
     <item>
       <title>The Economics of Gaming Streaming: Content Creation and Platform Wars</title>
-      <link>https://example.org/latest-articles/gaming-streaming-economics/</link>
+      <link>/latest-articles/the-economics-of-gaming-streaming-content-creation-and-platform-wars/</link>
       <pubDate>Fri, 12 Dec 2025 08:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-streaming-economics/</guid>
+      
+      <guid>/latest-articles/the-economics-of-gaming-streaming-content-creation-and-platform-wars/</guid>
       <description>Understanding the business models and economics behind gaming streaming platforms.</description>
     </item>
+    
   </channel>
 </rss>

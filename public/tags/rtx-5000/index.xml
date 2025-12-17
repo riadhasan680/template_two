@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RTX 5000 on Hugo Tailwind</title>
-    <link>https://example.org/tags/rtx-5000/</link>
-    <description>Recent content in RTX 5000 on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>RTX 5000 on Battle Royale Fanatics</title>
+    <link>/tags/rtx-5000/</link>
+    <description>Recent content in RTX 5000 on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Dec 2025 09:30:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/rtx-5000/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Dec 2025 09:30:00 +0600</lastBuildDate><atom:link href="/tags/rtx-5000/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ultimate Gaming PC Build Guide 2025</title>
-      <link>https://example.org/posts/gaming-pc-2025/</link>
+      <link>/posts/ultimate-gaming-pc-build-guide-2025/</link>
       <pubDate>Fri, 05 Dec 2025 09:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/gaming-pc-2025/</guid>
+      
+      <guid>/posts/ultimate-gaming-pc-build-guide-2025/</guid>
       <description>Complete guide to building the perfect gaming PC for 2025 with RTX 5000 series and next-gen CPUs.</description>
     </item>
+    
     <item>
       <title>Best Gaming Laptops 2025: RTX 5000 Series Dominates</title>
-      <link>https://example.org/posts/gaming-laptop-2025/</link>
+      <link>/posts/best-gaming-laptops-2025-rtx-5000-series-dominates/</link>
       <pubDate>Wed, 03 Dec 2025 11:20:00 +0600</pubDate>
-      <guid>https://example.org/posts/gaming-laptop-2025/</guid>
+      
+      <guid>/posts/best-gaming-laptops-2025-rtx-5000-series-dominates/</guid>
       <description>Complete guide to the best gaming laptops of 2025 featuring RTX 5000 series GPUs and next-gen processors.</description>
     </item>
+    
   </channel>
 </rss>

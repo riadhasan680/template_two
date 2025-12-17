@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Game-Based Learning on Hugo Tailwind</title>
-    <link>https://example.org/tags/game-based-learning/</link>
-    <description>Recent content in Game-Based Learning on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Game-Based Learning on Battle Royale Fanatics</title>
+    <link>/tags/game-based-learning/</link>
+    <description>Recent content in Game-Based Learning on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/game-based-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0600</lastBuildDate><atom:link href="/tags/game-based-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Education: How Games Are Revolutionizing Learning</title>
-      <link>https://example.org/latest-articles/gaming-education/</link>
+      <link>/latest-articles/gaming-and-education-how-games-are-revolutionizing-learning/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-education/</guid>
+      
+      <guid>/latest-articles/gaming-and-education-how-games-are-revolutionizing-learning/</guid>
       <description>The educational potential of video games and how they&amp;rsquo;re transforming traditional learning.</description>
     </item>
+    
     <item>
       <title>Gaming and Education: How Games Transform Learning Experiences</title>
-      <link>https://example.org/latest-articles/gaming-education-transformation/</link>
+      <link>/latest-articles/gaming-and-education-how-games-transform-learning-experiences/</link>
       <pubDate>Fri, 12 Dec 2025 13:30:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-education-transformation/</guid>
+      
+      <guid>/latest-articles/gaming-and-education-how-games-transform-learning-experiences/</guid>
       <description>The educational benefits of gaming and how games are transforming traditional learning.</description>
     </item>
+    
   </channel>
 </rss>

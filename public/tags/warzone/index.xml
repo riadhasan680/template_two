@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Warzone on Hugo Tailwind</title>
-    <link>https://example.org/tags/warzone/</link>
-    <description>Recent content in Warzone on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Warzone on Battle Royale Fanatics</title>
+    <link>/tags/warzone/</link>
+    <description>Recent content in Warzone on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/warzone/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2025 11:00:00 +0600</lastBuildDate><atom:link href="/tags/warzone/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Call of Duty Warzone: New Map Urzikstan Drops Today</title>
-      <link>https://example.org/posts/cod-warzone/</link>
+      <link>/posts/call-of-duty-warzone-new-map-urzikstan-drops-today/</link>
       <pubDate>Sat, 13 Dec 2025 11:00:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-warzone/</guid>
+      
+      <guid>/posts/call-of-duty-warzone-new-map-urzikstan-drops-today/</guid>
       <description>The largest Warzone map ever created is now live, featuring diverse terrain and over 300 points of interest.</description>
     </item>
+    
     <item>
       <title>Call of Duty: Warzone 2.5 Major Update</title>
-      <link>https://example.org/posts/cod-warzone-2/</link>
+      <link>/posts/call-of-duty-warzone-2.5-major-update/</link>
       <pubDate>Thu, 11 Dec 2025 19:30:00 +0600</pubDate>
-      <guid>https://example.org/posts/cod-warzone-2/</guid>
+      
+      <guid>/posts/call-of-duty-warzone-2.5-major-update/</guid>
       <description>Warzone 2.5 brings massive gameplay overhaul with new map, weapons, and progression system.</description>
     </item>
+    
   </channel>
 </rss>

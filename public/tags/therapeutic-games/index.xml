@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Therapeutic Games on Hugo Tailwind</title>
-    <link>https://example.org/tags/therapeutic-games/</link>
-    <description>Recent content in Therapeutic Games on Hugo Tailwind</description>
-    <generator>Hugo</generator>
+    <title>Therapeutic Games on Battle Royale Fanatics</title>
+    <link>/tags/therapeutic-games/</link>
+    <description>Recent content in Therapeutic Games on Battle Royale Fanatics</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Dec 2025 09:00:00 +0600</lastBuildDate>
-    <atom:link href="https://example.org/tags/therapeutic-games/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Dec 2025 09:00:00 +0600</lastBuildDate><atom:link href="/tags/therapeutic-games/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaming and Physical Rehabilitation: Therapeutic Applications in Medicine</title>
-      <link>https://example.org/latest-articles/gaming-medical-rehabilitation/</link>
+      <link>/latest-articles/gaming-and-physical-rehabilitation-therapeutic-applications-in-medicine/</link>
       <pubDate>Fri, 12 Dec 2025 09:00:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-medical-rehabilitation/</guid>
+      
+      <guid>/latest-articles/gaming-and-physical-rehabilitation-therapeutic-applications-in-medicine/</guid>
       <description>How video games are being used in physical rehabilitation and medical therapy.</description>
     </item>
+    
     <item>
       <title>Gaming and Physical Rehabilitation: Therapeutic Applications in Medicine</title>
-      <link>https://example.org/latest-articles/gaming-physical-rehabilitation-medical/</link>
+      <link>/latest-articles/gaming-and-physical-rehabilitation-therapeutic-applications-in-medicine/</link>
       <pubDate>Thu, 11 Dec 2025 14:15:00 +0600</pubDate>
-      <guid>https://example.org/latest-articles/gaming-physical-rehabilitation-medical/</guid>
+      
+      <guid>/latest-articles/gaming-and-physical-rehabilitation-therapeutic-applications-in-medicine/</guid>
       <description>How video games are being used in physical rehabilitation and medical therapy.</description>
     </item>
+    
   </channel>
 </rss>
