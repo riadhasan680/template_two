@@ -12,3 +12,16 @@ permalinks:
   hero: "/hero/:slug/"
   latest-news: "/latest-news/:slug/"
   latest-articles: "/latest-articles/:slug/"
+
+# Build settings
+build:
+  writeStats: true
+  useResourceCacheWhen: 'never'
+
+# PostCSS configuration
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
