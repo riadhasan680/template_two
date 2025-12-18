@@ -26,7 +26,4 @@ markup:
   highlight:
     style: github
 
-# CSS processing
-params:
-  css:
-    postcss: true
+
