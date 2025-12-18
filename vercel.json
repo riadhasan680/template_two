@@ -5,7 +5,7 @@
   "framework": "hugo",
   "build": {
     "env": {
-      "HUGO_VERSION": "0.115.4",
+      "HUGO_VERSION": "0.140.0",
       "NODE_ENV": "production"
     }
   }

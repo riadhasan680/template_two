@@ -25,3 +25,8 @@ markup:
       unsafe: true
   highlight:
     style: github
+
+# CSS processing
+params:
+  css:
+    postcss: true
