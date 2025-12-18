@@ -1,11 +1,12 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "public",
-  "installCommand": "npm install --production=false",
+  "installCommand": "npm install",
   "framework": "hugo",
   "build": {
     "env": {
-      "HUGO_VERSION": "0.115.4"
+      "HUGO_VERSION": "0.115.4",
+      "NODE_ENV": "production"
     }
   }
 }
