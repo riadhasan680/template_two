@@ -1,946 +1,110 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>
-    Remaster | Battle Royale Fanatics
-  </title>
-  <meta
-    name="description"
-    content=""
-  />
-
-  
-  <link
-    rel="stylesheet"
-    href="/css/main.min.6a280563937e213f9cf572051fda637acfb3ce59588c603777603098e2f2d670.css"
-    integrity="sha256-aigFY5N&#43;IT&#43;c9XIFH9pjes&#43;zzllYjGA3d2AwmOLy1nA="
-  />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  />
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-  <body
-    class="flex flex-col min-h-screen font-sans antialiased text-slate-900 bg-page-bg"
-  >
-    <header id="main-header" class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[1280px] z-50 transition-transform duration-300 ease-in-out">
-    
-    
-    
-    <div class="bg-[#0e6fff] px-2 md:px-8 lg:px-8">
-        <div class="container h-[68px] flex items-center justify-between">
-            
-            
-            <a href="/" class="flex items-center gap-2.5 group">
-                <div class="h-10 w-10 bg-white flex items-center justify-center -skew-x-12 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                    <span class="font-sans font-bold text-accent text-2xl skew-x-12">B</span>
-                </div>
-                <div class="flex flex-col leading-none select-none">
-                    <span class="font-sans font-bold text-2xl text-white italic tracking-tighter">
-                        BATTLE<span class="text-yellow-400">ROYALE</span>
-                    </span>
-                    <span class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white/70 ml-0.5">Fanatics</span>
-                </div>
-            </a>
-
-            
-            <nav class="hidden lg:flex items-stretch h-full gap-0">
-                
-                
-                <a href="categories/games" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    GAMES
-                </a>
-                
-                
-                <a href="categories/apex-legends" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    APEX LEGENDS
-                </a>
-                
-                
-                <a href="categories/call-of-duty" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    CALL OF DUTY
-                </a>
-                
-                
-                <a href="categories/league-of-legends" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    LEAGUE OF LEGENDS
-                </a>
-                
-                
-                <a href="categories/fortnite" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    FORTNITE
-                </a>
-                
-                
-                <a href="categories/artificial-intelligence" 
-                   class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">
-                    ARTIFICIAL INTELLIGENCE
-                </a>
-                
-                <a href="#" class="relative h-full flex items-center  text-white hover:text-white/80 transition-colors  border-white/20 ml-2">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                </a>
-            </nav>
-
-            
-            <div class="flex lg:hidden items-center gap-3 text-white">
-                 <button class="hover:text-white/80 p-2 transition-colors">
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                </button>
-                <button id="mobile-menu-toggle" class="hover:text-white/80 p-2 transition-colors relative">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
-                </button>
-            </div>
-
-        </div>
-    </div>
-    
-    
-    <div id="mobile-menu" class="hidden lg:hidden bg-[#0e6fff] border-t border-white/20">
-        <nav class="container py-4">
-            <div class="flex flex-col space-y-2">
-                
-                
-                <a href="categories/games" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    GAMES
-                </a>
-                
-                
-                <a href="categories/apex-legends" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    APEX LEGENDS
-                </a>
-                
-                
-                <a href="categories/call-of-duty" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    CALL OF DUTY
-                </a>
-                
-                
-                <a href="categories/league-of-legends" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    LEAGUE OF LEGENDS
-                </a>
-                
-                
-                <a href="categories/fortnite" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    FORTNITE
-                </a>
-                
-                
-                <a href="categories/artificial-intelligence" 
-                   class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">
-                    ARTIFICIAL INTELLIGENCE
-                </a>
-                
-                <a href="#" class="px-4 py-3 text-white hover:text-white/80 transition-colors border-t border-white/20 mt-2">
-                    <div class="flex items-center gap-2">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                        <span>Search</span>
-                    </div>
-                </a>
-            </div>
-        </nav>
-    </div>
-</header>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        let lastScrollTop = 0;
-        const header = document.getElementById('main-header');
-        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const scrollThreshold = 100;
-
-        
-        mobileMenuToggle.addEventListener('click', function() {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        
-        window.addEventListener('scroll', function() {
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop > lastScrollTop && scrollTop > scrollThreshold) {
-                header.classList.add('-translate-y-full');
-                
-                mobileMenu.classList.add('hidden');
-            } else {
-                header.classList.remove('-translate-y-full');
-            }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-        });
-
-        
-        document.addEventListener('click', function(event) {
-            if (!header.contains(event.target)) {
-                mobileMenu.classList.add('hidden');
-            }
-        });
-    });
-</script>
-  
-    <main class="grow w-full px-2 md:px-8 lg:px-8 max-w-[1280px] mx-auto bg-white shadow-2xl">
-      
-<div class="container py-12 pt-28">
-   
-  <div class="mb-8 border-b border-gray-200 pb-4">
-    <h1
-      class="text-3xl md:text-5xl font-bold uppercase tracking-tight text-slate-900 font-[Oswald]"
-    >
-      Remaster
-    </h1>
-    <div
-      class="flex items-center gap-2 text-sm text-gray-500 mt-2 font-bold uppercase"
-    >
-      <span>Remaster</span>
-      <span class="text-gray-300">/</span>
-      <span>Archives</span>
-    </div>
-    
-    
-    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mt-6">
-      <div class="flex flex-wrap gap-2 text-[11px] font-bold uppercase">
-        
-        <a href="categories/accessibility" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           accessibility
-        </a>
-        
-        <a href="categories/apex-legends" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           apex-legends
-        </a>
-        
-        <a href="categories/artificial-intelligence" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           artificial-intelligence
-        </a>
-        
-        <a href="categories/balance" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           balance
-        </a>
-        
-        <a href="categories/battle-royale" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           battle-royale
-        </a>
-        
-        <a href="categories/black-ops" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           black-ops
-        </a>
-        
-        <a href="categories/business" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           business
-        </a>
-        
-        <a href="categories/call-of-duty" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           call-of-duty
-        </a>
-        
-        <a href="categories/career" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           career
-        </a>
-        
-        <a href="categories/championship" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           championship
-        </a>
-        
-        <a href="categories/character-customization" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           character-customization
-        </a>
-        
-        <a href="categories/community" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           community
-        </a>
-        
-        <a href="categories/competitive" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           competitive
-        </a>
-        
-        <a href="categories/creative" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           creative
-        </a>
-        
-        <a href="categories/creativity" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           creativity
-        </a>
-        
-        <a href="categories/culture" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           culture
-        </a>
-        
-        <a href="categories/design" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           design
-        </a>
-        
-        <a href="categories/development" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           development
-        </a>
-        
-        <a href="categories/economics" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           economics
-        </a>
-        
-        <a href="categories/education" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           education
-        </a>
-        
-        <a href="categories/environment" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           environment
-        </a>
-        
-        <a href="categories/esports" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           esports
-        </a>
-        
-        <a href="categories/ethics" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           ethics
-        </a>
-        
-        <a href="categories/event" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           event
-        </a>
-        
-        <a href="categories/events" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           events
-        </a>
-        
-        <a href="categories/family" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           family
-        </a>
-        
-        <a href="categories/fortnite" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           fortnite
-        </a>
-        
-        <a href="categories/fps" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           fps
-        </a>
-        
-        <a href="categories/games" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           games
-        </a>
-        
-        <a href="categories/gaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           gaming
-        </a>
-        
-        <a href="categories/gaming-news" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           gaming-news
-        </a>
-        
-        <a href="categories/gta" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           gta
-        </a>
-        
-        <a href="categories/guides" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           guides
-        </a>
-        
-        <a href="categories/hardware" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           hardware
-        </a>
-        
-        <a href="categories/health" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           health
-        </a>
-        
-        <a href="categories/indie-games" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           indie-games
-        </a>
-        
-        <a href="categories/industry" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           industry
-        </a>
-        
-        <a href="categories/league-of-legends" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           league-of-legends
-        </a>
-        
-        <a href="categories/lifestyle" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           lifestyle
-        </a>
-        
-        <a href="categories/live-events" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           live-events
-        </a>
-        
-        <a href="categories/maps" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           maps
-        </a>
-        
-        <a href="categories/meta" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           meta
-        </a>
-        
-        <a href="categories/mobile" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           mobile
-        </a>
-        
-        <a href="categories/mobile-gaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           mobile-gaming
-        </a>
-        
-        <a href="categories/music" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           music
-        </a>
-        
-        <a href="categories/new-agent" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           new-agent
-        </a>
-        
-        <a href="categories/new-hero" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           new-hero
-        </a>
-        
-        <a href="categories/new-legend" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           new-legend
-        </a>
-        
-        <a href="categories/new-map" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           new-map
-        </a>
-        
-        <a href="categories/news" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           news
-        </a>
-        
-        <a href="categories/nintendo" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           nintendo
-        </a>
-        
-        <a href="categories/online-gaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           online-gaming
-        </a>
-        
-        <a href="categories/open-world" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           open-world
-        </a>
-        
-        <a href="categories/overwatch" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           overwatch
-        </a>
-        
-        <a href="categories/pc-gaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           pc-gaming
-        </a>
-        
-        <a href="categories/psychology" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           psychology
-        </a>
-        
-        <a href="categories/pubg" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           pubg
-        </a>
-        
-        <a href="categories/pve" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           pve
-        </a>
-        
-        <a href="categories/relationships" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           relationships
-        </a>
-        
-        <a href="categories/retro-gaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           retro-gaming
-        </a>
-        
-        <a href="categories/season" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           season
-        </a>
-        
-        <a href="categories/streaming" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           streaming
-        </a>
-        
-        <a href="categories/technology" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           technology
-        </a>
-        
-        <a href="categories/updates" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           updates
-        </a>
-        
-        <a href="categories/valorant" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           valorant
-        </a>
-        
-        <a href="categories/viewership" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           viewership
-        </a>
-        
-        <a href="categories/warzone" 
-           class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">
-           warzone
-        </a>
-        
-      </div>
-
-      
-      <div class="relative group shrink-0">
-        <button class="bg-gray-900 text-white text-[11px] font-bold uppercase px-4 py-1.5 flex items-center gap-2 hover:bg-accent transition-colors">
-          Latest
-          <svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/></svg>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-    
-    <div class="lg:col-span-2 space-y-8">
-       
-      <article class="flex flex-col md:flex-row gap-6 group">
-        
-        <a
-          href="/posts/valorant-new-map-haven-remastered/"
-          class="shrink-0 w-full md:w-[260px] aspect-video md:aspect-4/3 overflow-hidden rounded-sm relative"
-        >
-          
-          <img
-            src="valorant-haven.jpg"
-            alt="Valorant: New Map &#39;Haven&#39; Remastered"
-            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-          />
-          
-          <div
-            class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"
-          ></div>
-        </a>
-
-        
-        <div class="flex flex-col py-1">
-          <div class="flex items-center gap-2 mb-2">
-            <span
-              class="bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5"
-            >
-               Valorant 
-            </span>
-            <span class="text-xs text-gray-500 font-bold uppercase"
-              >December 13, 2025</span
-            >
-          </div>
-
-          <h2
-            class="text-xl md:text-2xl font-bold uppercase leading-tight text-slate-900 mb-3 group-hover:text-accent transition-colors font-[Oswald]"
-          >
-            <a href="/posts/valorant-new-map-haven-remastered/">Valorant: New Map &#39;Haven&#39; Remastered</a>
-          </h2>
-
-          <p
-            class="text-gray-600 text-sm leading-relaxed line-clamp-2 md:line-clamp-3 mb-auto"
-          >
-            Riot Games releases remastered version of popular Haven map with improved visuals and gameplay.
-          </p>
-        </div>
-      </article>
-      <hr class="border-gray-100 last:hidden" />
-       
-      
-    </div>
-
-     <aside class="space-y-10">
-  
-  <div>
-    <div
-      class="bg-black text-white text-xs font-bold uppercase px-3 py-1.5 inline-block mb-4"
-    >
-      More News
-    </div>
-    <div class="space-y-4">
-         
-      <div class="mb-6 group cursor-pointer">
-        <a
-          href="/hero/apex-legends-championship-2025-the-ultimate-battle-royale-showdown/"
-          class="block w-full aspect-video overflow-hidden rounded-sm mb-3 relative"
-        >
-          
-          <img
-            src="apex-championship-2025"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            alt="Apex Legends Championship 2025: The Ultimate Battle Royale Showdown"
-          />
-          
-          <span
-            class="absolute bottom-2 left-2 bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5"
-          >
-            Apex Legends
-          </span>
-        </a>
-        <h4
-          class="text-base font-bold uppercase leading-tight text-slate-900 group-hover:text-accent transition-colors font-[Oswald]"
-        >
-          <a href="/hero/apex-legends-championship-2025-the-ultimate-battle-royale-showdown/">Apex Legends Championship 2025: The Ultimate Battle Royale Showdown</a>
-        </h4>
-        <span class="text-[10px] text-gray-500 font-bold uppercase mt-1 block"
-          >December 18, 2025</span
-        >
-      </div>
-        
-      <div
-        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
-      >
-        <a
-          href="/hero/new-meta-changes-reshape-apex-legends-competitive-scene/"
-          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
-        >
-          
-          <img
-            src="apex-meta-update"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-            alt="New Meta Changes Reshape Apex Legends Competitive Scene"
-          />
-          
-        </a>
-        <div class="flex-1">
-          <h4
-            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
-          >
-            <a href="/hero/new-meta-changes-reshape-apex-legends-competitive-scene/">New Meta Changes Reshape Apex Legends Competitive Scene</a>
-          </h4>
-          <span class="text-[10px] text-gray-500 font-bold uppercase"
-            >Dec 17, 2025</span
-          >
-        </div>
-      </div>
-      
-      <div
-        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
-      >
-        <a
-          href="/hero/apex-legends-introduces-revolutionary-new-legend/"
-          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
-        >
-          
-          <img
-            src="new-legend-reveal"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-            alt="Apex Legends Introduces Revolutionary New Legend"
-          />
-          
-        </a>
-        <div class="flex-1">
-          <h4
-            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
-          >
-            <a href="/hero/apex-legends-introduces-revolutionary-new-legend/">Apex Legends Introduces Revolutionary New Legend</a>
-          </h4>
-          <span class="text-[10px] text-gray-500 font-bold uppercase"
-            >Dec 16, 2025</span
-          >
-        </div>
-      </div>
-      
-      <div
-        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
-      >
-        <a
-          href="/hero/olympus-map-revolution-complete-redesign-changes-everything/"
-          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
-        >
-          
-          <img
-            src="olympus-redesign"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-            alt="Olympus Map Revolution: Complete Redesign Changes Everything"
-          />
-          
-        </a>
-        <div class="flex-1">
-          <h4
-            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
-          >
-            <a href="/hero/olympus-map-revolution-complete-redesign-changes-everything/">Olympus Map Revolution: Complete Redesign Changes Everything</a>
-          </h4>
-          <span class="text-[10px] text-gray-500 font-bold uppercase"
-            >Dec 15, 2025</span
-          >
-        </div>
-      </div>
-      
-      <div
-        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
-      >
-        <a
-          href="/latest-articles/the-future-of-virtual-reality-gaming/"
-          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
-        >
-          
-          <img
-            src="https://picsum.photos/seed/the-future-of-virtual-reality-gaming/200/150"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-            alt="thumb"
-          />
-          
-        </a>
-        <div class="flex-1">
-          <h4
-            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
-          >
-            <a href="/latest-articles/the-future-of-virtual-reality-gaming/">The Future of Virtual Reality Gaming</a>
-          </h4>
-          <span class="text-[10px] text-gray-500 font-bold uppercase"
-            >Dec 15, 2025</span
-          >
-        </div>
-      </div>
-      
-      <div
-        class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"
-      >
-        <a
-          href="/latest-articles/best-gaming-monitors-for-2025/"
-          class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"
-        >
-          
-          <img
-            src="https://picsum.photos/seed/best-gaming-monitors-for-2025/200/150"
-            class="w-full h-full object-cover group-hover:scale-105 transition-transform"
-            alt="thumb"
-          />
-          
-        </a>
-        <div class="flex-1">
-          <h4
-            class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"
-          >
-            <a href="/latest-articles/best-gaming-monitors-for-2025/">Best Gaming Monitors for 2025</a>
-          </h4>
-          <span class="text-[10px] text-gray-500 font-bold uppercase"
-            >Dec 15, 2025</span
-          >
-        </div>
-      </div>
-      
-    </div>
-  </div>
-
-  
-  <div
-    class="bg-gray-100 h-64 flex items-center justify-center text-gray-400 font-bold uppercase tracking-widest text-xs border border-gray-200"
-  >
-    Ad Space
-  </div>
-</aside>
-
-  </div>
-</div>
-
-    </main>
-    <footer class="w-full ">
-    <div class="container mx-auto px-4 max-w-[1280px] bg-gray-900 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12   pt-20 pb-10 mt-0 font-body text-sm text-slate-400">
-        
-        
-        <div class="flex flex-col gap-6">
-            <a href="/" class="flex flex-col group">
-                <span class="font-sans font-bold text-3xl tracking-tighter text-white uppercase italic leading-none group-hover:text-accent transition-colors">
-                    BATTLE<span class="text-accent group-hover:text-white transition-colors">ROYALE</span>
-                </span>
-                <span class="text-[0.6rem] uppercase tracking-[0.2em] text-slate-500 leading-none mt-1">Fanatics</span>
-            </a>
-            <p class="leading-relaxed opacity-80">
-                The premier destination for Battle Royale news, guides, and competitive analysis. We cover everything from the drop to the final circle.
-            </p>
-            <div class="flex gap-4">
-                
-                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
-                    <span class="capitalize hidden">twitter</span>
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
-                </a>
-                
-                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
-                    <span class="capitalize hidden">facebook</span>
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
-                </a>
-                
-                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
-                    <span class="capitalize hidden">twitch</span>
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
-                </a>
-                
-                <a href="#" class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1">
-                    <span class="capitalize hidden">youtube</span>
-                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
-                </a>
-                
-            </div>
-        </div>
-
-        
-        <div>
-            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Top Categories</h4>
-            <ul class="space-y-4">
-                
-                <li>
-                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
-                        <span class="uppercase tracking-wide font-bold text-xs">Apex Legends</span>
-                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
-                        <span class="uppercase tracking-wide font-bold text-xs">Fortnite</span>
-                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
-                        <span class="uppercase tracking-wide font-bold text-xs">Call of Duty</span>
-                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
-                        <span class="uppercase tracking-wide font-bold text-xs">PUBG</span>
-                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="#" class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group">
-                        <span class="uppercase tracking-wide font-bold text-xs">Valorant</span>
-                        <span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-
-        
-        <div>
-            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Recent Updates</h4>
-            <div class="flex flex-col gap-6">
-                
-                <a href="/posts/overwatch-2-anniversary-event-2025/" class="group flex gap-4">
-                    <div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative">
-                        <img src="https://picsum.photos/seed/overwatch-2-anniversary-event-2025/200/150" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100">
-                    </div>
-                    <div class="flex flex-col gap-1.5">
-                        <h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Overwatch 2: Anniversary Event 2025</h5>
-                        <div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase">
-                            <span>Dec 13</span>
-                            <span class="w-1 h-1 bg-accent rounded-full"></span>
-                            <span>News</span>
-                        </div>
-                    </div>
-                </a>
-                
-                <a href="/posts/apex-legends-esports-scene-team-analysis-2025/" class="group flex gap-4">
-                    <div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative">
-                        <img src="https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/200/150" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100">
-                    </div>
-                    <div class="flex flex-col gap-1.5">
-                        <h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Apex Legends Esports Scene: Team Analysis 2025</h5>
-                        <div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase">
-                            <span>Dec 13</span>
-                            <span class="w-1 h-1 bg-accent rounded-full"></span>
-                            <span>News</span>
-                        </div>
-                    </div>
-                </a>
-                
-            </div>
-        </div>
-
-         
-        <div>
-            <h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Subscribe</h4>
-            <p class="text-slate-400 text-sm mb-6 opacity-80">Get the latest news and guides delivered straight to your inbox.</p>
-            <form class="flex flex-col gap-3">
-                <input type="email" placeholder="Your email address" class="bg-gray-800 border border-white/10 text-white px-4 py-3 text-xs focus:outline-none focus:border-accent rounded-sm uppercase tracking-wide placeholder:text-slate-600">
-                <button class="bg-accent text-white font-bold uppercase text-xs py-3 px-4 hover:bg-white hover:text-slate-900 transition-colors rounded-sm tracking-widest">
-                    Sign Up
-                </button>
-            </form>
-        </div>
-        
-    
-    </div>
-
-    
-</footer>
-
-  </body>
-</html>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Remaster | Battle Royale Fanatics</title><meta name=description content><link rel=stylesheet href=/css/main.min.6b7e829fb0af28e92d9b4e8dec47527c329913a4441cf0811f5cea88586d0796.css integrity="sha256-a36Cn7CvKOktm06N7EdSfDKZE6REHPCBH1zqiFhtB5Y="><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin=anonymous referrerpolicy=no-referrer></head><body class="flex flex-col min-h-screen font-sans antialiased text-slate-900 bg-page-bg"><header id=main-header class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-[1280px] z-50 transition-transform duration-300 ease-in-out"><div class="bg-[#0e6fff] px-2 md:px-8 lg:px-8"><div class="container h-[68px] flex items-center justify-between"><a href=/ class="flex items-center gap-2.5 group"><div class="h-10 w-10 bg-white flex items-center justify-center -skew-x-12 shadow-lg group-hover:scale-110 transition-transform duration-300"><span class="font-sans font-bold text-accent text-2xl skew-x-12">B</span></div><div class="flex flex-col leading-none select-none"><span class="font-sans font-bold text-2xl text-white italic tracking-tighter">BATTLE<span class=text-yellow-400>ROYALE</span>
+</span><span class="text-[0.6rem] font-bold uppercase tracking-[0.3em] text-white/70 ml-0.5">Fanatics</span></div></a><nav class="hidden lg:flex items-stretch h-full gap-0"><a href=/categories/games class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">GAMES
+</a><a href=/categories/apex-legends class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">APEX LEGENDS
+</a><a href=/categories/call-of-duty class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">CALL OF DUTY
+</a><a href=/categories/league-of-legends class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">LEAGUE OF LEGENDS
+</a><a href=/categories/fortnite class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">FORTNITE
+</a><a href=/categories/artificial-intelligence class="relative h-full flex items-center px-4 text-[1rem] font-semibold uppercase transition-colors tracking-tight whitespace-nowrap font-body text-white hover:bg-white/10">ARTIFICIAL INTELLIGENCE
+</a><a href=# class="relative h-full flex items-center text-white hover:text-white/80 transition-colors border-white/20 ml-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></a></nav><div class="flex lg:hidden items-center gap-3 text-white"><button class="hover:text-white/80 p-2 transition-colors">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+</button>
+<button id=mobile-menu-toggle class="hover:text-white/80 p-2 transition-colors relative">
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg></button></div></div></div><div id=mobile-menu class="hidden lg:hidden bg-[#0e6fff] border-t border-white/20"><nav class="container py-4"><div class="flex flex-col space-y-2"><a href=/categories/games class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">GAMES
+</a><a href=/categories/apex-legends class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">APEX LEGENDS
+</a><a href=/categories/call-of-duty class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">CALL OF DUTY
+</a><a href=/categories/league-of-legends class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">LEAGUE OF LEGENDS
+</a><a href=/categories/fortnite class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">FORTNITE
+</a><a href=/categories/artificial-intelligence class="px-4 py-3 text-[1rem] font-semibold uppercase transition-colors tracking-tight font-body text-white hover:bg-white/10">ARTIFICIAL INTELLIGENCE
+</a><a href=# class="px-4 py-3 text-white hover:text-white/80 transition-colors border-t border-white/20 mt-2"><div class="flex items-center gap-2"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+<span>Search</span></div></a></div></nav></div></header><script>document.addEventListener("DOMContentLoaded",function(){let n=0;const e=document.getElementById("main-header"),s=document.getElementById("mobile-menu-toggle"),t=document.getElementById("mobile-menu"),o=100;s.addEventListener("click",function(){t.classList.toggle("hidden")}),window.addEventListener("scroll",function(){let s=window.pageYOffset||document.documentElement.scrollTop;s>n&&s>o?(e.classList.add("-translate-y-full"),t.classList.add("hidden")):e.classList.remove("-translate-y-full"),n=s<=0?0:s}),document.addEventListener("click",function(n){e.contains(n.target)||t.classList.add("hidden")})})</script><main class="grow w-full px-2 md:px-8 lg:px-8 max-w-[1280px] mx-auto bg-white shadow-2xl"><div class="container py-12 pt-28"><div class="mb-8 border-b border-gray-200 pb-4"><h1 class="text-3xl md:text-5xl font-bold uppercase tracking-tight text-slate-900 font-[Oswald]">Remaster</h1><div class="flex items-center gap-2 text-sm text-gray-500 mt-2 font-bold uppercase"><span>Remaster</span>
+<span class=text-gray-300>/</span>
+<span>Archives</span></div><div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mt-6"><div class="flex flex-wrap gap-2 text-[11px] font-bold uppercase"><a href=/categories/accessibility class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">accessibility
+</a><a href=/categories/apex-legends class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">apex legends
+</a><a href=/categories/artificial-intelligence class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">artificial intelligence
+</a><a href=/categories/balance class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">balance
+</a><a href=/categories/battle-royale class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">battle royale
+</a><a href=/categories/black-ops class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">black ops
+</a><a href=/categories/business class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">business
+</a><a href=/categories/call-of-duty class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">call of duty
+</a><a href=/categories/career class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">career
+</a><a href=/categories/championship class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">championship
+</a><a href=/categories/character-customization class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">character customization
+</a><a href=/categories/community class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">community
+</a><a href=/categories/competitive class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">competitive
+</a><a href=/categories/creative class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">creative
+</a><a href=/categories/creativity class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">creativity
+</a><a href=/categories/culture class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">culture
+</a><a href=/categories/design class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">design
+</a><a href=/categories/development class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">development
+</a><a href=/categories/economics class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">economics
+</a><a href=/categories/education class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">education
+</a><a href=/categories/environment class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">environment
+</a><a href=/categories/esports class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">esports
+</a><a href=/categories/ethics class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">ethics
+</a><a href=/categories/event class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">event
+</a><a href=/categories/events class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">events
+</a><a href=/categories/family class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">family
+</a><a href=/categories/fortnite class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">fortnite
+</a><a href=/categories/fps class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">fps
+</a><a href=/categories/games class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">games
+</a><a href=/categories/gaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">gaming
+</a><a href=/categories/gaming-news class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">gaming news
+</a><a href=/categories/gta class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">gta
+</a><a href=/categories/guides class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">guides
+</a><a href=/categories/hardware class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">hardware
+</a><a href=/categories/health class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">health
+</a><a href=/categories/indie-games class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">indie games
+</a><a href=/categories/industry class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">industry
+</a><a href=/categories/league-of-legends class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">league of legends
+</a><a href=/categories/lifestyle class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">lifestyle
+</a><a href=/categories/live-events class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">live events
+</a><a href=/categories/maps class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">maps
+</a><a href=/categories/meta class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">meta
+</a><a href=/categories/mobile class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">mobile
+</a><a href=/categories/mobile-gaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">mobile gaming
+</a><a href=/categories/music class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">music
+</a><a href=/categories/new-agent class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">new agent
+</a><a href=/categories/new-hero class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">new hero
+</a><a href=/categories/new-legend class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">new legend
+</a><a href=/categories/new-map class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">new map
+</a><a href=/categories/news class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">news
+</a><a href=/categories/nintendo class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">nintendo
+</a><a href=/categories/online-gaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">online gaming
+</a><a href=/categories/open-world class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">open world
+</a><a href=/categories/overwatch class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">overwatch
+</a><a href=/categories/pc-gaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">pc gaming
+</a><a href=/categories/psychology class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">psychology
+</a><a href=/categories/pubg class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">pubg
+</a><a href=/categories/pve class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">pve
+</a><a href=/categories/relationships class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">relationships
+</a><a href=/categories/retro-gaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">retro gaming
+</a><a href=/categories/season class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">season
+</a><a href=/categories/streaming class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">streaming
+</a><a href=/categories/technology class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">technology
+</a><a href=/categories/updates class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">updates
+</a><a href=/categories/valorant class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">valorant
+</a><a href=/categories/viewership class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">viewership
+</a><a href=/categories/warzone class="px-3 py-1.5 border border-gray-200 text-slate-600 hover:bg-accent hover:text-white hover:border-accent transition-colors bg-white">warzone</a></div><div class="relative group shrink-0"><button class="bg-gray-900 text-white text-[11px] font-bold uppercase px-4 py-1.5 flex items-center gap-2 hover:bg-accent transition-colors">
+Latest
+<svg class="w-2.5 h-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M19 9l-7 7-7-7"/></svg></button></div></div></div><div class="grid grid-cols-1 lg:grid-cols-3 gap-10"><div class="lg:col-span-2 space-y-8"><article class="flex flex-col md:flex-row gap-6 group"><a href=/posts/valorant-new-map-haven-remastered/ class="shrink-0 w-full md:w-[260px] aspect-video md:aspect-4/3 overflow-hidden rounded-sm relative"><img src=valorant-haven.jpg alt="Valorant: New Map 'Haven' Remastered" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"><div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div></a><div class="flex flex-col py-1"><div class="flex items-center gap-2 mb-2"><span class="bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5">Valorant
+</span><span class="text-xs text-gray-500 font-bold uppercase">December 13, 2025</span></div><h2 class="text-xl md:text-2xl font-bold uppercase leading-tight text-slate-900 mb-3 group-hover:text-accent transition-colors font-[Oswald]"><a href=/posts/valorant-new-map-haven-remastered/>Valorant: New Map 'Haven' Remastered</a></h2><p class="text-gray-600 text-sm leading-relaxed line-clamp-2 md:line-clamp-3 mb-auto">Riot Games releases remastered version of popular Haven map with improved visuals and gameplay.</p></div></article><hr class="border-gray-100 last:hidden"></div><aside class=space-y-10><div><div class="bg-black text-white text-xs font-bold uppercase px-3 py-1.5 inline-block mb-4">More News</div><div class=space-y-4><div class="mb-6 group cursor-pointer"><a href=/hero/apex-legends-championship-2025-the-ultimate-battle-royale-showdown/ class="block w-full aspect-video overflow-hidden rounded-sm mb-3 relative"><img src=apex-championship-2025 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Apex Legends Championship 2025: The Ultimate Battle Royale Showdown">
+<span class="absolute bottom-2 left-2 bg-black text-white text-[10px] font-bold uppercase px-1.5 py-0.5">Apex Legends</span></a><h4 class="text-base font-bold uppercase leading-tight text-slate-900 group-hover:text-accent transition-colors font-[Oswald]"><a href=/hero/apex-legends-championship-2025-the-ultimate-battle-royale-showdown/>Apex Legends Championship 2025: The Ultimate Battle Royale Showdown</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase mt-1 block">December 18, 2025</span></div><div class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"><a href=/hero/new-meta-changes-reshape-apex-legends-competitive-scene/ class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"><img src=apex-meta-update class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="New Meta Changes Reshape Apex Legends Competitive Scene"></a><div class=flex-1><h4 class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"><a href=/hero/new-meta-changes-reshape-apex-legends-competitive-scene/>New Meta Changes Reshape Apex Legends Competitive Scene</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase">Dec 17, 2025</span></div></div><div class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"><a href=/hero/apex-legends-introduces-revolutionary-new-legend/ class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"><img src=new-legend-reveal class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="Apex Legends Introduces Revolutionary New Legend"></a><div class=flex-1><h4 class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"><a href=/hero/apex-legends-introduces-revolutionary-new-legend/>Apex Legends Introduces Revolutionary New Legend</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase">Dec 16, 2025</span></div></div><div class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"><a href=/hero/olympus-map-revolution-complete-redesign-changes-everything/ class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"><img src=olympus-redesign class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt="Olympus Map Revolution: Complete Redesign Changes Everything"></a><div class=flex-1><h4 class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"><a href=/hero/olympus-map-revolution-complete-redesign-changes-everything/>Olympus Map Revolution: Complete Redesign Changes Everything</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase">Dec 15, 2025</span></div></div><div class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"><a href=/latest-articles/the-future-of-virtual-reality-gaming/ class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"><img src=https://picsum.photos/seed/the-future-of-virtual-reality-gaming/200/150 class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt=thumb></a><div class=flex-1><h4 class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"><a href=/latest-articles/the-future-of-virtual-reality-gaming/>The Future of Virtual Reality Gaming</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase">Dec 15, 2025</span></div></div><div class="flex gap-4 group cursor-pointer border-t border-gray-200 pt-4"><a href=/latest-articles/best-gaming-monitors-for-2025/ class="shrink-0 w-24 h-16 overflow-hidden rounded-sm block"><img src=https://picsum.photos/seed/best-gaming-monitors-for-2025/200/150 class="w-full h-full object-cover group-hover:scale-105 transition-transform" alt=thumb></a><div class=flex-1><h4 class="text-sm font-bold uppercase leading-snug text-slate-900 group-hover:text-[#2013db] transition-colors font-[Oswald]"><a href=/latest-articles/best-gaming-monitors-for-2025/>Best Gaming Monitors for 2025</a></h4><span class="text-[10px] text-gray-500 font-bold uppercase">Dec 15, 2025</span></div></div></div></div><div class="bg-gray-100 h-64 flex items-center justify-center text-gray-400 font-bold uppercase tracking-widest text-xs border border-gray-200">Ad Space</div></aside></div></div></main><footer class=w-full><div class="container mx-auto px-4 max-w-[1280px] bg-gray-900 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 pt-20 pb-10 mt-0 font-body text-sm text-slate-400"><div class="flex flex-col gap-6"><a href=/ class="flex flex-col group"><span class="font-sans font-bold text-3xl tracking-tighter text-white uppercase italic leading-none group-hover:text-accent transition-colors">BATTLE<span class="text-accent group-hover:text-white transition-colors">ROYALE</span>
+</span><span class="text-[0.6rem] uppercase tracking-[0.2em] text-slate-500 leading-none mt-1">Fanatics</span></a><p class="leading-relaxed opacity-80">The premier destination for Battle Royale news, guides, and competitive analysis. We cover everything from the drop to the final circle.</p><div class="flex gap-4"><a href=# class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1"><span class="capitalize hidden">twitter</span>
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+</a><a href=# class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1"><span class="capitalize hidden">facebook</span>
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+</a><a href=# class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1"><span class="capitalize hidden">twitch</span>
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg>
+</a><a href=# class="w-10 h-10 rounded-sm bg-gray-800 border border-white/5 flex items-center justify-center text-slate-400 hover:bg-accent hover:border-accent hover:text-white transition-all transform hover:-translate-y-1"><span class="capitalize hidden">youtube</span>
+<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/></svg></a></div></div><div><h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Top Categories</h4><ul class=space-y-4><li><a href=# class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group"><span class="uppercase tracking-wide font-bold text-xs">Apex Legends</span>
+<span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span></a></li><li><a href=# class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group"><span class="uppercase tracking-wide font-bold text-xs">Fortnite</span>
+<span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span></a></li><li><a href=# class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group"><span class="uppercase tracking-wide font-bold text-xs">Call of Duty</span>
+<span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span></a></li><li><a href=# class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group"><span class="uppercase tracking-wide font-bold text-xs">PUBG</span>
+<span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span></a></li><li><a href=# class="flex items-center justify-between text-slate-400 hover:text-accent transition-colors group"><span class="uppercase tracking-wide font-bold text-xs">Valorant</span>
+<span class="text-[10px] bg-gray-800 border border-white/5 px-2 py-0.5 rounded text-slate-500 group-hover:text-white group-hover:border-accent/50 transition-colors">12</span></a></li></ul></div><div><h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Recent Updates</h4><div class="flex flex-col gap-6"><a href=/posts/overwatch-2-anniversary-event-2025/ class="group flex gap-4"><div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative"><img src=https://picsum.photos/seed/overwatch-2-anniversary-event-2025/200/150 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"></div><div class="flex flex-col gap-1.5"><h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Overwatch 2: Anniversary Event 2025</h5><div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase"><span>Dec 13</span>
+<span class="w-1 h-1 bg-accent rounded-full"></span>
+<span>News</span></div></div></a><a href=/posts/apex-legends-esports-scene-team-analysis-2025/ class="group flex gap-4"><div class="w-20 h-16 bg-gray-800 shrink-0 overflow-hidden rounded-sm border border-white/5 relative"><img src=https://picsum.photos/seed/apex-legends-esports-scene-team-analysis-2025/200/150 class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 opacity-80 group-hover:opacity-100"></div><div class="flex flex-col gap-1.5"><h5 class="text-white font-bold leading-tight line-clamp-2 text-xs uppercase group-hover:text-accent transition-colors font-sans tracking-wide">Apex Legends Esports Scene: Team Analysis 2025</h5><div class="flex items-center gap-2 text-[10px] text-slate-500 font-bold uppercase"><span>Dec 13</span>
+<span class="w-1 h-1 bg-accent rounded-full"></span>
+<span>News</span></div></div></a></div></div><div><h4 class="font-sans font-bold text-white uppercase text-lg mb-8 border-l-4 border-accent pl-3">Subscribe</h4><p class="text-slate-400 text-sm mb-6 opacity-80">Get the latest news and guides delivered straight to your inbox.</p><form class="flex flex-col gap-3"><input type=email placeholder="Your email address" class="bg-gray-800 border border-white/10 text-white px-4 py-3 text-xs focus:outline-none focus:border-accent rounded-sm uppercase tracking-wide placeholder:text-slate-600">
+<button class="bg-accent text-white font-bold uppercase text-xs py-3 px-4 hover:bg-white hover:text-slate-900 transition-colors rounded-sm tracking-widest">
+Sign Up</button></form></div></div></footer></body></html>
